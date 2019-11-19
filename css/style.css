@@ -1,9 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 
 body {
-  margin:0;
-  font-family: 'Open Sans', sans-serif;
-  background: #eee;
+    font-family: 'Open Sans', sans-serif;
+    background: #eee;
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
 }
 
 hr {
