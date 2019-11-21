@@ -9,6 +9,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #000;
+    display: block;
 }
 
 hr {
@@ -18,8 +19,8 @@ hr {
 }
 
 .sidebar {
-  width:275px;
-  float:right;
+  /* width:275px; */
+  /* float:right; */
 }
 
 .sidebar .widget {
@@ -34,13 +35,16 @@ hr {
   border-bottom: 2px solid #3498db;
 }
 
-.sidebar .widget h2 {
-  margin:0 0 15px;
-  padding:0;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight:800;
+.sidebar .widget h2 a {
+  margin: 0;
+  /* padding:0; */
+  /* text-transform: uppercase; */
+  font-size: 3em;
+  /* font-weight:800; */
   color:#3498db;
+  line-height: 1em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .sidebar .widget p {
@@ -104,17 +108,17 @@ hr {
 
 
 .wrap {
-  width: 90%;
-  margin:25px auto;
+  /* width: 90%; */
+  /* margin:25px auto; */
 }
 .sidebar {
-  width:100%;
-  float:right;
-    margin:25px 0 0;
+  /* width:100%; */
+  /* float:right; */
+  /* margin:25px 0 0; */
 }
   
  .sidebar .widget {
-  padding:5%;
+  /* padding:5%; */
 }
   
   nav.menu ul {
@@ -253,5 +257,7 @@ nav.menu ul a {
 
   
 }
+
+  
 
   
