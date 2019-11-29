@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: So
@@ -6,7 +5,6 @@ permalink: /about/
 ---
 
 # So
-
 - Computer Science is the spark of my curiosity. I am fascinated by power and freedom of programming.
 
 - Growing up, there were summer mornings in which I would wake up early to use th   computers at my local library. I saved up enough money so my parents would let    me buy a thing called a "router." A couple years later, when I was 7 years old	 I l arned about making websites and what people all across the world were making  on the internet. I figured I could do something with really useful with programm  ing.
