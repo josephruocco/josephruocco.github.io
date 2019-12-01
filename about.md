@@ -1,18 +1,17 @@
 ---
 layout: default
-title: So
+title: About
 permalink: /about/
 ---
-
-# The Story So Far 
+# Me 
 - 2000: born in Brooklyn. Still here.
 - 2001-2011: Studying piano and guitar are my major preoccupations.
 - 2012: learned C++ via NewBoston, met my bandmate.
 - 2013: discovered Massive Online Open Courseware, (MOOCS). Itunes U, Udacity, Coursera. 
-- 2014: Supreme, JJJJound.com, https://news.ycombinator.com, Studio Band Bassist.
+- 2014: Supreme, <a href="https://jjjound.com">JJJJound</a>, <a href="https://news.ycombinator.com">Hacker News</a>, Studio Band Bassist.
 - 2015: Austin Kleon. 
 - 2016: Programming is my focus. Spent all my money on books.
-- 2017: Started waking up at 5am to take MOOCS with school and exercise. created https://josephruoc.co.
+- 2017: Started waking up at 5am to take MOOCS with school and exercise. created <a href="https://josephruocco.github.io">this site.</a> 
 - 2018: Eagle Scout.
 - 2019: Writing.
 
