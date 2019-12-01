@@ -4,41 +4,22 @@ title: So
 permalink: /about/
 ---
 
-# So
-- Computer Science is the spark of my curiosity. I am fascinated by power and freedom of programming.
+# The Story So Far 
+- 2000: born in Brooklyn. Still here.
+- 2001-2011: Studying piano and guitar are my major preoccupations.
+- 2012: learned C++ via NewBoston, met my bandmate.
+- 2013: discovered Massive Online Open Courseware, (MOOCS). Itunes U, Udacity, Coursera. 
+- 2014: Supreme, JJJJound.com, https://news.ycombinator.com, Studio Band Bassist.
+- 2015: Austin Kleon. 
+- 2016: Programming is my focus. Spent all my money on books.
+- 2017: Started waking up at 5am to take MOOCS with school and exercise. created https://josephruoc.co.
+- 2018: Eagle Scout.
+- 2019: Writing.
 
-- Growing up, there were summer mornings in which I would wake up early to use th   computers at my local library. I saved up enough money so my parents would let    me buy a thing called a "router." A couple years later, when I was 7 years old	 I l arned about making websites and what people all across the world were making  on the internet. I figured I could do something with really useful with programm  ing.
-
--   To my dismay, the first couple of websites I learned how to make
-    weren't quite that magical. But my curiosity of how this technology
-    works didn't fade. There was so much more to know about technology-
-    How do computers run several processes? How do networks work? How
-    are computers made more efficient? How can I write more code to make
-    software that people can use this information?
-
--   This interest led me into studying computer science. I am exploring
-    the fintech sector to leverage the power of computing in the world
-    of finance to create secure and efficient experiences for all users.
-
-# Skills At A Glance
-
-## General Purpose Languages
--   Experienced: C++, Python
--   Proficient: Java, Python Go, MATLAB
--   UNIX/Linux command line
--   Mobile/Web Software Languages
--   Web,Proficient: JavaScript, HTML/CSS
--   Mobile,Familiar: Swift, Objective-C, Java
--   DataBase: MongoDB, MySQL
-
-## Deployment: Google App Engine, Heroku
--   Frameworks: Flask
--   Troubleshooting: Chrome Developer Tools
-
-## Other Software Tools
--   version control: git, svn
--   development environment: docker, vagrant
--   MCU: Ardunio, RaspPi, PSoC 3 | Cypress, ARM-TM4C123G, nrf52 SoC | NORDIC
--   Flask, Jekyll, Bootstrap, Foundation
--   Google/MS Office Suite
+# Some Other things about me
+- <b>I'm quiet:</b> Unless I'm not. I'm very conversational one-on-one, but I don't fare well with crowds for more than 2-3 hours. 
+- <b>I'm future focused:</b> The best time to invest was yesterday. I focus on doing things for their future consequences. 
+- <b>I take notes:</b> I'm putting a lot of my thoughts and knowledge here, and into ebooks. 
+- <b>I'm deliberate:</b> The best replies I have to people's questions come days or weeks later. I don't post on social media. 
+- <b>My 3 closest friends live miles away from me:</b> We skype every week. One's in Rhode island, the other in Michigan, the third in Turin. 
 
