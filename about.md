@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-# Me 
+## Me 
 - 2000: born in Brooklyn. Still here.
 - 2001-2011: Studying piano and guitar are my major preoccupations.
 - 2012: learned C++ via NewBoston, met my bandmate.
@@ -15,7 +15,7 @@ permalink: /about/
 - 2018: Eagle Scout.
 - 2019: Writing.
 
-# Some Other things about me
+## Some Other things about me
 - <b>I'm quiet:</b> Unless I'm not. I'm very conversational one-on-one, but I don't fare well with crowds for more than 2-3 hours. 
 - <b>I'm future focused:</b> The best time to invest was yesterday. I focus on doing things for their future consequences. 
 - <b>I take notes:</b> I'm putting a lot of my thoughts and knowledge here, and into ebooks. 
