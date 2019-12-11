@@ -37,6 +37,14 @@
 		{{ content }}
 	  
       
+<div>
+  {% if page.previous.url %}
+   <p>(</p> <a class="prev" href="{{page.previous.url}}">&laquo; previous</a>
+  {% endif %}
+  {% if page.next.url %}
+    <p>|</p><a class="next" href="{{page.next.url}}">next &raquo;</a><p>)</p>
+  {% endif %}
+</div>
 
 {% if site.data.comments[page.slug] %}
     <h3>
