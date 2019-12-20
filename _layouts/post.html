@@ -35,11 +35,27 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
 	<meta property="og:description" content="Personal Website of Joseph Ruocco.">
     </head>
  	  <body>
-		   <section class="title">
-	    <h1>
-		<a href="/" title="Joseph Ruocco" style="color:#3498db;">Joseph Ruocco</a>
-	    </h1>
-    </section>
+		   <section>
+  <header class="header">
+  <a href="/"><h1 class="title">Joseph Ruocco</h1></a>
+ 
+    <nav class="menu">
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Articles</a></li>
+      <li><a href="/favorites">Favorites</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <div class="hamburger hamburger_1"></div>
+    <div class="hamburger hamburger_2"></div>
+    <div class="hamburger hamburger_3"></div>
+  </div>
+ 
+</header>
+  </section>
+		  <section>
 		<div id="content">
 		<article>
 		<header>  
@@ -49,6 +65,8 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
 	  
       
 <div>
+	</section>
+			<section>
   {% if page.previous.url %}
    <span>(</span> <a class="prev" href="{{page.previous.url}}">&laquo; previous</a>
   {% endif %}
@@ -95,7 +113,7 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
       <small>Comments will appear after moderation.</small>
       <button type="submit">Submit comment</button>
   </form>
-
+</section>
       </article>
         </div>
 	   </body>
