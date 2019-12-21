@@ -8,13 +8,66 @@
     <head>
 	<meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
-<style>
-	@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } body { font-family: 'Open Sans', sans-serif; font-size: 20px; line-height: 30px; color: #000; }  @media screen and (max-width: 400px) { div.presentation_summary img { display: block; } } @media screen and (min-width: 400px) { div.presentation_summary img { float: right; } } @media (prefers-color-scheme: dark) { body { background-color: #000; color: #ccc; }  a { color: #88f; }  a:visited { color: #aaf; }  .response { background-color: #444; }  h1, h1 a, h2, h2 a, h3, h3 a, section#title h2 a { color: #080; } } ul li a { text-decoration: none; }  a h1 { text-decoration: none; }  .parallax { padding-top: 150px; padding-bottom: 150px; overflow: hidden; width: 100%; background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center; }  @media screen and (max-width: 959px) and (min-width: 768px) { .block { padding: 40px; width: 620px; } } @media screen and (max-width: 767px) { .block { padding: 30px; width: 420px; }  h2 { font-size: 30px; }  .block { padding: 30px; }  .parallax-one { padding-top: 100px; padding-bottom: 100px; } } @media screen and (max-width: 479px) { .block { padding: 30px 15px; width: 290px; } } section div { margin: auto; max-width: 750px; }  .header { position: fixed; -webkit-backface-visibility: hidden; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; min-width: 100%; height: 85px; padding: 0 30px; background-color: #3498db; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); top: 0; left: 0; }  .title { padding-bottom: 5px; border-bottom: 5px solid #fff; font-size: 24px; letter-spacing: 1.4px; font-weight: 700; text-transform: uppercase; color: #fff; }  .wrapper { position: relative; width: 50px; height: 35px; cursor: pointer; -webkit-transition: .5s ease-in-out; transition: .5s ease-in-out; }  .hamburger { position: absolute; width: 100%; height: 5px; background-color: white; opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; -webkit-transition: .25s ease-in-out; transition: .25s ease-in-out; }  .hamburger:nth-of-type(2) { top: 15px; }  .hamburger:nth-of-type(3) { top: 30px; }  .wrapper.open .hamburger:nth-child(1) { top: 15px; -webkit-transform: rotate(135deg); transform: rotate(135deg); }  .wrapper.open .hamburger:nth-child(2) { opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; -webkit-transition: 0s; transition: 0s; }  .wrapper.open .hamburger:nth-child(3) { top: 15px; -webkit-transform: rotate(-135deg); transform: rotate(-135deg); }  .open { -webkit-transform-origin: center; transform-origin: center; -webkit-animation: spin .25s ease-out .65s 1; animation: spin .25s ease-out .65s 1; }  @-webkit-keyframes spin { from { -webkit-transform-origin: center; transform-origin: center; -webkit-transform: rotate(0deg); transform: rotate(0deg); } to { -webkit-transform-origin: center; transform-origin: center; -webkit-transform: rotate(360deg); transform: rotate(360deg); } } @keyframes spin { from { -webkit-transform-origin: center; transform-origin: center; -webkit-transform: rotate(0deg); transform: rotate(0deg); } to { -webkit-transform-origin: center; transform-origin: center; -webkit-transform: rotate(360deg); transform: rotate(360deg); } } .menu { position: absolute; top: 60px; right: 0; width: 0; margin-top: 25px; background-color: #3498db; color: white; -webkit-transition: ease 1s; transition: ease 1s; z-index: 10; }  .menu li { padding: 20px 25px; font-size: 18px; cursor: pointer; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }  .menu li a { color: white; }  .show { width: 100%; }  @media only screen and (min-width: 768px) { .wrapper { display: none; }  .menu { position: static; width: auto; margin-top: 0; }  .menu li { display: inline-block; border-bottom: none; }  .menu li a { position: relative; }  .menu li a:before { content: ''; position: absolute; left: 0; bottom: -5px; width: 100%; height: 2px; -webkit-transform: scaleX(0); transform: scaleX(0); background-color: #fff; -webkit-transition: .5s  ease-in-out; transition: .5s  ease-in-out; }  .menu li a:hover:before { -webkit-transform: scaleX(1); transform: scaleX(1); } } main { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 90vh; }  main p { display: none; font-size: 24px; }  main { height: 6000px; background-color: white; width: 100%; }  ul { display: block; list-style-type: none; margin-block-start: 0; margin-block-end: 0; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 0; }   
-section { margin: auto;  max-width: 750px;
-} section#featured a {   color: white;  text-align: center;  font-size: 2em; margin-top: 0;
-	} .container{margin: 100px auto;}
-	    </style>
+<link rel="stylesheet" type="text/css" href="/css/main.css">
 	    <script>
+( function( window ) {
+'use strict';
+	
+function classReg( className ) {
+  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+}
+// classList support for class management
+// altho to be fair, the api sucks because it won't accept multiple classes at once
+var hasClass, addClass, removeClass;
+if ( 'classList' in document.documentElement ) {
+  hasClass = function( elem, c ) {
+    return elem.classList.contains( c );
+  };
+  addClass = function( elem, c ) {
+    elem.classList.add( c );
+  };
+  removeClass = function( elem, c ) {
+    elem.classList.remove( c );
+  };
+}
+else {
+  hasClass = function( elem, c ) {
+    return classReg( c ).test( elem.className );
+  };
+  addClass = function( elem, c ) {
+    if ( !hasClass( elem, c ) ) {
+      elem.className = elem.className + ' ' + c;
+    }
+  };
+  removeClass = function( elem, c ) {
+    elem.className = elem.className.replace( classReg( c ), ' ' );
+  };
+}
+function toggleClass( elem, c ) {
+  var fn = hasClass( elem, c ) ? removeClass : addClass;
+  fn( elem, c );
+}
+var classie = {
+  // full names
+  hasClass: hasClass,
+  addClass: addClass,
+  removeClass: removeClass,
+  toggleClass: toggleClass,
+  // short names
+  has: hasClass,
+  add: addClass,
+  remove: removeClass,
+  toggle: toggleClass
+};
+// transport
+if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( classie );
+} else {
+  // browser global
+  window.classie = classie;
+}
+})( window );
 var ready = (callback) => {
   if (document.readyState != "loading") callback();
   else document.addEventListener("DOMContentLoaded", callback);
@@ -28,6 +81,22 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
     
   });
 });
+function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+		    
 		    </script>
 	    
 	<title>{{ page.title }}</title> 
@@ -45,10 +114,38 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
  	  <body>
 		
 	  
-<section>
-  <header class="header">
-  <a href="/"><h1 class="title">Joseph Ruocco</h1></a>
- 
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+
+
+
+<body>
+
+<div id="wrapper">
+
+<header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            Joseph Ruocco
+        </h1>
+    
+	
     <nav class="menu">
     <ul>
       <li><a href="/about">About</a></li>
@@ -63,28 +160,47 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
     <div class="hamburger hamburger_3"></div>
   </div>
  
-</header>
-  </section>
-		  
-	    <div class="container">
-		    <section id="featured"> 
-			     <div class="parallax" style="background-image: url(https://images.unsplash.com/photo-1415018255745-0ec3f7aee47b?dpr=1&auto=format&fit=crop&w=1500&h=938&q=80&cs=tinysrgb&crop=); ">
-    {% for post in site.posts limit:1 %}
- <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-{% endfor %}
     </div>
-			 
-			    </section>
-		    
-		    <section id="About">
-	<h2>So</h2>
-        <p>Read about me <a href="/about">here</a> </p>
-    </section>
-		   
+  </header><!-- /header -->
 
-    <section id="Articles">
-	<h2>Articles</h2>
-	<ul>
+<div id="main">
+    <div id="content">
+			 <section>
+				 <div class="container">
+            <div class="lnf">
+
+               <h1>Lazy, Not Fat</h1>
+
+<figure>
+	<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/131442/old-man.jpg" alt="book cover" />
+</figure>
+
+<p class="first">The sum of our lives is the habits we kept up with everyday.</p>
+
+<p>On the first day, I was lazy and fat.</p>
+<p>On the second day, I was not lazy and fat</p>
+<p>On the third day, I was not lazy, and not fat</p>
+<p>On the fourth day, I was lazy, and not fat</p>
+		    
+          </div>
+					 </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1>Hi, I'm Joe.</h1>
+             
+                    <a href="/contact">« Connect With Me | Joseph Ruocco</a><br>
+                    <a href="/about">« See All the things I enjoy.</a>
+                </p>
+            </div>
+        </section>
+			
+			
+       
+        <section>
+            <div class="container">
+                <h1>Articles</h1>
+                <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
@@ -93,19 +209,30 @@ ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) 
 </ul>
 	<a href="/blog">see more...</a>
 
-</section>
-		    <section id="Projects">
-	<h2>Projects</h2>
-	<a href="/projects">See here...</a>
+        </section>
+		
+        <section>
+            <div class="container">
+                <h1>Favorites</h1>
+               
+            </div>
+        </section>
+			
+    </div>
+</div><!-- #main -->
 
-</section>
-		    <section id="Contact">
-	<h2>Contact</h2>
-	<a href="/contact">Reach me...</a>
 
-</section>
-		    
-		     </div>
+<footer>
+<div id="info-bar">
+    <div class="container clearfix">
+        <span class="all-tutorials"><a href="#">Books</a></span>
+        <span class="back-to-tutorial"><a href="#">Joseph Ruocco</a></span>
+    </div>
+</div><!-- /#top-bar -->
+</footer><!-- /footer -->
 
+
+
+</div><!-- /#wrapper -->
 	</body>
 </html>
