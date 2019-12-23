@@ -100,7 +100,7 @@ section {
     font-size: 2em;
  }
   section p {
-    margin-bottom: 30px; }
+    margin-bottom: 1em; }
     section p:last-child {
       margin-bottom: 0; }
   section.color {
