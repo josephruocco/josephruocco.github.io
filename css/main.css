@@ -86,15 +86,19 @@ a:hover {
   padding-top: 150px; }
 
 .container {
-  width: 80%;
   margin: 0 auto;
   padding: 0 30px; }
 
 section {
-  padding: 60px 0; }
+   padding: 20px 0;
+    max-width: 40em;
+    margin: auto; }
   section h1 {
     font-weight: 700;
-    margin-bottom: 10px; }
+    margin-bottom: 10px; 
+    text-align: center;
+    font-size: 2em;
+ }
   section p {
     margin-bottom: 30px; }
     section p:last-child {
@@ -450,13 +454,6 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0;
 }
-
-
-.lnf {
- 
-  margin: 3rem auto;
-}
-
 
 h6 {
   font-size: 1em;
