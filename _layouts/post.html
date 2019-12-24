@@ -107,10 +107,13 @@ function init() {
 	<meta property="og:description" content="Personal Website of Joseph Ruocco.">
     </head>
  	  <body>
-		   <section>
-  <header class="header">
-  <a href="/"><h1 class="title">Joseph Ruocco</h1></a>
- 
+<header>
+    <div class="container clearfix">
+        <h1 id="logo">
+            Joseph Ruocco
+        </h1>
+    
+	
     <nav class="menu">
     <ul>
       <li><a href="/about">About</a></li>
@@ -125,17 +128,19 @@ function init() {
     <div class="hamburger hamburger_3"></div>
   </div>
  
-</header>
-  </section>
-		  <section>
-		<div id="content">
+    </div>
+  </header><!-- /header -->
+
+<div id="main">
+	<section>
+    <div id="content">
 		<article>
 		<header>  
 		<h1>{{ page.title }}</h1>
             </header>
 		{{ content }}
-	  
-      
+			</article>
+	
 <div>
 	</section>
 			<section>
@@ -186,7 +191,7 @@ function init() {
       <button type="submit">Submit comment</button>
   </form>
 </section>
-      </article>
+      
         </div>
 	   </body>
 </html>
