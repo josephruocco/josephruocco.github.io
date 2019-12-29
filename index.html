@@ -222,10 +222,10 @@ The purpose of this website is simple: how do I, Joe Ruocc, do the things I want
   {% for post in site.posts %}		
  <div class="blog-card">
     <div class="meta">
-      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+      <div class="photo" style="background-image: url({{ post.image | prepend: site.baseurl }})"></div>
     </div>
     <div class="description">
-     <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+     <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
       <p class="read-more">
         <a href="{{ post.url }}">Read</a>
       </p>
