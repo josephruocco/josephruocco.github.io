@@ -22,19 +22,12 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-weight: normal; }
 
-ol, ul {
-  list-style: none; }
- 
-
 blockquote {
   quotes: none; }
 
 blockquote:before, blockquote:after {
   content: '';
   content: none; }
-
-del {
-  text-decoration: line-through; }
 
 /* tables still need 'cellspacing="0"' in the markup */
 table {
@@ -44,10 +37,6 @@ table {
 a img {
   border: none; }
 
-/* =Scss Variables
--------------------------------------------------------------- */
-/* =Global
--------------------------------------------------------------- */
 *,
 *:before,
 *:after {
@@ -444,17 +433,6 @@ main {
   width: 100%;
 }
 
-
-ul {
-    display: block;
-    list-style-type: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0;
-}
-
 h6 {
   font-size: 1em;
 }
@@ -477,8 +455,18 @@ figure h2 {
   line-height: inherit;
 }
 
+h2.point {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 5px;
+    color: #0683c9;
+}
+
 img {
   width: 100%;
 }
+
+
 
 
