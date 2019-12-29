@@ -228,8 +228,8 @@ function init() {
       <p>{{ comment[1].message | markdownify }}</p>
     {% endfor %}
 {% endif %}
-
-
+</section>
+<section>
   <form method="POST" action="{{ site.staticman_url }}">
     <input name="options[redirect]" type="hidden" value="https://josephruocco.github.io">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
@@ -245,15 +245,6 @@ function init() {
       <button type="submit">Submit comment</button>
   </form>
 </section>
-      
-<footer>
-<div id="info-bar">
-    <div class="container clearfix">
-        <span class="all-tutorials"><a href="#">Books</a></span>
-        <span class="back-to-tutorial"><a href="#">Joseph Ruocco</a></span>
-    </div>
-</div><!-- /#top-bar -->
-</footer><!-- /footer -->
 		
         </div>
 	   </body>
