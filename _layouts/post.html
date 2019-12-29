@@ -4,6 +4,60 @@
     <head>
 	<meta charset="utf-8">
 	    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+	    <style>
+        p {
+  max-width: 600px;
+  position: relative;
+}
+
+del {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  /*&:before{
+  	content:'X';
+  	font-family: 'Permanent Marker', cursive;
+  	font-size:40px;
+  	position:absolute;
+  	color:#dd0000;
+  	transform:rotate(-10deg);
+  	bottom:90%;
+  	right:0;
+  	mix-blend-mode:multiply;
+  }*/
+}
+del:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/77607/scribble3.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: multiply;
+}
+
+ins {
+  position: absolute;
+  left: 100%;
+  display: block;
+  padding-left: 32px;
+  width: 250px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  line-height: 1.2;
+  -webkit-transform: translateY(-70px) rotate(-10deg);
+          transform: translateY(-70px) rotate(-10deg);
+  text-decoration: none;
+  color: #dd0000;
+  mix-blend-mode: multiply;
+}
+
+        </style>
 <link rel="stylesheet" type="text/css" href="/css/main.css">
 	    <script>
 ( function( window ) {
