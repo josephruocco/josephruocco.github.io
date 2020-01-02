@@ -21,9 +21,8 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
 
 </p><p></p>
                 
-               
-            </div>
-        </section>
+  </div>
+    </section>
         <section id="timeline">
          <div class="container">
                 <h1>My Learning Journey</h1>
