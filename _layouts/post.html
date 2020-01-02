@@ -199,8 +199,29 @@ function init() {
 <div>
 	</section>
 	    
+	     <section id="signup">
+<div class="signup">
+  <div style="position: absolute; left: -5000px;">
+  <input type="checkbox" name="american_sunshine_checked_building" value="1" tabindex="-1" autocomplete="no">
+</div>
+  <div class="header-content">
+    <h2>How Do I Create Habits That Last?</h2>
+  </div>
+  <div class="signup-content">
+    <p>S.T.R.I.D.E Habits is the method I, Joseph Ruocco, developed based on cutting-edge research in Habits Development.</p>
+    <p>Grab A Free Step-By-Step Guide on how To Use the STRIDE Habits Method, </p>
+    </div>
+<form action="https://app.99inbound.com/api/e/7_jlSmDz" method="POST" target="_blank">
+  <input type="email" name="email" placeholder="enter your email">
+  <input type="text" name="name" placeholder="enter your name">
+  <button>Submit</button>
+</form>
+    <p >We HATE spam and keep your email private</p>
+  </div>
+
+  </section>
 	    
-			<section>
+			<section id="comments">
   {% if page.previous.url %}
    <span>(</span> <a class="prev" href="{{page.previous.url}}">&laquo; previous</a>
   {% endif %}
@@ -232,7 +253,7 @@ function init() {
     {% endfor %}
 {% endif %}
 </section>
-<section>
+<section id="enter-comment">
  <form method="POST" action="https://api.staticman.net/v3/entry/github/josephruocco/josephruocco.github.io/master/comments">
     <input name="options[redirect]" type="hidden" value="https://josephruocco.github.io">
     <input name="options[slug]" type="hidden" value="meditation">
