@@ -567,3 +567,19 @@ img {
 }
 
 
+.signup {
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #fff;
+    background: #222;
+    text-align: center;
+}
+
+.header-content{
+  font-family: Ubuntu;
+  border-bottom: 1px solid #0683c9;
+}
+.signup-content {
+   font-family: Ubuntu;
+  
+}
