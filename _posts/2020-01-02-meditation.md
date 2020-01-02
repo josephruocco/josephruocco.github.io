@@ -1,7 +1,7 @@
 ---
 title: The Keys to A Pain Free Life With Meditation, Including the B.U.D.D.H.A. Meditation Routine
 permalink: /meditation/
-image: /assets/
+image: /assets/wilsan-u-aiUIs74ejx8-unsplash.jpg
 ---
 
 
