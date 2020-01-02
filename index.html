@@ -142,7 +142,7 @@ function init() {
 <header>
     <div class="container clearfix">
         <h1 id="logo">
-            Joseph Ruocco
+           <a href="/"> Joseph Ruocco</a>
         </h1>
     
 	
@@ -161,7 +161,7 @@ function init() {
   </div>
  
     </div>
-  </header><!-- /header -->
+  </header> 
 
 <div id="main">
     <div id="content">
@@ -240,7 +240,7 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
   {% for post in site.posts %}		
  <div class="blog-card">
     <div class="meta">
-      <div class="photo" {% if page.image %}style="background-image: url({{ page.image }})"
+      <div class="photo" {% if page.image %}style="background-image: url({{ page.image | prepend: site.baseurl }})"
 {% endif %}></div>
     </div>
     <div class="description">
@@ -293,8 +293,7 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
         </section>
 			
     </div>
-</div><!-- #main -->
-
+</div> 
 
 <footer>
 <div id="info-bar">
@@ -302,11 +301,11 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
         <span class="all-tutorials"><a href="#">Books</a></span>
         <span class="back-to-tutorial"><a href="#">Joseph Ruocco</a></span>
     </div>
-</div><!-- /#top-bar -->
-</footer><!-- /footer -->
+</div> 
+</footer> 
 
 
 
-</div><!-- /#wrapper -->
+</div> 
 	</body>
 </html>
