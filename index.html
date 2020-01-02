@@ -240,8 +240,9 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
   {% for post in site.posts %}		
  <div class="blog-card">
     <div class="meta">
-      <div class="photo" {% if page.image %} style="background-image: url({{ page.image | prepend: site.baseurl }})"
-{% endif %}></div>
+      <div class="photo"
+	   <img src="{% if post.image %}{{ post.image | prepend base.url }}{% endif %}" />
+	   </div>
     </div>
     <div class="description">
      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
