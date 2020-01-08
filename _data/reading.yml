@@ -2,12 +2,122 @@ lastupdate: January 8, 2020
 list:
   - year: "2019"
     books:
-      - title: The Summer Book
-        author: Tove Jansson
+      - title: A Guide To The Good Life: The Ancient Art of Stoic Joy
+        author: William B. Irvine
         link:
-        star: yes
+        star: no
 
-      - title: "The Last Pirate of New York"
-        author: Rich Cohen
-        link: https://amzn.to/34h0Oa3
-        star: yes
+      - title: Automate The Boring Stuff With Python
+        author: Albert Sweigart
+        link: 
+        star: no
+        
+      - title: Anything You Want: 40 Lessons For A New Kind of Entrepreneur
+        author: Derek Sivers
+        link:
+        star: no
+        
+      - title: Ego Is The Enemy
+        author: Ryan Holiday
+        link:
+        star: no
+        
+      - title: All Marketers Are Liars
+        author: Seth Godin
+        link:
+        star: no
+        
+      - title: Choose Yourself!
+        author: James Altucher
+        link:
+        star: no
+       
+      - title: Become An Idea Machine: Because Ideas Are The Currency Of The 21st Century
+        author: Claudia Azula Altucher and James Altucher
+        link:
+        star: no
+        
+      - title: Habit Stacking: 127 Small Changes To Improve Your Health, Wealth And Happiness
+        author: S.J. Scott
+        link:
+        star: no
+       
+      - title: The Power Of No 
+        author: James Altucher
+        link:
+        star: no
+        
+      - title: Infinite Jest
+        author: David Foster Wallace
+        link:
+        star: no
+        
+      - title: Assholes Finish First 
+        author: Tucker Max
+        link:
+        star: no
+        
+      - title: Skin in the Game: Hidden Asymmetries in Daily Life
+        author: Nassim Nicholas Taleb
+        link:
+        star: no
+        
+      - title: Power Speed ENDURANCE: A Skill-Based Approach to Endurance Training
+        author: Brian MacKenzie and Glen Cordoza
+        link:
+        star: no
+      
+      - title: The Paleo Solution: The Original Human Diet
+        author: Robb Wolf
+        link: 
+        star: no
+        
+      - title:  The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)
+        author: Hal Elrod
+        link: 
+        star: no
+     
+      - title: The Truth: Sex, Love, Commitment, and the Puzzle of the Male Mind
+        author: Neil Strauss 
+        link: 
+        star: no
+        
+        
+   - year: "2018"
+     books: 
+       - title: Do the Work: Overcome Resistance and Get Out of Your Own Way
+         author: Steven Pressfield
+         link: 
+         star: no
+         
+       - title: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
+         author: James Clear 
+         link: 
+         star: no
+         
+       - title: The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It
+         author: Kelly McGonigal
+         link: 
+         star: no
+          
+       
+   - year: "2017"
+     books: 
+       - title: Made to Stick: Why Some Ideas Survive and Others Die
+         author: Chip Heath and Dan Heath 
+         link: 
+         star: no
+         
+   - year: "2016" 
+     books: 
+       - title: The 48 Laws of Power
+         author: Robert Greene 
+         link: 
+         star: no
+         
+   - year: "2015"
+     books: 
+       - title: How to Become a Straight-A Student: The Unconventional Strategies Real College Students Use to Score High While Studying Less
+         author: Cal Newport 
+         link: 
+         star: no
