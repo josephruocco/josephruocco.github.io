@@ -1,0 +1,13 @@
+lastupdate: September 3, 2019
+list:
+  - year: "2019"
+    books:
+      - title: The Summer Book
+        author: Tove Jansson
+        link: https://amzn.to/2ZMtUuC
+        star: yes
+
+      - title: "The Last Pirate of New York"
+        author: Rich Cohen
+        link: https://amzn.to/34h0Oa3
+        star: yes
