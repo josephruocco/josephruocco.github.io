@@ -2,103 +2,99 @@ lastupdate: January 8, 2020
 list:
   - year: "2019"
     books:
-      - title: A Guide To The Good Life: The Ancient Art of Stoic Joy
+      - title: "A Guide To The Good Life: The Ancient Art of Stoic Joy"
         author: William B. Irvine
         link:
 
-      - title: Automate The Boring Stuff With Python
+      - title: "Automate The Boring Stuff With Python"
         author: Albert Sweigart
         link:
         
-      - title: Anything You Want: 40 Lessons For A New Kind of Entrepreneur
+      - title: "Anything You Want: 40 Lessons For A New Kind of Entrepreneur"
         author: Derek Sivers
         link:
         
-      - title: Ego Is The Enemy
+      - title: "Ego Is The Enemy"
         author: Ryan Holiday
         link:
         
-      - title: All Marketers Are Liars
+      - title: "All Marketers Are Liars"
         author: Seth Godin
         link:
         
-      - title: Choose Yourself!
+      - title: "Choose Yourself!"
         author: James Altucher
         link:
        
-      - title: Become An Idea Machine: Because Ideas Are The Currency Of The 21st Century
+      - title: "Become An Idea Machine: Because Ideas Are The Currency Of The 21st Century"
         author: Claudia Azula Altucher and James Altucher
         link:
         
-      - title: Habit Stacking: 127 Small Changes To Improve Your Health, Wealth And Happiness
+      - title: "Habit Stacking: 127 Small Changes To Improve Your Health, Wealth And Happiness"
         author: S.J. Scott
         link:
        
-      - title: The Power Of No 
+      - title: "The Power Of No"
         author: James Altucher
         link:
         
-      - title: Infinite Jest
+      - title: "Infinite Jest"
         author: David Foster Wallace
         link:
-        star: no
         
-      - title: Assholes Finish First 
+      - title: "Assholes Finish First"
         author: Tucker Max
         link:
         
-      - title: Skin in the Game: Hidden Asymmetries in Daily Life
+      - title: "Skin in the Game: Hidden Asymmetries in Daily Life"
         author: Nassim Nicholas Taleb
         link:
         
-      - title: Power Speed ENDURANCE: A Skill-Based Approach to Endurance Training
+      - title: "Power Speed ENDURANCE: A Skill-Based Approach to Endurance Training"
         author: Brian MacKenzie and Glen Cordoza
-        link:
-        star: no
-      
-      - title: The Paleo Solution: The Original Human Diet
+        link:   
+        
+      - title: "The Paleo Solution: The Original Human Diet"
         author: Robb Wolf
         link: 
         
-      - title: The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)
+      - title: "The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)"
         author: Hal Elrod
         link: 
      
-      - title: The Truth: Sex, Love, Commitment, and the Puzzle of the Male Mind
+      - title: "The Truth: Sex, Love, Commitment, and the Puzzle of the Male Mind"
         author: Neil Strauss 
-        link:
-        star: no
-        
+        link:        
         
    - year: "2018"
      books: 
-       - title: Do the Work: Overcome Resistance and Get Out of Your Own Way
+       - title: "Do the Work: Overcome Resistance and Get Out of Your Own Way"
          author: Steven Pressfield
          link:
          
-       - title: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
+       - title: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
          author: James Clear 
          link: 
          
-       - title: The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It
+       - title: "The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It"
          author: Kelly McGonigal
          link:
           
        
    - year: "2017"
      books: 
-       - title: Made to Stick: Why Some Ideas Survive and Others Die
+       - title: "Made to Stick: Why Some Ideas Survive and Others Die"
          author: Chip Heath and Dan Heath 
          link:
          
    - year: "2016" 
      books: 
-       - title: The 48 Laws of Power
+       - title: "The 48 Laws of Power"
          author: Robert Greene 
          link:
          
    - year: "2015"
      books: 
-       - title: How to Become a Straight-A Student: The Unconventional Strategies Real College Students Use to Score High While Studying Less
+       - title: "How to Become a Straight-A Student: The Unconventional Strategies Real College Students Use to Score High While Studying Less"
          author: Cal Newport 
          link:
