@@ -9,96 +9,6 @@
 	<meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
 <link rel="stylesheet" type="text/css" href="/css/main.css">
-	    <script>
-( function( window ) {
-'use strict';
-	
-function classReg( className ) {
-  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-}
-// classList support for class management
-// altho to be fair, the api sucks because it won't accept multiple classes at once
-var hasClass, addClass, removeClass;
-if ( 'classList' in document.documentElement ) {
-  hasClass = function( elem, c ) {
-    return elem.classList.contains( c );
-  };
-  addClass = function( elem, c ) {
-    elem.classList.add( c );
-  };
-  removeClass = function( elem, c ) {
-    elem.classList.remove( c );
-  };
-}
-else {
-  hasClass = function( elem, c ) {
-    return classReg( c ).test( elem.className );
-  };
-  addClass = function( elem, c ) {
-    if ( !hasClass( elem, c ) ) {
-      elem.className = elem.className + ' ' + c;
-    }
-  };
-  removeClass = function( elem, c ) {
-    elem.className = elem.className.replace( classReg( c ), ' ' );
-  };
-}
-function toggleClass( elem, c ) {
-  var fn = hasClass( elem, c ) ? removeClass : addClass;
-  fn( elem, c );
-}
-var classie = {
-  // full names
-  hasClass: hasClass,
-  addClass: addClass,
-  removeClass: removeClass,
-  toggleClass: toggleClass,
-  // short names
-  has: hasClass,
-  add: addClass,
-  remove: removeClass,
-  toggle: toggleClass
-};
-// transport
-if ( typeof define === 'function' && define.amd ) {
-  // AMD
-  define( classie );
-} else {
-  // browser global
-  window.classie = classie;
-}
-})( window );
-var ready = (callback) => {
-  if (document.readyState != "loading") callback();
-  else document.addEventListener("DOMContentLoaded", callback);
-}
-ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) => {
-    var wrap = document.querySelector(".wrapper");
-  wrap.classList.toggle("open");
-  var menu = document.querySelector(".menu");
-  menu.classList.toggle("show");
-    
-    
-  });
-});
-function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-		    
-		    </script>
-	    
 	<title>{{ page.title }}</title> 
 	<meta name="description" content="Joseph Ruocco">
 	<meta name="author" content="Joseph Ruocco">
@@ -111,66 +21,43 @@ function init() {
 	<meta property="og:title" content="Personal Website of Joseph Ruocco.">
 	<meta property="og:description" content="Personal Website of Joseph Ruocco.">
     </head>
- 	  <body>
-		
-	  
-<script>
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-</script>
-</head>
-
-
-
 <body>
-
-<div id="wrapper">
-
-<header>
-    <div class="container clearfix">
-        <h1 id="logo">
-           <a href="/"> Joseph Ruocco</a>
-        </h1>
-    <nav class="menu">
-    <ul>
+  <header id="top">
+    <div class="container">
+      <div id="navwrap" class="clearfix">
+        <div id="logo">Joe Ruocco</div>
+    
+        <nav id="navigation">
+          <ul>
       <li><a href="/about">About</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/books">Books</a></li>
       <li><a href="/favorites">Favorites</a></li>
       <li><a href="/contact">Free Newsletter</a></li>
     </ul>
-  </nav>
- 
-    </div>
-  </header> 
-
-<div id="main">
-    <div id="content">
-		
-	<section id="bookcover">
-	<div class="container">
-       <div class="lnf">
-
-               <h1>Lazy, Not Fat</h1>
-
-<figure>
-	<img src="/assets/lnf.jpg" alt="book cover">
-</figure>
-
-<p class="first">First, I was lazy and fat. Then, the second day, I was not lazy and fat. Then I was not lazy, and not fat. Today, I am lazy, not fat.
+        </nav><!-- @end #navigation -->
+      </div><!-- @end .clearfix -->
+    </div><!-- @end .container -->
+  </header><!-- @end #top -->
+  
+  <div class="container">
+    <article id="content" class="clearfix">
+      <h1>The hottest new web design tips &amp; tricks for captivating your visitors</h1>
+      <p class="byline">Written by <a href="javascript:void(0)">Joe Ruocco</a></p>
+      <div id="post-container">
+        <section id="post">
+          <figure id="featuredimg">
+            <img src="{{page.image}}" alt="featured img">
+            <figcaption><a href="{{page.image}}">photo credit</a></figcaption>
+          </figure>
+          {{ content }}
+          <h2>Comments are closed.</h2>
+        </section>
+      </div><!-- @end #post-container -->
+      
+      <aside id="sidebar">
+        <h3>About</h3>
+        <div class="adblock"><img src="/assets/lnf.jpg" alt="book cover"> <p class="first">First, I was lazy and fat. Then, the second day, I was not lazy and fat. Then I was not lazy, and not fat. Today, I am lazy, not fat.
 </p>
 <p>I have over 100 daily “set &amp; forget” healthy habits that you can start in 5 minutes and do everyday with minimal effort. </p>
 
@@ -178,63 +65,10 @@ function init() {
 </p>
 <p>The result is an easy acronym for how good habits are made with STRIDE: Small, Triggerable, Rewarding, Irreversible, Daily, Effective.</p>
 <p>This book will teach you this method, and give you enough habits to get started on your own. </p>
-
-<p>Allow me to introduce myself, or skip down to read about S.T.R.I.D.E. Habits.</p>	    
-          </div>
-					 </div>
-        </section>
-     <section id="about">
-            <div class="container">
-                <h1>Hi, I'm Joe.</h1>
-              <p>To Live life with conviction</p>
-<p>That's the point.</p>
-<p>When I was first developing my healthy habits, every day I would look at myself in the mirror and say, "Can I be convicted of being a healthy person?"
-
-</p>
-<p>I do the same with my work, my family, my relationships, and on and on.</p><p>So then you might ask, how do I do?</p>
-<p>That is, how do you commit to doing the actions everyday that make you the person you want to be?</p>
-<p>That's where I can help.</p>
-
-<p>
-The purpose of this website is simple: how do I, Joe Ruocco, do the things I want to do, and how do I do them in a way that doesn’t require any extra time or effort on my part other than a 5% change in my routine.
-
-</p><p></p>
-               
-               
-            </div>
-        </section>
-	    
-	        
-	    <section id="stride">
-    <div class="container">
-                     <h1>Join Me</h1>
-	    <p>Now let me share with you the core life-changing method I have used to base the principles of self improvement in any advice I've even given.</p>
-<p>Based off the proven research on Habit development and neuroscience, I've come up with a way for anyone to create significant changes in their lives by using five core fundamentals about habits. </p>
-	   <p>Remembering these 5 principles will give you the power to STRIDE towards any life improvement you wish to make.</p>
-	 <img src="/assets/photo4945060603010066564.jpg">
-	    
-	    <h3>Good Habits Are...</h3>
-	    <ul class="stride">
-            <li>
-              Small: Focus on one easy, tiny action. Do less than you can. </li>
-              <li>Triggerable: No thinking required to start. Doing it every day is natural and easy.</li>
-              <li>
-              Rewarding: It's competitive, or it's something you fight to keep.</li>
-              <li>
-              Irreversible: You get rid of old ways. Change your environment so you have to accept the new behavior.</li>
-              <li>
-              Daily: You do it everyday.</li>
-              <li>
-              Effective: You can measure your progress, and you can improve with mentors.</li>
-            </ul>
-
-<p>Everyday I write about some STRIDE habits you can start easily. Make sure you read some and take action today!</p>
-                </div>
-    
-    </section>
-	    
-	    <section id="signup">
-<div class="signup">
+</div>
+        
+	 <h3>Newsletter</h3>
+        <div class="adblock"><div class="signup">
   <div style="position: absolute; left: -5000px;">
   <input type="checkbox" name="american_sunshine_checked_building" value="1" tabindex="-1" autocomplete="no">
 </div>
@@ -252,62 +86,28 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
 </form>
     <p >We HATE spam and keep your email private</p>
   </div>
-
-  </section>
-	    
-	      <section id="articles">
-            <div class="container">
-                <h1>Articles</h1>
-               
-  {% for post in site.posts %}		
- <div class="blog-card">
-    <div class="meta">
-      <div class="photo" {% if post.image %} style="background-image: url({{ post.image }});" 
-	   {% endif %}" />
-	   </div>
-    </div>
-    <div class="description">
-     <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-      <p class="read-more">
-        <a href="{{ post.url }}">Read</a>
-      </p>
-    </div>
-  </div>
- 
-  {% endfor %}
-
-	<a href="/blog">see more...</a>
-
-        </section>
-	
-	    
-	  
-		
-      <section id="favorites">
-            <div class="container">
-                <h1>Favorites</h1>
-
-<p>I'm happy to share some of the books, articles, speeches, podcasts, and other materials that I've learned from the most</p>
-
-<p>Go find out the best books I read in 2019: <a href="/favorites">here</a></p>
-               
-            </div>
-        </section>
-			
-    </div>
-</div> 
-
-<footer>
-<div id="info-bar">
-    <div class="container clearfix">
-        <span class="all-tutorials"><a href="#">Books</a></span>
-        <span class="back-to-tutorial"><a href="#">Joseph Ruocco</a></span>
-    </div>
-</div> 
-</footer> 
-
-
-
-</div> 
-	</body>
+</div>
+        
+        <br class="spacer">
+                
+        <h3>Recent Posts</h3>
+        <ul id="recent-posts">
+	 {% for post in site.posts %}	
+          <li><a href="{{ post.url }}" class="clearfix"><img src="{{ post.image }}"><h4>{{ post.title }}</h4></a></li>
+          {% endfor %}
+        </ul>
+      </aside><!-- @end #sidebar -->
+    </article><!-- @end #content -->
+    
+    <footer id="mobilenav">
+      <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/books">Books</a></li>
+      <li><a href="/favorites">Favorites</a></li>
+      <li><a href="/contact">Free Newsletter</a></li>
+    </ul>
+    </footer>
+  </div><!-- @end #container -->
+</body>
 </html>
