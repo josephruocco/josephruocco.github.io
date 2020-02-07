@@ -40,21 +40,23 @@
     </div><!-- @end .container -->
   </header><!-- @end #top -->
   
+{% for post in site.posts %}	
   <div class="container">
     <article id="content" class="clearfix">
-      <h1>The hottest new web design tips &amp; tricks for captivating your visitors</h1>
-      <p class="byline">Written by <a href="javascript:void(0)">Joe Ruocco</a></p>
+      <h1>{{post.title}}</h1>
+      <p class="byline">Written by <a href="/about">Joe Ruocco</a></p>
       <div id="post-container">
         <section id="post">
           <figure id="featuredimg">
-            <img src="{{page.image}}" alt="featured img">
-            <figcaption><a href="{{page.image}}">photo credit</a></figcaption>
+            <img src="{{post.image}}" alt="featured img">
+            <figcaption><a href="{{post.image}}">photo credit</a></figcaption>
           </figure>
           {{ content }}
           <h2>Comments are closed.</h2>
         </section>
       </div><!-- @end #post-container -->
-      
+      {% endfor %}
+	    
       <aside id="sidebar">
         <h3>About</h3>
         <div class="adblock"><img src="/assets/lnf.jpg" alt="book cover"> <p class="first">First, I was lazy and fat. Then, the second day, I was not lazy and fat. Then I was not lazy, and not fat. Today, I am lazy, not fat.
