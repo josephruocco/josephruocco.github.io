@@ -43,8 +43,8 @@
 
   <div class="container">
     <article id="content" class="clearfix">
-    {% for post in site.posts %}	
       <div id="post-container">
+     {% for post in site.posts %}	
         <section id="post">
 	<h1>{{post.title}}</h1>
       <p class="byline">Written by <a href="/about">Joe Ruocco</a></p>
@@ -55,8 +55,9 @@
       	 {{ post.excerpt }}
           <h2>Comments are closed.</h2>
         </section>
+	  {% endfor %}
       </div><!-- @end #post-container -->
-      {% endfor %}
+  
 	    
       <aside id="sidebar">
         <h3>About</h3>
