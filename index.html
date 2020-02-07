@@ -40,9 +40,10 @@
     </div><!-- @end .container -->
   </header><!-- @end #top -->
   
-{% for post in site.posts %}	
+
   <div class="container">
     <article id="content" class="clearfix">
+    {% for post in site.posts %}	
       <h1>{{post.title}}</h1>
       <p class="byline">Written by <a href="/about">Joe Ruocco</a></p>
       <div id="post-container">
