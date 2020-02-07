@@ -44,10 +44,10 @@
   <div class="container">
     <article id="content" class="clearfix">
     {% for post in site.posts %}	
-      <h1>{{post.title}}</h1>
-      <p class="byline">Written by <a href="/about">Joe Ruocco</a></p>
       <div id="post-container">
         <section id="post">
+	<h1>{{post.title}}</h1>
+      <p class="byline">Written by <a href="/about">Joe Ruocco</a></p>
           <figure id="featuredimg">
             <img src="{{post.image}}" alt="featured img">
             <figcaption><a href="{{post.image}}">photo credit</a></figcaption>
