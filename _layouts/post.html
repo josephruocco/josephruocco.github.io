@@ -1,153 +1,11 @@
+
 <!DOCTYPE html>
 
 <html class="windows x86 no-js" lang="en" dir="ltr" data-latest-firefox="59.0.2" data-esr-versions="52.7.3" data-optimizely-project-id="246059135" data-gtm-container-id="GTM-MW3R8V" data-gtm-page-id="Homepage" data-stub-attribution-rate="1.0">
     <head>
 	<meta charset="utf-8">
-	    <link rel="shortcut icon" type="image/png" href="/favicon.png">
-	    <style>
-        p {
-  max-width: 600px;
-  position: relative;
-}
-
-del {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  /*&:before{
-  	content:'X';
-  	font-family: 'Permanent Marker', cursive;
-  	font-size:40px;
-  	position:absolute;
-  	color:#dd0000;
-  	transform:rotate(-10deg);
-  	bottom:90%;
-  	right:0;
-  	mix-blend-mode:multiply;
-  }*/
-}
-del:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/77607/scribble3.svg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  mix-blend-mode: multiply;
-}
-
-ins {
-  position: absolute;
-  left: 100%;
-  display: block;
-  padding-left: 32px;
-  width: 250px;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 30px;
-  line-height: 1.2;
-  -webkit-transform: translateY(-70px) rotate(-10deg);
-          transform: translateY(-70px) rotate(-10deg);
-  text-decoration: none;
-  color: #dd0000;
-  mix-blend-mode: multiply;
-}
-
-        </style>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
 <link rel="stylesheet" type="text/css" href="/css/main.css">
-	    <script>
-( function( window ) {
-'use strict';
-	
-function classReg( className ) {
-  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-}
-// classList support for class management
-// altho to be fair, the api sucks because it won't accept multiple classes at once
-var hasClass, addClass, removeClass;
-if ( 'classList' in document.documentElement ) {
-  hasClass = function( elem, c ) {
-    return elem.classList.contains( c );
-  };
-  addClass = function( elem, c ) {
-    elem.classList.add( c );
-  };
-  removeClass = function( elem, c ) {
-    elem.classList.remove( c );
-  };
-}
-else {
-  hasClass = function( elem, c ) {
-    return classReg( c ).test( elem.className );
-  };
-  addClass = function( elem, c ) {
-    if ( !hasClass( elem, c ) ) {
-      elem.className = elem.className + ' ' + c;
-    }
-  };
-  removeClass = function( elem, c ) {
-    elem.className = elem.className.replace( classReg( c ), ' ' );
-  };
-}
-function toggleClass( elem, c ) {
-  var fn = hasClass( elem, c ) ? removeClass : addClass;
-  fn( elem, c );
-}
-var classie = {
-  // full names
-  hasClass: hasClass,
-  addClass: addClass,
-  removeClass: removeClass,
-  toggleClass: toggleClass,
-  // short names
-  has: hasClass,
-  add: addClass,
-  remove: removeClass,
-  toggle: toggleClass
-};
-// transport
-if ( typeof define === 'function' && define.amd ) {
-  // AMD
-  define( classie );
-} else {
-  // browser global
-  window.classie = classie;
-}
-})( window );
-var ready = (callback) => {
-  if (document.readyState != "loading") callback();
-  else document.addEventListener("DOMContentLoaded", callback);
-}
-ready(() => {  document.querySelector(".wrapper").addEventListener("click", (e) => {
-    var wrap = document.querySelector(".wrapper");
-  wrap.classList.toggle("open");
-  var menu = document.querySelector(".menu");
-  menu.classList.toggle("show");
-    
-    
-  });
-});
-function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-		    
-		    </script>
 	<title>{{ page.title }}</title> 
 	<meta name="description" content="Joseph Ruocco">
 	<meta name="author" content="Joseph Ruocco">
@@ -160,47 +18,47 @@ function init() {
 	<meta property="og:title" content="Personal Website of Joseph Ruocco.">
 	<meta property="og:description" content="Personal Website of Joseph Ruocco.">
     </head>
- 	  <body>
-<header>
-    <div class="container clearfix">
-        <h1 id="logo">
-           <a href="/"> Joseph Ruocco</a>
-        </h1>
+<body>
+  <header id="top">
+    <div class="container">
+      <div id="navwrap" class="clearfix">
+        <div id="logo">Joe Ruocco</div>
     
-	
-    <nav class="menu">
-    <ul>
+        <nav id="navigation">
+          <ul>
       <li><a href="/about">About</a></li>
-      <li><a href="/blog">Articles</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/books">Books</a></li>
       <li><a href="/favorites">Favorites</a></li>
       <li><a href="/contact">Free Newsletter</a></li>
     </ul>
-  </nav>
-  <div class="wrapper">
-    <div class="hamburger hamburger_1"></div>
-    <div class="hamburger hamburger_2"></div>
-    <div class="hamburger hamburger_3"></div>
-  </div>
- 
-    </div>
-  </header><!-- /header -->
+        </nav><!-- @end #navigation -->
+      </div><!-- @end .clearfix -->
+    </div><!-- @end .container -->
+  </header><!-- @end #top -->
+  
 
-<div id="main">
-	<section>
-    <div id="content" class="container">
-		<div class="post">
-		
-		<h1>{{ page.title }}</h1>
-            	<h4>By: Joseph Ruocco</h4>
-			
-		{{ content }}
-			</div>
-	
-<div>
-	</section>
+  <div class="container">
+    <article id="content" class="clearfix">
+      <div id="post-container">
+ 	{{content}}
+      </div><!-- @end #post-container -->
+  
 	    
-	     <section id="signup">
-<div class="signup">
+      <aside id="sidebar">
+        <h3>About</h3>
+        <div class="adblock"><img src="/assets/lnf.jpg" alt="book cover"> <p class="first">First, I was lazy and fat. Then, the second day, I was not lazy and fat. Then I was not lazy, and not fat. Today, I am lazy, not fat.
+</p>
+<p>I have over 100 daily “set &amp; forget” healthy habits that you can start in 5 minutes and do everyday with minimal effort. </p>
+
+<p>For the last 5 years, I have spent collecting easy habits backed by scientific research to create for myself.
+</p>
+<p>The result is an easy acronym for how good habits are made with STRIDE: Small, Triggerable, Rewarding, Irreversible, Daily, Effective.</p>
+<p>This book will teach you this method, and give you enough habits to get started on your own. </p>
+</div>
+        
+	 <h3>Newsletter</h3>
+        <div class="adblock"><div class="signup">
   <div style="position: absolute; left: -5000px;">
   <input type="checkbox" name="american_sunshine_checked_building" value="1" tabindex="-1" autocomplete="no">
 </div>
@@ -218,66 +76,30 @@ function init() {
 </form>
     <p >We HATE spam and keep your email private</p>
   </div>
-
-  </section>
-	    
-			<section id="comments">
-  {% if page.previous.url %}
-   <span>(</span> <a class="prev" href="{{page.previous.url}}">&laquo; previous</a>
-  {% endif %}
-  {% if page.next.url %}
-    <span>|</span><a class="next" href="{{page.next.url}}">next &raquo;</a><span>)</span>
-  {% endif %}
 </div>
-
-{% if site.data.comments[page.slug] %}
-    <h3>
-    {% if site.data.comments[page.slug].size > 1 %}
-      {{ site.data.comments[page.slug] | size }}
-    {% endif %}
-    Comments:
-    </h3>
-  {% assign comments = site.data.comments[page.slug] | sort %}
-    {% for comment in comments %}
-      <label>
-        {% if comment[1].url %}
-          <a href="{{ comment[1].url }}">
-        {% endif %}
-        <strong>{{ comment[1].name }}</strong>
-        {% if comment[1].url %}
-          </a>
-        {% endif %}
-      </label>
-      <em>{{ comment[1].date | date: "%B %d, %Y" }}</em>
-      <p>{{ comment[1].message | markdownify }}</p>
-    {% endfor %}
-{% endif %}
-</section>
-<section id="enter-comment">
- <form method="POST" action="https://api.staticman.net/v3/entry/github/josephruocco/josephruocco.github.io/master/comments">
-    <input name="options[redirect]" type="hidden" value="https://josephruocco.github.io">
-    <input name="options[slug]" type="hidden" value="meditation">
- 
-    <div class="fields"><div class="email-entry" id="name">  <label>Name<span class="red">*</span></label>
-      <input name="fields[name]" type="text">
-        </div>
-     
-    <div class="email-entry" id="email"><label>E-mail<span class="red">*</span></label>
-      <input name="fields[email]" type="email">
         
-        </div>
-        </div>
+        <br class="spacer">
+                
+        <h3>Recent Posts</h3>
+        <ul id="recent-posts">
+	 {% for post in site.posts %}	
+          <li><a href="{{ post.url }}" class="clearfix"><img src="{{ post.image }}"><h4>{{ post.title }}</h4></a></li>
+          {% endfor %}
+        </ul>
+      </aside><!-- @end #sidebar -->
+    </article><!-- @end #content -->
     
-    <div>
-      <label>Message</label>
-      <textarea style="width: 422px; margin: 0px 32px 15px 0px; height: 101px;" name="fields[message]" rows="12"></textarea>
-        </div>
-      <small>Comments will appear after moderation.</small>
-      <button type="submit">Submit comment</button>
-  </form>
-</section>
-		
-        </div>
-	   </body>
+    <footer id="mobilenav">
+      <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/books">Books</a></li>
+      <li><a href="/favorites">Favorites</a></li>
+      <li><a href="/contact">Free Newsletter</a></li>
+    </ul>
+    </footer>
+  </div><!-- @end #container -->
+</body>
 </html>
 
+ 
