@@ -3,13 +3,20 @@ layout: default
 title: About
 permalink: /about/
 ---
-	
-  <section id="about">
-           <div class="container">
-		   <figure id="featuredimg">
-            <img src="/assets/photo4938557408343599184 (1).jpg" alt="featured img">
+
+
+<div class="container">
+    <article id="content" class="clearfix">
+      <div id="post-container">
+     {% for post in site.posts %}	
+        <section id="post">
+	<h1>{{post.title}}</h1>
+      <p class="byline">Written by <a href="/about">Joe Ruocco</a></p>
+          <figure id="featuredimg">
+              <img src="/assets/photo4938557408343599184 (1).jpg" alt="featured img">
+       		
           </figure>
-                <h1>Hi, I'm Joe.</h1>
+      		<h1>Hi, I'm Joe.</h1>
               <p>To Live life with conviction</p>
 <p>That's the point.</p>
 <p>When I was first developing my healthy habits, every day I would look at myself in the mirror and say, "Can I be convicted of being a healthy person?"
@@ -118,14 +125,10 @@ The purpose of this website is simple: how do I, Joe Ruocco, do the things I wan
     
     
   </div>
-
-
-</section>
-
-<section>
-<div class="container">
-    
 <p>Thanks, Joe</p>
-</div>
-    </section>
+<h2>Comments are closed.</h2>
+</section>
+      
+      </div><!-- @end #post-container -->
+  
 
