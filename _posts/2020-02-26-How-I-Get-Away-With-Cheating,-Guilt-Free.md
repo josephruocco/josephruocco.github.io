@@ -24,7 +24,7 @@ trying to behave very disciplined can (also like me) break those commitments wit
 We get stuck into bad habits that prevent us from becoming the much-better, happier versions of ourselves that we want to be.
 
 But we have to turn knowledge into action, and take measures to outwit our future selves from preventing improvement. 
-
+---
 ### We all know what's right. That's not enough to just start doing more of it
 
 You can expect to be bombarded with the desire to 
@@ -35,7 +35,7 @@ we should fill everyday into a must-have.
 It’s about how to take the necessary steps that help you fill your needs as a human being. 
 The process I took involved asking myself a lot of questions about my mental and emotional 
 loops and the larger “rules” that guided the different mental frameworks that I enabled myself with.
-
+---
 ### STRIDE creates discipline without actually trying harder. 
 
 It's worked so effectively it's ought to be considered cheating. Well, some of it is cheating. 
@@ -50,11 +50,11 @@ My favorite and most powerful ruleset is STRIDE (Small, Triggerable, Rewarding, 
 Replace short term goals with persistant, continuous improvement. 
 The former  is a binary pass/fail with no consolation prize, while the latter has a potent snowball effect.
 
-1) S: Make it small enough to be achievable.
-2) T: Put good habits in the palm of your hands; discard distractions relentlessly. 
-2) R: Make doing it enjoyable, with simple, sweet treats. 
-3) I: Make not doing it painful.
-4) D: Do it everyday.
-5) E: Measure your progress, seek mentors. 
+1. S: Make it small enough to be achievable.
+2. T: Put good habits in the palm of your hands; discard distractions relentlessly. 
+3. R: Make doing it enjoyable, with simple, sweet treats. 
+4. I: Make not doing it painful.
+5. D: Do it everyday.
+6. E: Measure your progress, seek mentors. 
 
 There are no real rules, so make rules that work for you.
