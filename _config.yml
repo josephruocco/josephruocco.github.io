@@ -9,6 +9,8 @@ tagline:             'Blog'
 description:         'Personal stories & habits writing'
 url:                 http://josephruocco.com
 baseurl:             ''
+plugins:
+  - jekyll-paginate
 paginate:            5
 
 # About/contact
