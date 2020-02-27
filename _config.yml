@@ -7,8 +7,8 @@ permalink:           pretty
 title:               Joseph Ruocco
 tagline:             'Blog'
 description:         'Personal stories & habits writing'
-url:                 http://josephruocco.com
-baseurl:             ''
+url:                 https://josephruocco.com
+baseurl:             'https://josephruocco.com'
 plugins:
   - jekyll-paginate
 paginate:            5
@@ -16,8 +16,8 @@ paginate:            5
 # About/contact
 author:
   name:              Joseph Ruocco
-  url:               
-  email:             ruoccoj19@gmail.com
+  url:               https://josephruocco.com
+  email:             joe@josephruocco.com
 
 # Custom vars
 version:             1.0.0
