@@ -2,6 +2,10 @@
 Title: Five Equations I've Thought About For The Last Five Years
 Layout: post
 ---
+
+<div class="message">
+Mathematics applies to lots of fields that have nothing to do with mathematics or the context in which that math is developed.</div>
+
 Here They Are:
 
 1. Hardness = size of problem / time 
@@ -14,9 +18,10 @@ Explanation: simplification is the best way to ensure consistency. The more tedi
 
 3. Success = time(connections + intellect)
 
-Explanation: Zero time, zero success. The network you build combined with your individual intellect is only multiplied by the number of time 
+Explanation: Zero time, zero success. The network you build combined with your individual intellect is only multiplied by the number of time. MBA's, ivy league degrees, and a slew of other token prestige items can get you quality connections, but it's not the only way. 
 
 4. Breakthrough = Breakdown - Loss Of Self
 
-5. ??Happiness = (Total Health)/money ?? 
+5. ??Happiness = (Total Health)*money ?? 
+
 
