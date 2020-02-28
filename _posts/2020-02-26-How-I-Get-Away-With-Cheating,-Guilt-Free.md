@@ -1,6 +1,6 @@
 --- 
 Title: How I Get Away With Cheating, Guilt-Free
-Layout: Default
+Layout: post
 ---
 <div class="message">Don't Actually Cheat. Use STRIDE, or another system which allows for the normal momentary 
 hiccups of achievement</div>
