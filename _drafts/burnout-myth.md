@@ -3,6 +3,16 @@ layout: post
 title: Burnout Prevention Tactics
 ---
 
+burnout is just a realistic expectation
+
+Why Burnout Is Bad?
+- we cant get work done
+- why? because we focus on inconsequential stuff?
+- why? because our brain can't actively assess high level thinking
+- why? because it's stressed to the max and it needs to shut off
+- why? because it used too much will to create something from nothing without any reward
+
+How We Get Burned Out 
 If you've ever burned out before, you know what that feels like. You spin your wheels and nothing seems to budge. You feel lost and like everything you've done and are doing is inconsequential
 
 That's not true.
@@ -16,3 +26,4 @@ Interest & Energy are cyclical. If you aren't rewarding yourself everyday, you'r
 
 # How to become Indefatigable
 
+# You're not checking the boxes in the right order
