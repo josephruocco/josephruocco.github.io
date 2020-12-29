@@ -5,8 +5,8 @@ permalink:           pretty
 
 # Setup
 title:               Joseph Ruocco
-tagline:             'Blog'
-description:         'Personal stories & habits writing'
+tagline:             ''
+description:         ''
 url:                 https://josephruocco.com
 baseurl:             'https://josephruocco.com'
 plugins:
