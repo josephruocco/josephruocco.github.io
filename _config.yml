@@ -7,8 +7,8 @@ permalink:           pretty
 title:               Joseph Ruocco
 tagline:             ''
 description:         ''
-url:                 https://josephruocco.github.io
-baseurl:             'https://josephruocco.github.io'
+url:                 https://josephruocco.com
+baseurl:             'https://josephruocco.com'
 plugins:
   - jekyll-paginate
 paginate:            5
