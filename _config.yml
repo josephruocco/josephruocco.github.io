@@ -7,8 +7,8 @@ permalink:           pretty
 title:               Joseph Ruocco
 tagline:             ''
 description:         ''
-url:                 https://josephruocco.com
-baseurl:             'https://josephruocco.com'
+url:                 https://josephruocco.net
+baseurl:             'https://josephruocco.net'
 plugins:
   - jekyll-paginate
 paginate:            5
@@ -16,8 +16,8 @@ paginate:            5
 # About/contact
 author:
   name:              Joseph Ruocco
-  url:               https://josephruocco.com
-  email:             joe@josephruocco.com
+  url:               https://josephruocco.net
+  email:             joe@josephruocco.net
 
 # Custom vars
 version:             1.0.0
