@@ -32,4 +32,4 @@ version:             1.0.0
 #
 # for me, this line reads:
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://staticman-josephruocco.herokuapp.com/v2/entry/josephruocco/josephruocco.github.io/master/comments
+staticmanUrl: https://staticman-josephruocco.herokuapp.com/v2/entry/josephruocco/josephruocco.github.io/master/comments
