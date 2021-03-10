@@ -7,7 +7,7 @@ layout: post
 Thank you, for
 
 1. This blog, even though I know I have a staggering 0% of readers right now, it's still I privelege that I get to use my own name to write my own 
-opinions down on the Internet. For free no less. 
+opinions down on the Internet. For free no less. And how creative I can be with it. I started with just doing image posts which I copied from jjjjound.com but I've started writing again and now I'm going to see where this goes. But ultimately I can do whatever I want which makes me feel good.
 2. Making gratitude lists. I don't do it enough and this is a future reminder to myself to do them more often. 
 3. My high school physics teacher. His last year before he left the school was my senior year and I hadn't been in touch. But yesterday I sent him an email. He wrote me back. 
 There is hope. 
