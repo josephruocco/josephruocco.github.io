@@ -1,8 +1,8 @@
 
---
-title: "10 Things I'm Grateful For" 
+---
 layout: post
--- 
+title: "10 Things I'm Grateful For" 
+---
 
 Thank you, for
 
