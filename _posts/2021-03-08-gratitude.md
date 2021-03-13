@@ -1,7 +1,7 @@
 
 ---
-layout: post
-title: "10 Things I'm Grateful For" 
+Layout: post
+Title: "10 Things I'm Grateful For" 
 ---
 
 Thank you, for
