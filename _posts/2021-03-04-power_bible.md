@@ -7,8 +7,8 @@ layout: post
 > the mainstream media has over my decision-making faculties and I 
 > strengthen my own. The most terrifying and awesome part of 
 > auto-suggestion is the degree to which it will control your actions. 
-> Listening to Jocko for a couple of hours a day for several months, 
-> it’s now impossible for me to hit the snooze button. I feel the 
+> <mark>Listening to Jocko for a couple of hours a day for several months, 
+> it’s now impossible for me to hit the snooze button.</mark> I feel the 
 > compulsion to strive to become the strongest version of myself, to 
 > go to the gym multiple times a day, to reach out to the people I 
 > love, to assert control over the mind.
