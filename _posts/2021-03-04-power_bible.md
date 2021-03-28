@@ -1,5 +1,5 @@
 ---
-title: "Something Scary I Read Today"
+title: 
 layout: post 
 ---
 
