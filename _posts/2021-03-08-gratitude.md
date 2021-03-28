@@ -1,7 +1,7 @@
 
 ---
-Layout: post
-Title: "10 Things I'm Grateful For" 
+title: " " 
+layout: post
 ---
 
 Thank you, for
@@ -27,10 +27,7 @@ There is hope.
 
 9. Books Pt 2  which for large part, I read "self-improvement" but to what I've "improved" I haven't the slightest idea (joke). I've improved. But I also am aware of how much I could still improve. Because of reading and books. Some books make me feel really stupid. Nassim Taleb, thank you for calling me out on my bt. Thank you to a bunch of other people and their books to. 
 
-10. the bright side of COVID-19. Staying home for my internship which lets me do work with my feet up on the couch, and not have to stuff myself into a suit and tie to then stuff myself onto a sweaty commute. no thank you. If you have had a bad experience with COVID, sorry. x
-
-
-Bye.
+10. the bright side of COVID-19. Staying home for my internship which lets me do work with my feet up on the couch, and not have to stuff myself into a suit and tie to then stuff myself onto a sweaty commute. no thank you. If you have had a bad experience with COVID, sorry.
 
 
 
