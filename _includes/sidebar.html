@@ -21,8 +21,10 @@
         {% if node.layout == "page" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
         {% endif %}
-      {% endif %}
-    {% endfor %}
+    {% endif %}
+{% endfor %}
+
+    <a class="sidebar-nav-item" href="book.josephruocco.com">Book Notes</a>
   </nav>
 
   <div class="sidebar-item">
