@@ -3,6 +3,10 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
+build:
+  command: jekyll build
+  commandOrigin: ui
+  publish: /opt/build/repo/_site
 # Setup
 title:               Joseph Ruocco
 tagline:             ''
