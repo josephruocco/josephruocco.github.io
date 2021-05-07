@@ -22,6 +22,11 @@ author:
 # Custom vars
 version:             1.0.0
 
+collections:
+  books:
+    output: true
+
+
 # The URL for the staticman API bridge endpoint
 # You will want to modify some of the values:
 #  ${github-username}: the username of the account with which you publish your blog
