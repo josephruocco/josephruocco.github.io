@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in site.books %}
+  <div class="post">
+      <a target="_blank" href="{{ post.aff_link }}"><img border="0" style="float:left; padding: 2em" src="{{ post.img_src }}"></a>
+    <h1 class="post-title">
+      <a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">Last Read: {{ post.date | date_to_string }}</span>
+      <p> {{ post.blurb }}</p>
+
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
