@@ -3,10 +3,11 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 
-build:
-  command: jekyll build
-  commandOrigin: ui
-  publish: /opt/build/repo/_site
+#build:
+#  command: jekyll build
+#  commandOrigin: ui
+#  publish: /opt/build/repo/_site
+
 # Setup
 title:               Joseph Ruocco
 tagline:             ''
@@ -29,6 +30,8 @@ version:             1.0.0
 collections:
   books:
     output: true
+    permalink: /books/:path/
+    
 
 
 # The URL for the staticman API bridge endpoint
