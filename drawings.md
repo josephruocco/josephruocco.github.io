@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Drawings
 ---
 ![My Face Hurts](/assets/hammer.jpg)
