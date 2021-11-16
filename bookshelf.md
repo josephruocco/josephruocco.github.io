@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Books I Live By
+title: Bookshelf
 ---
 
 Here's some books that I have read in full, others in pieces or some none at all. These are all books that I have in my possession and I thought I might read. 
