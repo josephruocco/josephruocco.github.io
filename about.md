@@ -3,7 +3,6 @@ layout: page
 title: About
 ---
 
-I'm an artist that lives in Brooklyn, NY with my cat. 
+This site houses the creative projects and writings of Joseph Ruocco, Brooklyn NY, 2018-present
 
-## Long, more official sounding Bio: 
-Joseph Ruocco is an artist that lives in Brooklyn, NY with his cat. 
+
