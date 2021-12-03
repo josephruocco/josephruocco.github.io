@@ -1,4 +1,4 @@
----
+---A
 layout: page
 title: Bookshelf
 ---
@@ -55,3 +55,10 @@ Here's some books that I have read in full, others in pieces or some none at all
 * [The Subtle Art Of Not Giving A F**K - A Counterintuitive Approach To Living A Good Life by Mark Manson](https://www.amazon.com/s?k=9780062457714)
 * [Unlimited Power - The New Science Of Personal Achievement by Tony Robbins](https://www.amazon.com/s?k=9780684845777)
 * [Made In America by Bill Bryson](https://www.amazon.com/s?k=9780380713813)
+* If this is a man by Primo Levi 
+* Blood Meridian by Cormac McCarthy 
+* The Painted Bird by Jerzy Krazinski 
+* Man’s search for meaning by Victor Frankl 
+* Tattoos on the heart by Fr Greg Boyle 
+* The Way to Love by Anthony de Mello 
+* Been down so long it seems like up to me by Rick Farina 
