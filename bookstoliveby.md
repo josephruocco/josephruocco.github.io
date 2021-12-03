@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Books I Live By:
+title: "Books I Live By:"
 ---
 
 1. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is cooking 
