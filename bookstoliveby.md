@@ -3,10 +3,11 @@ layout: page
 title: "Books I Live By:"
 ---
 
-1. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is cooking 
+In no particular order... 
+1. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is for cooking 
 2. Everything by Derek Sivers - I like Hell Yeah or No! And How to Live, both for sale on his website. 
 3. Everything by Charlie Hoehn - Play It Away!, Stress Hacks, 10 Day anxiety fix. 
-4. Everything by Nassim Nicholas Taleb - the Black swan, Anti-fragile, Skin in the Game, Fooled by Randomness, and the Bed of Procrustes 
+4. Everything by Nassim Nicholas Taleb - the Black Swan, Anti-fragile, Skin in the Game, Fooled by Randomness, and the Bed of Procrustes 
 5. The Almanac of Naval Ravikant by Eric Jorgenson- Naval’s sayings have a crystalline clarity. 
     1. Also: Kamal Ravikant’s Love Yourself Like Your Life Depends on It. 
 6. The 5am Club by Robin Sharma - a book with a weird narrative style that I think about often. 
@@ -36,10 +37,10 @@ title: "Books I Live By:"
 26. The “Great” Works of Dostoevsky - Crime & Punishment, The Brothers Karamazov, Notes from the Underground, The Devils, and The Idiot. 
 
 Health Books:
-1. The 4-Hour Body. 
-2.The New Evolution Diet by Art De Vany
-3.The Paleo Solution by Robb Wolf
-4.Power Endurance Speed by Brian Mackenzie
+1. The 4-Hour Body
+2. The New Evolution Diet by Art De Vany
+3. The Paleo Solution by Robb Wolf
+4. Power Endurance Speed by Brian Mackenzie
 5. The Simple and Sinister Method by Pavel Tsatsouline
 6. Becoming A Supple Leopard by Kelly Starett
    Related: Kelly Starrett's Creative Live Course
