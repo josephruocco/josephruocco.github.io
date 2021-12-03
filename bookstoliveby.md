@@ -3,7 +3,7 @@ layout: page
 title: Books I Live By:
 ---
 
-1. Tools of Titans and everything else by Tim Ferriss. I recommend the 4-Hour Body and 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is cooking 
+1. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is cooking 
 2. Everything by Derek Sivers - I like Hell Yeah or No! And How to Live, both for sale on his website. 
 3. Everything by Charlie Hoehn - Play It Away!, Stress Hacks, 10 Day anxiety fix. 
 4. Everything by Nassim Nicholas Taleb - the Black swan, Anti-fragile, Skin in the Game, Fooled by Randomness, and the Bed of Procrustes 
@@ -34,6 +34,19 @@ title: Books I Live By:
 24. Women and Post Office by Charles Bukowski 
 25. Jesus’ Son by Denis Johnson 
 26. The “Great” Works of Dostoevsky - Crime & Punishment, The Brothers Karamazov, Notes from the Underground, The Devils, and The Idiot. 
+
+Health Books:
+1. The 4-Hour Body. 
+2.The New Evolution Diet by Art De Vany
+3.The Paleo Solution by Robb Wolf
+4.Power Endurance Speed by Brian Mackenzie
+5. The Simple and Sinister Method by Pavel Tsatsouline
+6. Becoming A Supple Leopard by Kelly Starett
+   Related: Kelly Starrett's Creative Live Course
+7. How to Improve Sleep (article) from Tim Ferriss' Blog and Tools of Titans
+8. The Wim Hof Method
+9. HRV training a la Josh Waitzkin and Adam Robinson from Tribe of Mentors
+10. Drop Dead Healthy by AJ Jacobs
 
 Potent sources of Knowledge from Authors, Thinkers, & Wealthy Folk: 
 1. The Work of Nicki Case: ncase.me 
