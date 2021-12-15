@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Books I Live By:"
+title: "Books I Live By"
 ---
 
 In no particular order... 
