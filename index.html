@@ -9,7 +9,7 @@ title: Home
     {% for node in pages_list %}                                                                                                            
       {% if node.title != null %}                                                                                                           
         {% if node.layout == "page" %}                                                                                                      
-          <li href="{{ node.url }}">{{ node.title }}</li>             
+          <li><a href="{{ node.url }}">{{ node.title }}</a></li>             
         {% endif %}                                                                                                                         
     {% endif %}                                                                                                                             
 {% endfor %}    
@@ -18,7 +18,7 @@ title: Home
 
 
 
-
+<!--
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -51,6 +51,8 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
+--> 
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
