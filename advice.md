@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Advice
+subtitle: "These are my notes to self. Read them and see what works. Contributions welcome."
 permalink: advice
 ---
 
