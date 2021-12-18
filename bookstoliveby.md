@@ -1,7 +1,7 @@
 ---
 layout: page
-subtitle "While I buy many books, there are few that I like to read and reread. This is for them." 
 title: "Books I Live By"
+subtitle "A few books I bought I learned a ton from and  like to read and reread. This is for them."
 ---
 
 In no particular order... 
