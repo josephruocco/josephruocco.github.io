@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: "Me in 10 seconds?"
+subtitle: "Want to know more about me?"
 ---
 
 This site houses the creative projects and writings of Joseph Ruocco, Brooklyn NY, 2018-present
