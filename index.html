@@ -9,7 +9,7 @@ title: Home
     {% for node in pages_list %}                                                                                                            
       {% if node.title != null %}                                                                                                           {% if node.layout == "page" %}
           <h2>{{ node.title }}</h2>            
-          <p> See <a href="{{ node.url }}">my "{{ node.title }}" page</p>             
+          <p> See <a href="{{ node.url }}">my "{{ node.title }}" page</a></p>             
        {% endif %}                                                                                                                         
     {% endif %}                                                                                                                             
 {% endfor %}    
