@@ -3,18 +3,18 @@ layout: default
 title: Home
 ---
 
-<div>
-<ul>
+<section>
+
   {% assign pages_list = site.pages | sort:"url" %}                                                                                       
     {% for node in pages_list %}                                                                                                            
       {% if node.title != null %}                                                                                                           
-        {% if node.layout == "page" %}                                                                                                      
-          <li><a href="{{ node.url }}">{{ node.title }}</a></li>             
+        {% if node.layout == "page" %}                                                                                   <h2>{{ node.title }}<h2>                   
+          <p> See my <a href="{{ node.url }}">my \"{{ node.title }}\" page</a></li>             
         {% endif %}                                                                                                                         
     {% endif %}                                                                                                                             
 {% endfor %}    
-</ul>
-</div>
+
+</section>
 
 
 
