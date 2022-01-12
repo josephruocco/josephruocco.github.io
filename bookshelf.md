@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: "I buy many a book. These are the titles I've acquired since 2016."
+subtitle: "Books I have bought since 2016."
 title: Bookshelf
 ---
 
