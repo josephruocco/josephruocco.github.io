@@ -32,7 +32,7 @@ In no particular order...
 21. Atmamun, Direct Truth, and A Master’s Secret Whispers by Kapil Gupta 
  	Also: The works of Jed McKenna: The Damndest Trilogy and Theory of Everything
 22. It Could be Worse, You Could Be Me by Ariel Leve 
-23. “This is Water” (speech) and “Good Old Neon” (short story) and A Supposedly Fun Thing that I Will Never Do Again  by David foster Wallace 
+23. “This is Water” (speech) and “Good Old Neon” (short story) and Consider the Lobster (essays) and A Supposedly Fun Thing that I Will Never Do Again  by David foster Wallace 
 24. Women and Post Office by Charles Bukowski 
 25. Jesus’ Son by Denis Johnson 
 26. The “Great” Works of Dostoevsky - Crime & Punishment, The Brothers Karamazov, Notes from the Underground, The Devils, and The Idiot. 
