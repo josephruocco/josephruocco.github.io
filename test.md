@@ -1,7 +1,6 @@
-
 ---
-title: Test
 layout: page
+title: Test
 ---
 
 # Table of Contents
