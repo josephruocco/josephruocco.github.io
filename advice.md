@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Advice
+title: Notebook
 subtitle: "These are my notes to self. Read them and see what works. Contributions welcome."
 permalink: advice
 ---
-
-# Advice
 
 These are my rules. This is how I operate. Contributions welcome.
 
