@@ -1,54 +1,88 @@
 #+TITLE: Philosophical Notebook 
+#+SUBTITLE: or, What Our Ancestors Forgot to Tell Us 
 #+AUTHOR: Joseph Ruocco 
 
 * Introduction 
-** Brief Timeline of Related Ideas
-*** Nihil Periditi
-C. 4BC, Roman Empire - It is recorded in response to having suffered a terrible misfortune,
-Seneca,(or Zeno of Citium?) the roman statesman is to have reported "Nihil Perditi" - I
-have lost nothing. For the Stoics, nothing could have been taken away
-from them that they considered a good 
-*** Amor Fati  
-1888 Germany - Nietzche learned from Seneca the Amor Fati - the love of fate. 
-He proclaims that this is his formula for success in why he is a
-destiny in the last writing before his death. 
-*** "I can think, I can wait, I can fast"  
-1922 Hermen Hesse, - Herman Hesse's protagonist in Sidartha proclaims, "I can think, I can
-wait, I can fast." 
+** Old wisdom stays young
+- The importance of Ancient ideas are because they are so old. Old ideas
+have stood the test of time. 
+- There is an allure that ancient philosophy speaks to the right
+  soul. The art of Living well the real "moral" philopshers taught was
+  to approcah life with humility and love of our Nature, its beauty, knowledge,
+  and uncertainty. 
+- The Stoics, the skeptics, the epicureans, other ancient schools of
+  thought. They were all right. We humans, curious by nature, need to
+  explore, adventure, rationally stepping forward by keeping what
+  suits us and discarding the rest. 
+- Ethics are different at scale. IN random domains. With risk taking
+  I'm a stoic, with knowledge I'm a skepticist/empiricst, with
+  aesthetics I'm an epicurean.   
+
+- If we seek to fill the shoes of our ancestors,to have the same
+  impact as our ancestors.  We have to devote ourselves to risk
+  taking. We have to prudently prepare for a world we don't quite know
+  what to expect from. We have to take up what our ancestors left
+  behind.  Of course, like Seneca, we can keep the fruits
+  and enjoy life.  
+
+** Hear the whispers of the past and shout them to the Future. 
+Few figures stress the importnace of robustness than the Stoics. And
+the heavy criticality of this idea its not surprising that fellows
+separated by continents or centuries have the same idea. 
+
+- Nihil Periditi, C. 4BC, Roman Empire - It is recorded in response to
+  having suffered a terrible misfortune, Seneca,(or Zeno of Citium?)
+  the roman statesman is to have reported "Nihil Perditi" - I have
+  lost nothing. For the Stoics, nothing could have been taken away
+  from them that they considered a good. Nearly all the letters of
+  Seneca echo against loss aversion. 
+
+- Amor Fati 1888 Germany - Nietzche learned from Seneca the Amor
+  Fati - the love of fate. He proclaims that this is his formula for
+  success in why he is a destiny in the last writing before his
+  death. 
+
+- "I can think, I can wait, I can fast" 1922 Hermen Hesse, - Herman
+  Hesse's protagonist in Sidartha proclaims, "I can think, I can wait,
+  I can fast."
+
+** What They Forgot to Tell Us. 
+Doers, the real risk takers, quietly act without ever getting
+recognition. Doers don't write books. Life is execution rather than
+purpose. EXistence itself is of great, great consequence.  
+
 
 * Part I: The Student
 ** Sources of Knowledge
-*** Consider Time
-Value what has endured. Only time determines what survives and what
-doesn’t. This applies to nearly everything. 
+Don't listen to what people say, look at what they do. (More on this
+later). 
 
-*** Make mistakes (when small)
-errors, never the same error more than once. Avoidance of small
-mistakes makes the large ones more severe. Avoidance of hard
-conversations makes them harder. 
+- Consider Time Value what has endured. Only time determines what
+  survives and what doesn’t. This applies to nearly everything. 
 
-*** Subtract misinformation 
-Knowledge is subtractive, that is to say - We know better what is
-wrong than what is right. 
+- Make mistakes (when small) errors, never the same error more than
+  once. Avoidance of small mistakes makes the large ones more
+  severe. Avoidance of hard conversations makes them harder. 
 
-*** What you don't know is more important than what you do know. 
-Acquire as many books as you can possibly own. 
+- Subtract misinformation Knowledge is subtractive, that is to say -
+  We know better what is wrong than what is right. 
+
+- What you don't know is more important than what you do know.Acquire
+  as many books as you can possibly own. 
+
 
 ** Decision Making under Uncertainty
-*** Procrastination
-Always make decisions at the last minute. Because the longer you wait
-the smarter you become. Decisions should be made when the most present
-information is available. 
+- Procrastination Always make decisions at the last minute. Because
+  the longer you wait the smarter you become. Decisions should be made
+  when the most present information is available. 
+- Keeping options open Choose the plan that allows for the most future
+  options. 
 
-*** Keeping options open
-Choose the plan that allows for the most future options. 
-
-*** Never convince yourself to do anything. 
+- Never convince yourself to do anything. 
 
 
 ** Learning with Emotions
-*** Use Boredom as a compass.  
-*** 
+- Use Boredom as a compass. Find portals to the classics.  
 
 ** How the body (and other complex systems) learns 
 *** Randomness improves systems 
