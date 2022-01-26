@@ -11,6 +11,10 @@ title: Drawings
 <br />
 ![Son Of A Bench](/assets/bench.jpg)
 <br />
+![yikes](/assets/yikes.jpg)
+<br />
+![Read the F**king Manual](/assets/rtfm.jpg)
+<br />
 ![a loaf](/assets/bread.jpg)
 <br />
 ![day one](/assets/day_one.jpg)
