@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Books I Live By"
+title: "Books To Live By"
 subtitle: "A few books I learned a ton from and like to read and reread."
 ---
 
