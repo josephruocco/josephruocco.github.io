@@ -3,81 +3,114 @@
 #+OPTIONS: toc:nil 
 #+AUTHOR: Joseph Ruocco 
 
-* Introduction 
-** Old wisdom stays young
-The importance of Ancient ideas are because they are so old. Old ideas
-have stood the test of time. 
-
-There is an allure that ancient philosophy speaks to the right
-soul. The art of Living well the real "moral" philopshers taught was
-to approcah life with humility and love of our Nature, its beauty,
-knowledge, and uncertainty. 
-The Stoics, the skeptics, the epicureans, other ancient schools of
-thought. They were all right. We humans, curious by nature, need to
-explore, adventure, rationally stepping forward by keeping what suits
-us and discarding the rest. Ethics are different at scale. IN random
-domains. With risk taking I'm a stoic, with knowledge I'm a
-skepticist/empiricst, with aesthetics I'm an epicurean.    
-If we seek to fill the shoes of our ancestors,to have the same impact
-as our ancestors.  We have to devote ourselves to risk taking. We have
-to prudently prepare for a world we don't quite know what to expect
-from. We have to take up what our ancestors left behind.  Of course,
-like Seneca, we can keep the fruits and enjoy life.  
-
-** Several Proclamations around a central Stoic Idea. . 
-Few figures stress the importnace of robustness than the Stoics. And
-the heavy criticality of this idea its not surprising that fellows
-separated by continents or centuries have the same idea: 1) *Nihil
-Periditi, C. 4BC, Roman Empire* - It is recorded in response to having
-suffered a terrible misfortune, Seneca,(or Zeno of Citium?) the roman
-statesman is to have reported "Nihil Perditi" - I have lost
-nothing. For the Stoics, nothing could have been taken away from them
-that they considered a good. Nearly all the letters of Seneca echo
-against loss aversion. 2) *Amor Fati 1888 Germany* Nietzche learned
-from Seneca the Amor   Fati - the love of fate. He proclaims that this
-is his formula for success in why he is a destiny in the last writing
-before his death. 3) Hermen Hesse -  *"I can think, I can wait, I can
-fast" 1922*  Herman Hesse's protagonist in Sidartha proclaims, "I can
-think, I can wait, I can fast."
-
-** What They Forgot to Tell Us. 
-Doers, the real risk takers, quietly act without ever getting
-recognition. Doers don't write books. Life is execution rather than
-purpose. EXistence itself is of great, great consequence.  
+# #  * Introduction 
+# ** Old wisdom stays young
+# The importance of Ancient ideas are because they are so old. Old ideas
+# have stood the test of time. 
+# 
+#  There is an allure that ancient philosophy speaks to the right
+#  soul. The art of Living well the real "moral" philopshers taught was
+#  to approcah life with humility and love of our Nature, its beauty,
+#  knowledge, and uncertainty. 
+#  The Stoics, the skeptics, the epicureans, other ancient schools of
+# thought. They were all right. We humans, curious by nature, need to
+# explore, adventure, rationally stepping forward by keeping what suits
+# us and discarding the rest. Ethics are different at scale. IN random
+# domains. With risk taking I'm a stoic, with knowledge I'm a
+# skepticist/empiricst, with aesthetics I'm an epicurean.    
+# If we seek to fill the shoes of our ancestors,to have the same impact
+# as our ancestors.  We have to devote ourselves to risk taking. We have
+# to prudently prepare for a world we don't quite know what to expect
+# from. We have to take up what our ancestors left behind.  Of course,
+# like Seneca, we can keep the fruits and enjoy life.  
+# 
+# ** Several Proclamations around a central Stoic Idea. . 
+# Few figures stress the importnace of robustness than the Stoics. And
+# the heavy criticality of this idea its not surprising that fellows
+# separated by continents or centuries have the same idea: 1) *Nihil
+# Periditi, C. 4BC, Roman Empire* - It is recorded in response to having
+# suffered a terrible misfortune, Seneca,(or Zeno of Citium?) the roman
+# statesman is to have reported "Nihil Perditi" - I have lost
+# nothing. For the Stoics, nothing could have been taken away from them
+# that they considered a good. Nearly all the letters of Seneca echo
+# against loss aversion. 2) *Amor Fati 1888 Germany* Nietzche learned
+# from Seneca the Amor   Fati - the love of fate. He proclaims that this
+# is his formula for success in why he is a destiny in the last writing
+# before his death. 3) Hermen Hesse -  *"I can think, I can wait, I can
+# fast" 1922*  Herman Hesse's protagonist in Sidartha proclaims, "I can
+# think, I can wait, I can fast."
+# 
+# ** What They Forgot to Tell Us. 
+# Doers, the real risk takers, quietly act without ever getting
+# recognition. Doers don't write books. Life is execution rather than
+# purpose. EXistence itself is of great, great consequence.  
+# 
 
 * The Student
 
-*Evaluating & Curating Sources of INformation* - 1) Knowledge
-increases as we remove false, speculative information. We know what we
-disklike more than what we like. You are much more likely to improve
-your life by removing what you dislike rather than what you think you
-like. Avoidance of ignorant people is like being around smart ones. 2)
-Judging information: First, time filters noise. Informatino that has
-been around a long time will likely be around for a lot longer than
-the new thing. Prune "news" sources- TV, radio, social media,
-etc. Stick to old books. Second, in conjunction with preferring old
-books,Acquire as many books as you can possibly own.  What you don't
-know is far more important than what you do. There is no upper limit
-to what you don't know. 
+*What we know best* - Knowledge increases as we remove false,
+speculative information. Discomfirmation is more rigorous than
+confirmation. At a personal level, We know what we disklike more than
+what we like. You are much more likely to improve your life by
+removing what you dislike rather than what you think you
+like. Avoidance of ignorant people is like being around smart ones.
+
+*What's Worth Knowing:* 1) *Time* - Informatino that has been around a long
+time will likely be around for a lot longer than the new thing. Prune
+"news" sources- TV, radio, social media, etc. Trendy information is
+fragile information. Stick to old books 2) *Distribution* -  what a
+million people know is not worth knowing. If you know what everyone
+else knows, your payoff will be average.  3) *corollary:* in
+conjunction with preferring old books, Acquire as many books as you
+can possibly own. What you don't know (and no one else knows) is far
+more important than what you do. There is no upper limit to what you
+don't know. 4) *Learn what can be used immediately.* Information not
+put to use is wasted. Knowledge that is personally valuable remains
+with you. Learn info that you searched for, never what is curated by
+an algorithm. 5) *Learning is repetition* Books are like friends, get
+to know them a little at a time. Look through the bibliographies of
+your favorite books. The test of whether you really liked a book is to
+reread it; the test of whether you really liked someone’s Company is
+if you are ready to meet him again and again. Friendship that ends
+never was one, any book not worth rereading isn’t worth reading. 
+
+*What Emotions are for:* Emotions are biological signals. They can be
+used to aid us in decision making and learning 1) *Procrastination*
+Always make decisions at the last minute. Because the longer you wait
+the smarter you become. Decisions are best made when the most present
+information is available. 2) *Boredom* - Humans don’t like to do
+boring things. The purpose of life should be avoiding boredom, or
+using boredom as a biological clock,without being impolite If you get
+bored easily, your B***t detector is functioning
+properly. Beaureaucrats and executives are best at sitting through
+boring meetings and keeping attention on boring tasks. Laziness
+is enduring an existence you don’t like and never trying to do anything
+about it. You don't get a second chance at life if you knowingly
+endure boring things. 3) *Forgetfulness*- If you forget (some) things,
+it means that our mind knows how to filter 4) *Uncertainty* - The minds
+desires  certainty while also craving the delicate chance of
+surprise. Avoid planning, Choose the plan that allows for the most
+future options. The best days are finding a lost wallet or laptop. 5)
+*Curiosity* — Read what you like until you like to read. The internet is
+widening the gap between the curious and the non curious. Evaluate
+your curiosity daily, read accordingly. As soon as a book starts to
+bore you, switch. There’s  a perfect book for you waiting to be
+read. By keeping score of finished books, you won’t find it. Reading
+is a journey to find the best books for you. 6) *urgency &
+distractedness* - Deep Learning is never Quickly learned - Trade speed
+for depth-peeding and cramming means you aren’t curious. Trade speed
+for depth. If you find yourself doing things that require a podcast,
+you should ask yourself whether there’s a better way of doing
+it. Rushing is short term thinking. Don’t hurry, don’t stop. 
 
 
+# Technology can degrade every aspect of a suckers life
+#    while convincing him that he is becoming more efficient. The most
+#    optimal route is never the shortest one. 
+# Cutting corners is
+#    dishonest. Automation makes otherwise pleasant activities turn
+#    into work.
 
-
-        1. Laziness is enduring an existence you don’t like and never
-           trying to do anything about it. If you like your life, and
-           Theres nothing to change. You don’t have to Impact >
-           replaceable. 
-
-    4. You can’t throw hard work and everything and expect anything to
-       be       possible.
-
-
-
-*Decision making under uncertainty* 1) Procrastination* Always make
-decisions at the last minute. Because the longer you wait the smarter
-you become. Decisions should be made when the most present information
-is available. 2)  *Keeping options open* Choose the plan that allows
-for the most
 
 *Domain Dependence* Martial arts combat doesn’t train you to a
 surprise knife or glock in a street fight. Resist people
@@ -90,92 +123,40 @@ exercises as if he were swinging a suitcase. Skills that transfer:
 Street fights, off path hiking, seduction, broad erudition, 
 
 
-*Learning with emotions* 
-20. Boredom and Forgetfulness. Avoid Boredom, Follow Curiosity. IN
-    learning and life, getting bored easily is functioning properly.
-    Humans don’t like to do boring things. The    purpose of life
-    should be avoiding boredom, or using boredom as a    biological
-    clock,without being impolite If you get bored easily
+# *Learning with emotions* 
+# 20. 
+#    4. You can’t throw hard work and everything and expect anything to
+#       be       possible.
+# What was taught to me, I forgot, what I learned myself I
+# remember.  Too become
 
-If you forget (some) things, it means that your mind knows how to
- filter 
- What was taught to me, I forgot, what I learned myself I
- remember. Beaureaucrats and executives are best at sitting through
- boring meetings and keeping attention on boring tasks. Too become
+#   Learning with Boredom less boring, be bored more. 
+#
+#    1. Avoid or quit boring activities. 
+#    2. Forgetting things is a feature ,not a bug 
+#    3. Deciding something is not worth doing anymore 
+#    4. People don’t have short attention spans, they just can’t tolerate boredom for too long. 
+#    5. You don’t get a 2nd chance. - Boredom. 
+# 21. 
+# 21. 
 
-   Learning with Boredom less boring, be bored more. 
-
-    1. Avoid or quit boring activities. 
-    2. Forgetting things is a feature ,not a bug 
-    3. Deciding something is not worth doing anymore 
-    4. People don’t have short attention spans, they just can’t tolerate boredom for too long. 
-    5. You don’t get a 2nd chance. - Boredom. 
-
-21. Learn subjects through curiosity — Read what you like until you
-    like to read. The internet is widening the gap between the curious
-    and the non curious. Evaluate your curiosity daily, read
-    accordingly.Curiosity should lead to deep, specific knowledge. Let
-    that be a barometer for learning, not the strange
-    reading-as-an-obligation. With a fine-tuned curiosity, you will
-    start with a narrow topic and then ultimately be able to read
-    anything. Follow anything that stimulates deep
-    curiosity. Curiosity is infinite.  As soon as a book starts to
-    bore you, switch. And you find gold, so to speak, effortlessly,
-    just as in rational but undirected trial-and-error-based
-    research. To “only eat what you kill” in the Information Age is
-    only learning information that you searched for.  (See 15) There’s
-    a perfect book for you waiting to be read. By keeping score of
-    finished books, you won’t find it. Reading is a journey to find
-    the best books for you. find an interesting side door to a topic
-    you’ve never heard about. 
-
-
-21. Deep Learning is never Quickly learned. Trade speed for depth
-    Speeding and cramming means you aren’t    curious. Trade speed for depth. If you find yourself doing things
-    that require a podcast, you should ask yourself whether there’s a
-    better way of doing it. Rushing is short term thinking. Don’t
-    hurry, don’t stop. Optimization. Cutting corners is
-    dishonest. Automation makes otherwise pleasant activities turn
-    into work. Technology can degrade every aspect of a suckers life
-    while convincing him that he is becoming more efficient. The most
-    optimal route is never the shortest one. Some who continually
-    tells you “I am busy” has no control over their lives or they are
-    avoiding you. 
-
-Books and Friends - Books are like friends, get to know them a little
-at a time. Look through the bibliographies of your favorite books. Go
-down the rabbit hole. The test of whether you really liked a book is
-to reread it; the test of whether you really liked someone’s. Company
-is if you are ready to meet him again and again. Friendship that ends
-never was one, any book not worth rereading isn’t worth
-reading. Choose the few that are most important, and spend a lifetime
-reading and rereading them. Get to know them a little at a time
 
 
 *Avoiding Fossilization* 
 
+#  *Never convince yourself to do anything* 
+# future
+# *Make mistakes (when small)* errors, never the same error more than
+# once. Avoidance of small mistakes makes the large ones more
+# severe. Avoidance of hard conversations makes them harder. 
+# -  
+# Don't listen to what people say, look at what they do. (More on this
 
-  *Never convince yourself to do anything* 
-future
+# * Learning with Emotions
+# - *Avoid Boredom*. Find portals to the classics.  
 
-
-
- *Make mistakes (when small)* errors, never the same error more than
- once. Avoidance of small mistakes makes the large ones more
- severe. Avoidance of hard conversations makes them harder. 
-
-
-- 
-Don't listen to what people say, look at what they do. (More on this
-
-
-
-
-** Learning with Emotions
-- *Avoid Boredom*. Find portals to the classics.  
-
-** How the body (and other complex systems) learns 
-- *Randomness improves systems* 
+# * How the body (and other complex systems) learns 
+# - *Randomness improves systems* 
 
 
 * The Warrior
@@ -377,3 +358,7 @@ x
 
 - *Avoid entrapment* 
 
+
+Some who continually
+    tells you “I am busy” has no control over their lives or they are
+    avoiding you. 
