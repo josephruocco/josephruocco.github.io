@@ -1,18 +1,10 @@
 ---
 title: Philosophical Notebook
 layout: page
+subtitle: "Eploration of erudition, risk-taking, and uncertainty. Alternatively titled, What our Ancestors Forgot to tell us"
 ---
 
-# Table of Contents
-
-1.  [Student](#org43988ef)
-2.  [Warrior](#orge605372)
-3.  [Philosopher](#orgf68577e)
-
-
-<a id="org43988ef"></a>
-
-# Student
+# The Student
 
 **What we know best** - Knowledge increases as we remove false,
 speculative information. Discomfirmation is more rigorous than
@@ -21,8 +13,7 @@ what we like. You are much more likely to improve your life by
 removing what you dislike rather than what you think you
 like. Avoidance of ignorant people is like being around smart ones.
 
-**What's Worth Knowing:** 1) **Time** - Informatino that has been around a long
-time will likely be around for a lot longer than the new thing. Prune
+**What's Worth Knowing:** 1) **Time** - Information that has been around a long time will likely be around for a lot longer than the new thing. Prune
 "news" sources- TV, radio, social media, etc. Trendy information is
 fragile information. Stick to old books 2) **Distribution** -  what a
 million people know is not worth knowing. If you know what everyone
@@ -40,15 +31,16 @@ reread it; the test of whether you really liked someone’s Company is
 if you are ready to meet him again and again. Friendship that ends
 never was one, any book not worth rereading isn’t worth reading. 
 
-**How Knowledge Cripples the mind & body** Artificially constructed environments for
-the body and mind deprive us of the variablitiy experienced in real
-life. This is caled Domain Dependence, and it cripples us.  Martial
-arts combat doesn’t train you to a surprise knife or glock in a street
-fight. A man checking into a hotel asks the concierge to take your
-bags upstairs. Fifteen minutes later, the same man goes to lift free
-weights in the hotel gym, replicating with kettlebells natural
-exercises as if he were swinging a suitcase. Skills that transfer:
-Street fights, off path hiking, seduction, broad erudition. 
+**How Knowledge Cripples the mind & body** Artificially constructed
+environments for the body and mind deprive us of the variablitiy
+experienced in real life. This is caled Domain Dependence, and it
+cripples us.  Martial arts combat doesn’t train you to a surprise
+knife or glock in a street fight. A man checking into a hotel asks the
+concierge to take your bags upstairs. Fifteen minutes later, the same
+man goes to lift free weights in the hotel gym, replicating with
+kettlebells natural exercises as if he were swinging a
+suitcase. Skills that transfer: Street fights, off path hiking,
+seduction, broad erudition. 
 
 **What our bodies were made for** Random Eposidic stress followed by
 ample recovery time. In teh form of  1) Food Restrictions & Volume
@@ -76,12 +68,6 @@ lack of focus. Social isolation, nutritional deficiencies, restricted
 movement and sleep deprivation are what prisons use to torture its
 inmates.
 
-Conclusion: You can’t feel alive and comfortable (stable) at the same
-time. Having a set schedule and predictable day makes me feel a little
-dead. Uncertainty brings a sense of flavor back to life. The best days
-are finding a lost wallet.  We need to feel a little bit lost,
-physically or mentally at least once a day. 
-
 **What Emotions are for:** Emotions are biological signals. They can be
 used to aid us in decision making and learning 1) **Procrastination**
 Always make decisions at the last minute. Because the longer you wait
@@ -96,40 +82,39 @@ is enduring an existence you don’t like and never trying to do anything
 about it. You don't get a second chance at life if you knowingly
 endure boring things. 3) **Forgetfulness**- If you forget (some) things,
 it means that our mind knows how to filter 4) **Uncertainty** - The minds
-desires  certainty while also craving the delicate chance of
-surprise. Avoid planning, Choose the plan that allows for the most
-future options. The best days are finding a lost wallet or laptop. 5)
-**Curiosity** — Read what you like until you like to read. The internet is
-widening the gap between the curious and the non curious. Evaluate
-your curiosity daily, read accordingly. As soon as a book starts to
-bore you, switch. There’s  a perfect book for you waiting to be
-read. By keeping score of finished books, you won’t find it. Reading
-is a journey to find the best books for you. 6) **urgency &
-distractedness** - Deep Learning is never Quickly learned - Trade speed
-for depth-peeding and cramming means you aren’t curious. Trade speed
-for depth. If you find yourself doing things that require a podcast,
-you should ask yourself whether there’s a better way of doing
-it. Rushing is short term thinking. Don’t hurry, don’t stop. An Internet Sabbath
-cannot by itself cure a distracted brain.  Instead of scheduling the
-occasional break from distraction so you can focus, you should instead
-schedule the occasional break from focus to give in to
+desires certainty while also craving the delicate chance of
+surprise. The best days are finding a lost wallet or laptop. You can’t
+feel alive and certain at the same time. Having a set schedule and
+predictable day makes me feel a little dead. We need to feel a little
+bit lost, physically or mentally at least once a day. 5) **Curiosity** —
+Read what you like until you like to read. The internet is widening
+the gap between the curious and the non curious. Evaluate your
+curiosity daily, read accordingly. As soon as a book starts to bore
+you, switch. There’s  a perfect book for you waiting to be read. By
+keeping score of finished books, you won’t find it. Reading is a
+journey to find the best books for you. 6) **urgency &
+distractedness** - Deep Learning is never Quickly learned - Trade
+speedfor depth-peeding and cramming means you aren’t curious. Trade
+speed for depth. If you find yourself doing things that require a
+podcast, you should ask yourself whether there’s a better way of doing
+it. Rushing is short term thinking. Don’t hurry, don’t stop. An
+Internet Sabbath cannot by itself cure a distracted brain.  Instead of
+scheduling the occasional break from distraction so you can focus, you
+should instead schedule the occasional break from focus to give in to
 distraction. 
 
-If one reason doesn’t
-  suffice, then don’t do it. Don’t wobble. Never work with someone a
-  day that you wouldn’t spend a lifetime with. Never Try to Convince
-  Yourself. Working hard only recently became prideful instead of
-  shameful Hard work is a tool.
+Within certain limits, never try to convince yourself to do
+something. If one reason doesn’t suffice, then don’t do it. Never work
+with someone a day that you wouldn’t spend a lifetime with. Never Try
+to Convince Yourself. 
 
-The cure for procrastination is
- changing ones environment or your profession, where you don’t have
- to fight your impulses. One should lead a life in which
- procrastination is good. “Doing research on a topic” feels
- profane. Why would you write about something you can’t remember?
- That you wouldn’t use? Let Procrastination kill anything that I’m
- putting off too long. Avoid things that don’t give you energy
- Embracing nature > fighting nature. Minimize dealing with things you
- dislike 
+The cure for procrastination is changing ones environment or your
+profession, where you don’t have to fight your impulses. One should
+lead a life in which procrastination is good. “Doing research on a
+topic” feels profane. Why would you write about something you can’t
+remember? That you wouldn’t use? Let Procrastination kill anything
+that I’m putting off too long. Avoid things that don’t give you energy
+Embracing nature > fighting nature. 
 
 **How the mind gets unstuck** intelligent when you don’t instruct it
 what to do. Problems will never solved by sitting at a desk. Idle
@@ -149,12 +134,12 @@ idle time, wandering about, tinkering, trial and error, long walks,
 randomized attention. And other inefficiencies of that sort. First
 step is recognizing the opportunity. Second step is pouncing on the
 good ones. Can’t do any of those things if you squeeze all the idle
-time out of life. If you don’t know what your problem is, you need to sleep.
+time out of life. If you don’t know what your problem is, you need to
+sleep. Dreaming is When the conductor falls asleep the orchestra
+starts playing on its own accord.
 
 
-<a id="orge605372"></a>
-
-# Warrior
+# The Warrior
 
 **What Rationality is Good for** 1) **Survival** What is rational is what
 allows for  survival.  Uncertainty  doesn’t kill us. Ignoring or not
@@ -169,23 +154,10 @@ irrational, but has existed for a long time, you might need to update
 you definition of rational. 
 
 **How Mother Nature Insures Itself** In a word: Redundancy.1)  1. Have
- backups.  Redundancy for  both objects and plans are an aggressive
- insurance against an unknown future.  2) Choose plans with the
- most amount of options. Such a life as this finds ourself with a lot
- of Downtime. Keep a notebook with you at all times. Carrying a book
- with you at all times me access to a large selection of books to
- learn on-the-go. (which makes the necessarily painful moments of
- waiting in line) Have no loyalty to location, corporation, or your
- past public statements. Be an absolute opportunist doing whatever is
- best for the future in the current situation, unbound by the
- past. Have loyalty for only your most important human
- relationships. Living requires optionality. You need the freedom to
- explore and some aimless wandering. 3. Make decisions as late as
- possible. Don’t make appointments except for the same day. Also,
- tell friends you’re coming an hour later than you plan on
- arriving. 4). Option blindness - when we obsess on trying to achieve
- X we become blind to better options that are not conducive to X. 5)
- Redundancy is having multiple ways of doing the same thing.
+backups.  Redundancy for  both objects and plans are an aggressive
+insurance against an unknown future. Avoid planning, Choose the plan
+that allows for the most future options. Redundancy is having multiple
+ways of doing the same thing.
 
 **What mistakes are for** Address problems while they are small,
 ignore good news. Identify  to them when they are small. Hard
@@ -213,19 +185,16 @@ trial and error in domains where randomness rules can help us find
 Options laughing in our faces. Exercise rationality by not
 looking in the Same place twice. Presents small errors as
 information and large gains which we can exploit when they
-arise. 
-
-If you’re ideas aren’t being rejected outright, you’re not taking
+arise. If you’re ideas aren’t being rejected outright, you’re not taking
 enough risk Being confused is important, or you’re not taking
 advantage of the idea space. Confusion is the edge of a
 breakthrough. Let it marinate + bother the back of your mind until
 the root cause is discovered. A novel root cause implies a new
 idea. Come up with 20 ideas. The way to come up with 1 good business
-is to create 10 business.s.  
-
-Trial and error is freedom. You can’t fail you can only die -
-which is happening anyway Why should I listen  to you if you put
-nothing at risk? There is no "failure" for a risk-taker\* 
+is to create 10 business.s. Trial and error is freedom. You can’t
+fail you can only die - which is happening anyway Why should I listen
+to you if you put nothing at risk? There is no "failure" for a
+risk-taker\* 
 
 Provide for the worst case, let the best case take care of itself:
 Change a tire in the rain. Whenever I find myself using the phrase
@@ -238,30 +207,28 @@ worse.  When some adverse event takes place, instead of wondering
 you are underestimating something, it is likely you are still
 underestimating it. What did not happen rather than what did happen. 
 
-**Obvious Red Flags** The most harmful source of Information is advice
+**Obvious Red Flags** 1) The most harmful source of Information is advice
 advertised (for better or for worse) to help you. There is an
 asymmetry between givers of “positiva,” (Do This) prescriptive advice
 as they do not incur the harm you would from following their advice.
 Avoid commentary from anyone who has to feed their
-family. Unsuccessful people give the most advice.  
+family. Unsuccessful people give the most advice. 2)Risk Sharing They
+still get paid even when you go bust. For best results, just look at
+what they do, not what they tell you to do. Another trick is to never
+trust the beautiful philosopher.  To filter the credibility of advice,
+don’t take advice from the poster child of their profession. If they
+don’t play the role or speak the jargon, that means that their skill
+speaks for them. 3) Underestimating Luck and Randomness Another factor
+that makes advice hard to translate is luck and randomness. Most
+communicated advice is flawed: Even if the giver of the advice is
+innocuous, advice is like handing you the numbers to their winning
+lottery ticket. 
 
-Risk Sharing They still get paid even when you go bust. For best
-results, just look at what they do, not what they tell you to
-do. Another trick is to never trust the beautiful philosopher.  To
-filter the credibility of advice, don’t take advice from the poster
-child of their profession. If they don’t play the role or speak the
-jargon, that means that their skill speaks for them.  
-
-Luck and Randomness Another factor that makes advice hard to translate
-is luck and randomness. Most communicated advice is flawed: Even if
-the giver of the advice is innocuous, advice is like handing you the
-numbers to their winning lottery ticket. 
-
-Advice to follow The advice you can trust, but is hard to profit from
+Inverse: Advice to follow The advice you can trust, but is hard to profit from
 and thus rarely given, is what to avoid. The ten commandments are all
 acts of omission. Trust the advice of old sources (your grandma and old books)
 
-**A Practical Ethic** Don't Give crap, don't take crap.  Being polite
+**How to deal with people** Don't Give crap, don't take crap.  Being polite
 to someone who is arrogant is worse than being arrogant  to someone
 who is polite  Greatness  starts with the replacement of hatred with
 polite disdain  Never try to convince yourself to  Don’t be nice or
@@ -271,21 +238,26 @@ proportion to the  number of people you can say fuck you to but
 don’t. Never trust  someone who doesn’t have any enemies. Stand up
 when when others are  afraid for their  reputatio 
 
-**Who we live for** - The collective is more important than the
-individual. We are more important than me. Not just the loss of your
-life, but one that lies in a broader set of people, one that includes
-a family, a community, a tribe, a fraternity. It is not possible to
-be ethical and universalist. You are part of a specific group that is
-larger than a narrow you but narrower than humanity in
-general. Everyone exercises the silver rule. Remember what others
-have done for you. And let the instinct of gratitude take over.  If
-it is good for the community, it is
-good for me
+**Who "you" are** - Modernity teaches the The collective is more
+important than the individual. We are more important than me. Not just
+the loss of your life, but one that lies in a broader set of people,
+one that includes a family, a community, a tribe, a fraternity. It is
+not possible to be ethical and universalist. You are part of a
+specific group that is larger than a narrow you but narrower than
+humanity in general. Everyone exercises the silver rule. Remember what
+others have done for you. And let the instinct of gratitude take over.
+If it is good for the community, it is good for me
+
+**What To expect from the future** Randomness always has the last
+word. There is little true promise what delayed gratification can do
+for us in the real world. Such stresses the impetus to always act
+with dignity.  You can choose to call the grapes sour no matter and
+free yourself from hope and expectation. Accept what randomness
+brings, and act independently of current circumstances. The only
+thing fate does not have control over is how you behave. 
 
 
-<a id="orgf68577e"></a>
-
-# Philosopher
+# The Philosopher
 
 **What time is for**  Work should look like play. Weekends shouldn’t
 exist. Time changes when you do. Not competing.  Standing out of all
@@ -305,20 +277,16 @@ write about something you can’t remember?  That you wouldn’t use?  Let
 Procrastination kill anything that I’m putting off too long. Avoid
 things that don’t give you energy Embracing nature > fighting
 nature. Minimize dealing with things you dislike. Some who continually
-    tells you “I am busy” has no control over their lives or they are
-    avoiding you. 
-
-**What work is for** 
+tells you “I am busy” has no control over their lives or they are
+avoiding you. 
 
 **What freedom looks like** The benefit of freedom to
-  occupy your mind and your  time with only matters that interest
-  you.To have the freedom to only concern yourself with
-
-things you care about. Work should look like play.  Not
-competing. Standing out of all hierarchies. This makes you a Category
-of one. Devote yourself to something. Enjoying your work is the best
-way to become the best at what you do. Never try to convince yourself
-to do something. 
+occupy your mind and your  time with only matters that interest
+you.To have the freedom to only concern yourself with things you care
+about. Work should look like play.  Not competing. Standing out of all
+hierarchies. This makes you a Category of one. Devote yourself to
+something. Enjoying your work is the best way to become the best at
+what you do. Never try to convince yourself to do something. 
 
 **What wealth is** one way to increase your
 happiness is to make the place you live in beautiful. Ideally doing
