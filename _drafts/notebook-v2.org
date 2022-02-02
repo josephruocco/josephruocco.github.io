@@ -86,14 +86,47 @@
 #
 
 
+# Technology can degrade every aspect of a suckers life
+#    while convincing him that he is becoming more efficient. The most
+#    optimal route is never the shortest one. 
+# Cutting corners is
+#    dishonest. Automation makes otherwise pleasant activities turn
+#    into work.
+# *Learning with emotions* 
+# 20. 
+#    4. You can’t throw hard work and everything and expect anything to
+#       be       possible.
+# What was taught to me, I forgot, what I learned myself I
+# remember.  Too become
+#   Learning with Boredom less boring, be bored more. 
+#
+#    1. Avoid or quit boring activities. 
+#    2. Forgetting things is a feature ,not a bug 
+#    3. Deciding something is not worth doing anymore 
+#    4. People don’t have short attention spans, they just can’t tolerate boredom for too long. 
+#    5. You don’t get a 2nd chance. - Boredom. 
+# 21. 
+# 21. 
+#  *Never convince yourself to do anything* 
+# future
+# *Make mistakes (when small)* errors, never the same error more than
+# once. Avoidance of small mistakes makes the large ones more
+# severe. Avoidance of hard conversations makes them harder. 
+# -  
+# Don't listen to what people say, look at what they do. (More on this
+# * Learning with Emotions
+# - *Avoid Boredom*. Find portals to the classics.  
+
+# * How the body (and other complex systems) learns 
+# - *Randomness improves systems* 
+
+
 * Part I: The Skeptic 
 :PROPERTIES:
 :UNNUMBERED:
 :END:
+** One: Narration 
  
-** Intro: Non Commodotized Thinking and Scholarship 
-** Chapter 1 Durable Knowledge  
-*** 
 Obvious Red Flags* 1) The most harmful source of Information is advice
 advertised (for better or for worse) to help you. There is an
 asymmetry between givers of “positiva,” (Do This) prescriptive advice
@@ -113,25 +146,9 @@ lottery ticket.
 
 Inverse: Advice to follow The advice you can trust, but is hard to profit from
 and thus rarely given, is what to avoid. The ten commandments are all
-acts of omission. Trust the advice of old sources (your grandma and old books)
-*** Throw out your copy of the New York TImes 
-Knowledge increases as we remove false, speculative
-information. Discomfirmation is more rigorous than confirmation. At a
-personal level, We know what we disklike more than what we like. You
-are much more likely to improve your life by removing what you dislike
-rather than what you think you like. Avoidance of ignorant people is
-like being around smart ones. we don't know about the future. we don't
-know where we're going. 
-# 24. Reading is for improving the eyes you use to see
-#    the world. Don't read best-sellers. Business books are a
-#    completely eliminated category by bookstores for writings that
-#    have no depth, no style, no empirical rigor and no
-#    sophistication. Read history, (not about the last 50 years),
-#    philosophy, biography, fiction, the hard sciences, and
-#    mathematics. Through learning the basics, it has a place to hook
-#    your understanding. It opens up a world of interestingness. 
+acts of omission. Trust the advice of old sources (your grandma and
+old books)
 
-*** More Knowledgeable approach about Knowledge  
 1) *Time* - Informatino that has been around a long time will likely
  be around for a lot longer than the new thing. Prune "news" sources- 
 TV, radio, social media, etc. Trendy information is 
@@ -150,9 +167,34 @@ your favorite books. The test of whether you really liked a book is to
 reread it; the test of whether you really liked someone’s Company is
 if you are ready to meet him again and again. Friendship that ends
 never was one, any book not worth rereading isn’t worth reading. 
+*** Throw out your copy of the New York TImes 
 
-** Chapter 2: The Proper Use of the Human Body 
-*** The Gym cripples us 
+# 24. Reading is for improving the eyes you use to see
+#    the world. Don't read best-sellers. Business books are a
+#    completely eliminated category by bookstores for writings that
+#    have no depth, no style, no empirical rigor and no
+#    sophistication. Read history, (not about the last 50 years),
+#    philosophy, biography, fiction, the hard sciences, and
+#    mathematics. Through learning the basics, it has a place to hook
+#    your understanding. It opens up a world of interestingness. 
+
+** Two: Confirmation 
+*** The PRoblem of Empirical Evidence
+positive empirical evidence is useless. Knowledge increases as we remove false, speculative
+information. Discomfirmation is more rigorous than confirmation. At a
+personal level, We know what we disklike more than what we like. You
+are much more likely to improve your life by removing what you dislike
+rather than what you think you like. Avoidance of ignorant people is
+like being around smart ones. we don't know about the future. we don't
+know where we're going. 
+
+ignore good news. Identify  to them when they are small. Hard
+conversations get harder the longer you wait to have them. Focus on
+picking the low hanging fruit. When someone says they are stupid,
+they are more stupid than he thinks. 
+
+** Three: Non Commodotized Thinking and Scholarship
+The Gym cripples us 
 Artificially constructed
 environments for the body and mind deprive us of the variablitiy
 experienced in real life. This is caled Domain Dependence, and it
@@ -190,14 +232,6 @@ lack of focus. Social isolation, nutritional deficiencies, restricted
 movement and sleep deprivation are what prisons use to torture its
 inmates.
 
-*** *What Errors are for* Address problems while they are small,
-ignore good news. Identify  to them when they are small. Hard
-conversations get harder the longer you wait to have them. Focus on
-picking the low hanging fruit. When someone says they are stupid,
-they are more stupid than he thinks. 
-
-
-** Chapter 3 How the Subconscious works 
 *** What Emotions are for:* Emotions are biological signals. They can be
 used to aid us in decision making and learning 1) *Procrastination*
 Always make decisions at the last minute. Because the longer you wait
@@ -244,40 +278,8 @@ topic” feels profane. Why would you write about something you can’t
 remember? That you wouldn’t use? Let Procrastination kill anything
 that I’m putting off too long. Avoid things that don’t give you energy
 Embracing nature > fighting nature. 
+  
 
-# Technology can degrade every aspect of a suckers life
-#    while convincing him that he is becoming more efficient. The most
-#    optimal route is never the shortest one. 
-# Cutting corners is
-#    dishonest. Automation makes otherwise pleasant activities turn
-#    into work.
-# *Learning with emotions* 
-# 20. 
-#    4. You can’t throw hard work and everything and expect anything to
-#       be       possible.
-# What was taught to me, I forgot, what I learned myself I
-# remember.  Too become
-#   Learning with Boredom less boring, be bored more. 
-#
-#    1. Avoid or quit boring activities. 
-#    2. Forgetting things is a feature ,not a bug 
-#    3. Deciding something is not worth doing anymore 
-#    4. People don’t have short attention spans, they just can’t tolerate boredom for too long. 
-#    5. You don’t get a 2nd chance. - Boredom. 
-# 21. 
-# 21. 
-#  *Never convince yourself to do anything* 
-# future
-# *Make mistakes (when small)* errors, never the same error more than
-# once. Avoidance of small mistakes makes the large ones more
-# severe. Avoidance of hard conversations makes them harder. 
-# -  
-# Don't listen to what people say, look at what they do. (More on this
-# * Learning with Emotions
-# - *Avoid Boredom*. Find portals to the classics.  
-
-# * How the body (and other complex systems) learns 
-# - *Randomness improves systems* 
 
 *** How the mind gets unstuck* intelligent when you don’t instruct it
 what to do. Problems will never solved by sitting at a desk. Idle
@@ -302,12 +304,11 @@ sleep. Dreaming is When the conductor falls asleep the orchestra
 starts playing on its own accord.
 
 
-*  Part II: The Warrior
+*  Part II: The Stoic 
 :PROPERTIES:
 :UNNUMBERED:
 :END:
-
-** Chapter 4: Rationality of Risk Taking 
+** Four: Rationality of Risk Taking 
 *** What Rationality is Good for* 1) *Survival* What is rational is what
 allows for  survival.  Uncertainty  doesn’t kill us. Ignoring or not
 managing it  does. What is fragile  has more to lose than to gain
@@ -325,8 +326,17 @@ insurance against an unknown future. Avoid planning, Choose the plan
 that allows for the most future options. Redundancy is having multiple
 ways of doing the same thing.
 
+***  Seven: *Who "you" are* - Modernity teaches the The collective is more
+important than the individual. We are more important than me. Not just
+the loss of your life, but one that lies in a broader set of people,
+one that includes a family, a community, a tribe, a fraternity. It is
+not possible to be ethical and universalist. You are part of a
+specific group that is larger than a narrow you but narrower than
+humanity in general. Everyone exercises the silver rule. Remember what
+others have done for you. And let the instinct of gratitude take over.
+If it is good for the community, it is good for me
 
-** Chapter 5: *The Practice of Risk Taking* 
+** Five: *The Practice of Risk Taking* 
 *** -Some pratical ways: 1) Put your name
 on it - Having your  name attached to your idea means you have
 something to lose. Honor  and grandeur is standing up for your
@@ -342,7 +352,7 @@ two types of people: those who win and those who try to win
 arguments. They are never the  same. Don’t argue, either don’t
 complain or eliminate them. 
 
-*** *Where ideas come from* Creativity is your list of trials. Aggresive
+*** Aggressive Trial & Error- Creativity is your list of trials. Aggresive
 
 trial and error in domains where randomness rules can help us find 
 Options laughing in our faces. Exercise rationality by not
@@ -370,28 +380,15 @@ worse.  When some adverse event takes place, instead of wondering
 you are underestimating something, it is likely you are still
 underestimating it. What did not happen rather than what did happen. 
 
-
-* PHilosophy 
-** *Who "you" are* - Modernity teaches the The collective is more
-important than the individual. We are more important than me. Not just
-the loss of your life, but one that lies in a broader set of people,
-one that includes a family, a community, a tribe, a fraternity. It is
-not possible to be ethical and universalist. You are part of a
-specific group that is larger than a narrow you but narrower than
-humanity in general. Everyone exercises the silver rule. Remember what
-others have done for you. And let the instinct of gratitude take over.
-If it is good for the community, it is good for me
-
-** *What To expect from the future* Randomness always has the last
-
+** Six: Emotional Robustification  Randomness always has the last
 word. There is little true promise what delayed gratification can do
 for us in the real world. Such stresses the impetus to always act
 with dignity.  You can choose to call the grapes sour no matter and
 free yourself from hope and expectation. Accept what randomness
 brings, and act independently of current circumstances. The only
 thing fate does not have control over is how you behave. 
-
-** *What time is for*  Work should look like play. Weekends shouldn’t
+* The Epicurean 
+** Eight: *What time is for*  Work should look like play. Weekends shouldn’t
 exist. Time changes when you do. Not competing.  Standing out of all
 hierarchies. schedules (separate from work as play) no clocks, no wristwatch,
 no schedules. Forgetting what day of the week it is.
@@ -414,7 +411,7 @@ avoiding you.
 
 # *What to work on* 
 
-** *What wealth is* one way to increase your
+** Nine: *What wealth is* one way to increase your
 happiness is to make the place you live in beautiful. Ideally doing
 most of it with your own hands. How you react to things. - extreme
 ownership. Live with dignity  Do not play victim. Do not
@@ -422,7 +419,7 @@ complain. Decouple your self worth from — anything you don’t
 control. The only thing you can control is how you react to
 things. Everything is my fault. Dress your best. 
 
-** *How to live on your own terms*  Don’t do anything that makes you uncomfortable when
+** Ten: *How to live on your own terms*  Don’t do anything that makes you uncomfortable when
 you look in the mirror. Better to neither envy nor be envied. You have
 a real life if and only if you do not compete with anyone in any of
 your pursuits Architects try to impress other artichetects, academics
@@ -442,7 +439,6 @@ competition. There’s no score. Everyone is trying to be the best, or
 top %1 percent  Few are trying to do what they like regardless of what
 everyone else does.  Competition is for chasing the preferences of
 others; playing someone else’s game 
-
 
 ** *How to deal with people* Don't Give crap, don't take crap.  Being polite
 to someone who is arrogant is worse than being arrogant  to someone
