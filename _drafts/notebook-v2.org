@@ -52,8 +52,6 @@
 # education, risk taking, and emotions 
 #  A practical approach to erudition, risk taking, and personal aesthetics 
 # 
-#
-#
 # erudition
 # 
 # knowledeg
@@ -81,11 +79,7 @@
 # impulses-actions?
 # emotions?- waiting 
 # heuristics > theories 
-# 
 #
-#
-
-
 # Technology can degrade every aspect of a suckers life
 #    while convincing him that he is becoming more efficient. The most
 #    optimal route is never the shortest one. 
@@ -125,8 +119,8 @@
 :PROPERTIES:
 :UNNUMBERED:
 :END:
-** One: Narration 
- 
+** One: False Narratives 
+*** The Pitfalls of Advice 
 Obvious Red Flags* 1) The most harmful source of Information is advice
 advertised (for better or for worse) to help you. There is an
 asymmetry between givers of “positiva,” (Do This) prescriptive advice
@@ -149,6 +143,7 @@ and thus rarely given, is what to avoid. The ten commandments are all
 acts of omission. Trust the advice of old sources (your grandma and
 old books)
 
+*** Filtering Information 
 1) *Time* - Informatino that has been around a long time will likely
  be around for a lot longer than the new thing. Prune "news" sources- 
 TV, radio, social media, etc. Trendy information is 
@@ -167,7 +162,18 @@ your favorite books. The test of whether you really liked a book is to
 reread it; the test of whether you really liked someone’s Company is
 if you are ready to meet him again and again. Friendship that ends
 never was one, any book not worth rereading isn’t worth reading. 
-*** Throw out your copy of the New York TImes 
+*** Prediction 
+
+So - The turkey problem. Basically all the knowledge we know about the
+past can't tell us everything about the future. And there are
+unanticiptaed unknowable events in the future which, by ignoring them,
+we make ourselves susceptible to ruinous harm. 
+
+An illustrative  example: In [current year] a turkey has no idea about
+how much food it will be fed on the day after Thanksgiving. But based
+on the data, it can predict that the trend of upward growth in the
+amount of food its been fed it can extrapolate that it will exceed any
+previous amount. A turkey doesnt know what happens on Thanksgiving. 
 
 # 24. Reading is for improving the eyes you use to see
 #    the world. Don't read best-sellers. Business books are a
@@ -178,8 +184,8 @@ never was one, any book not worth rereading isn’t worth reading.
 #    mathematics. Through learning the basics, it has a place to hook
 #    your understanding. It opens up a world of interestingness. 
 
-** Two: Confirmation 
-*** The PRoblem of Empirical Evidence
+** Two: The Problem of Confirmation 
+*** The Problem of Positive Knowledge
 positive empirical evidence is useless. Knowledge increases as we remove false, speculative
 information. Discomfirmation is more rigorous than confirmation. At a
 personal level, We know what we disklike more than what we like. You
@@ -188,14 +194,19 @@ rather than what you think you like. Avoidance of ignorant people is
 like being around smart ones. we don't know about the future. we don't
 know where we're going. 
 
-ignore good news. Identify  to them when they are small. Hard
+*** Love Mistakes (While they are small)
+Ignore good news. Identify  to them when they are small. Hard
 conversations get harder the longer you wait to have them. Focus on
 picking the low hanging fruit. When someone says they are stupid,
 they are more stupid than he thinks. 
 
-** Three: Non Commodotized Thinking and Scholarship
-The Gym cripples us 
-Artificially constructed
+*** Anti-teleological 
+You don't know where you're going. 
+
+
+** Three: Commodification & Fragility  
+*** Artificial Domains  
+The Gym cripples us Artificially constructed
 environments for the body and mind deprive us of the variablitiy
 experienced in real life. This is caled Domain Dependence, and it
 cripples us.  Martial arts combat doesn’t train you to a surprise
@@ -204,12 +215,12 @@ concierge to take your bags upstairs. Fifteen minutes later, the same
 man goes to lift free weights in the hotel gym, replicating with
 kettlebells natural exercises as if he were swinging a
 suitcase. Skills that transfer: Street fights, off path hiking,
-seduction, broad erudition. 
+seduction, broad erudition.
 
-*** What our bodies were made for* Random Eposidic stress followed by
-ample recovery time. In teh form of  1) Food Restrictions & Volume
-Variance The food pyramid has been flipped for the last fifty
-years. It is easier to fast than to diet. Eat real foods you enjoy, to
+*** What our bodies were made for
+Random Eposidic stress followed by ample recovery time. In teh form
+of  1) Food Restrictions & Volume Variance The food pyramid has been
+flipped for the last fifty years. It is easier to fast than to diet. Eat real foods you enjoy, to
 prevent you from eating crap. Eat nothing out of the box. No sugar,
 bread, or pasta. Avoid artificial sweeteners. No sweet fruits. Eat
 very very large meals on occasion, like Sunday Feasts, while other
@@ -232,9 +243,9 @@ lack of focus. Social isolation, nutritional deficiencies, restricted
 movement and sleep deprivation are what prisons use to torture its
 inmates.
 
-*** What Emotions are for:* Emotions are biological signals. They can be
-used to aid us in decision making and learning 1) *Procrastination*
-Always make decisions at the last minute. Because the longer you wait
+*** Learning & Decision Making with Emotions 
+Emotions are biological signals. They can be used to aid us in
+decision making and learning 1) *Procrastination* Always make decisions at the last minute. Because the longer you wait
 the smarter you become. Decisions are best made when the most present
 information is available. 2) *Boredom* - Humans don’t like to do
 boring things. The purpose of life should be avoiding boredom, or
@@ -279,10 +290,28 @@ remember? That you wouldn’t use? Let Procrastination kill anything
 that I’m putting off too long. Avoid things that don’t give you energy
 Embracing nature > fighting nature. 
   
+*** The Difference between Work & Play 
+How the mind gets unstuck intelligent when you don’t instruct it what to do. 
+Work should look like play. Weekends shouldn’t
+exist. Time changes when you do. Not competing.  Standing out of all
+hierarchies. schedules (separate from work as play) no clocks, no wristwatch,
+no schedules. Forgetting what day of the week it is.
+This makes you a Category of one. Devote yourself to
+something. Enjoying your work is the best way to become the best at
+what you do.  Never work with someone a day that you wouldn’t spend a
+lifetime with. Never Try to Convince Yourself. Working hard only
+recently became prideful instead of shameful Hard work is a tool. The
+cure for procrastination is changing ones environment or your
+profession, where you don’t have to fight your impulses. One
+shouldlead a life in which procrastination is good. “Doing research on
+a topic” feels profane. Why would you write about something you can’t
+remember?  That you wouldn’t use?  Let Procrastination kill anything
+that I’m putting off too long. Avoid things that don’t give you energy
+Embracing nature > fighting nature. Minimize dealing with things you
+dislike. Some who continually tells you “I am busy” has no control
+over their lives or they are avoiding you. 
 
-
-*** How the mind gets unstuck* intelligent when you don’t instruct it
-what to do. Problems will never solved by sitting at a desk. Idle
+Problems will never solved by sitting at a desk. Idle
 fascination, letting problems take a back burner that will surface in
 the front of your mind when you’re focusing on your problem head
 on.Go for a walk without your phone.  A walk is never a waste of
@@ -309,7 +338,8 @@ starts playing on its own accord.
 :UNNUMBERED:
 :END:
 ** Four: Rationality of Risk Taking 
-*** What Rationality is Good for* 1) *Survival* What is rational is what
+*** What Rationality is Good for
+1) *Survival* What is rational is what
 allows for  survival.  Uncertainty  doesn’t kill us. Ignoring or not
 managing it  does. What is fragile  has more to lose than to gain
 Avoid risk of  ruin While dealing with  uncertainty, the worst class
@@ -320,13 +350,15 @@ do  whatever it takes to prevent  blows up  from happening. Risk
 taking  ain't gambling. 2) *Corollary:* if sometihng appears
 irrational, but has existed for a long time, you might need to update
 you definition of rational. 
-*** How Mother Nature Insures Itself* In a word: Redundancy.1)  1. Have
+*** How Mother Nature Insures Itself
+In a word: Redundancy.1)  1. Have
 backups.  Redundancy for  both objects and plans are an aggressive
 insurance against an unknown future. Avoid planning, Choose the plan
 that allows for the most future options. Redundancy is having multiple
 ways of doing the same thing.
 
-***  Seven: *Who "you" are* - Modernity teaches the The collective is more
+*** Who "you" are
+Modernity teaches the The collective is more
 important than the individual. We are more important than me. Not just
 the loss of your life, but one that lies in a broader set of people,
 one that includes a family, a community, a tribe, a fraternity. It is
@@ -336,9 +368,9 @@ humanity in general. Everyone exercises the silver rule. Remember what
 others have done for you. And let the instinct of gratitude take over.
 If it is good for the community, it is good for me
 
-** Five: *The Practice of Risk Taking* 
-*** -Some pratical ways: 1) Put your name
-on it - Having your  name attached to your idea means you have
+** Five: The Practice of Risk Taking 
+*** Some pratical ways: 
+1) Put your name on it - Having your  name attached to your idea means you have
 something to lose. Honor  and grandeur is standing up for your
 opinion at the right  moment. 2) Execution (Deeds
 before Words) Think, Learn, and create for an audience. Consistently
@@ -352,8 +384,8 @@ two types of people: those who win and those who try to win
 arguments. They are never the  same. Don’t argue, either don’t
 complain or eliminate them. 
 
-*** Aggressive Trial & Error- Creativity is your list of trials. Aggresive
-
+*** Aggressive Trial & Error 
+Creativity is your list of trials. Aggresive
 trial and error in domains where randomness rules can help us find 
 Options laughing in our faces. Exercise rationality by not
 looking in the Same place twice. Presents small errors as
@@ -380,46 +412,30 @@ worse.  When some adverse event takes place, instead of wondering
 you are underestimating something, it is likely you are still
 underestimating it. What did not happen rather than what did happen. 
 
-** Six: Emotional Robustification  Randomness always has the last
+** Six: Emotional Robustification  
+*** Acceptance of Fate 
+Randomness always has the last
 word. There is little true promise what delayed gratification can do
 for us in the real world. Such stresses the impetus to always act
 with dignity.  You can choose to call the grapes sour no matter and
 free yourself from hope and expectation. Accept what randomness
 brings, and act independently of current circumstances. The only
 thing fate does not have control over is how you behave. 
-* The Epicurean 
-** Eight: *What time is for*  Work should look like play. Weekends shouldn’t
-exist. Time changes when you do. Not competing.  Standing out of all
-hierarchies. schedules (separate from work as play) no clocks, no wristwatch,
-no schedules. Forgetting what day of the week it is.
-This makes you a Category of one. Devote yourself to
-something. Enjoying your work is the best way to become the best at
-what you do. Never try to convince yourself to do something. one
-reason doesn’t suffice, then don’t do it. Don’t wobble. Never work
-with someone a day that you wouldn’t spend a lifetime with. Never Try
-to Convince Yourself. Working hard only recently became prideful
-instead of shameful Hard work is a tool. The cure for procrastination
-is changing ones environment or your profession, where you don’t have
-to fight your impulses. One shouldlead a life in which procrastination
-is good. “Doing research on a topic” feels profane. Why would you
-write about something you can’t remember?  That you wouldn’t use?  Let
-Procrastination kill anything that I’m putting off too long. Avoid
-things that don’t give you energy Embracing nature > fighting
-nature. Minimize dealing with things you dislike. Some who continually
-tells you “I am busy” has no control over their lives or they are
-avoiding you. 
-
-# *What to work on* 
-
-** Nine: *What wealth is* one way to increase your
+* Part III The Epicurean 
+:PROPERTIES:
+:UNNUMBERED:
+:END:
+** Ten: Freedom  
+*** Wealth 
+wealth is the means, not the end 
+one way to increase your
 happiness is to make the place you live in beautiful. Ideally doing
 most of it with your own hands. How you react to things. - extreme
 ownership. Live with dignity  Do not play victim. Do not
 complain. Decouple your self worth from — anything you don’t
 control. The only thing you can control is how you react to
 things. Everything is my fault. Dress your best. 
-
-** Ten: *How to live on your own terms*  Don’t do anything that makes you uncomfortable when
+*** Don’t do anything that makes you uncomfortable when
 you look in the mirror. Better to neither envy nor be envied. You have
 a real life if and only if you do not compete with anyone in any of
 your pursuits Architects try to impress other artichetects, academics
@@ -440,10 +456,12 @@ top %1 percent  Few are trying to do what they like regardless of what
 everyone else does.  Competition is for chasing the preferences of
 others; playing someone else’s game 
 
-** *How to deal with people* Don't Give crap, don't take crap.  Being polite
-to someone who is arrogant is worse than being arrogant  to someone
-who is polite  Greatness  starts with the replacement of hatred with
-polite disdain  Never try to convince yourself to  Don’t be nice or
+*** How to deal with people
+Don't Give crap, don't take crap.  Being polite to someone who is
+arrogant is worse than being arrogant  to someone who is polite
+Greatness  starts with the replacement of hatred with polite disdain
+Never try to convince yourself to  Don’t be nice or
+
 try to convince,  the FBI didn’t try to convince the mafia.  Verbal
 attack is the most  authentic sign of impotence.  You are free in
 proportion to the  number of people you can say fuck you to but
@@ -452,12 +470,11 @@ when when others are  afraid for their  reputatio
 
 # *how to carry yourself* 
 
-** *What freedom looks like* The benefit of freedom to
-occupy your mind and your  time with only matters that interest
-you.To have the freedom to only concern yourself with things you care
-about. Work should look like play.  Not competing. Standing out of all
-hierarchies. This makes you a Category of one. Devote yourself to
-something. Enjoying your work is the best way to become the best at
-what you do. Never try to convince yourself to do something. 
+*** When you will be free 
+The benefit of freedom to occupy your mind and your  time with only
+matters that interest you.To have the freedom to only concern yourself with things you care
+about.  Not competing. Standing out of all hierarchies. This makes you
+a Category of one. Devote yourself to something. Enjoying your work is
+the best way to become the best at what you do. Never try to convince yourself to do something. 
 
 
