@@ -110,89 +110,121 @@
 # Don't listen to what people say, look at what they do. (More on this
 # * Learning with Emotions
 # - *Avoid Boredom*. Find portals to the classics.  
-
 # * How the body (and other complex systems) learns 
 # - *Randomness improves systems* 
+#
+# ok lots of authors aregood writers, but it's about being best
+# selling, not best writing. 
+#
+#
 
 
-* Part I: The Skeptic 
+* Part I: The Skeptic, Old PRoblems 
 :PROPERTIES:
 :UNNUMBERED:
 :END:
+
+# ** # * Introduction: Predictable Foolishness 
+# Noise is a necessary part of life. A little noise is the sign of a
+# healthy system. A system that becomes increasingly ruled by noise. The
+# gigabytes of information we receive and exchange on a daily basis
+# requires a god filter before soon becoming toxic. 
+
+# There are complex systems. - where our models, theories, and
+# "knowledge" fails because they consider that the past tends toward the
+# future. This is not the case. 
+
+# IN modern life, we are fools to randomness. We veil complex systems
+# with "rational" explanations that make them seem more predictable than
+# they are.  Alas, Life is more random than we think. This means that
+# people who predict, people who talk more than they do, cross the
+# street blindfolded. 
+
+# We think we know more than we know because of Models & theories.
+# Induction 
+# We don't know what we don't know until its too late.
+# After the fact, 
+
 ** One: False Narratives 
-*** The Pitfalls of Advice 
-Obvious Red Flags* 1) The most harmful source of Information is advice
-advertised (for better or for worse) to help you. There is an
-asymmetry between givers of “positiva,” (Do This) prescriptive advice
-as they do not incur the harm you would from following their advice.
-Avoid commentary from anyone who has to feed their
-family. Unsuccessful people give the most advice. 2)Risk Sharing They
-still get paid even when you go bust. For best results, just look at
-what they do, not what they tell you to do. Another trick is to never
-trust the beautiful philosopher.  To filter the credibility of advice,
-don’t take advice from the poster child of their profession. If they
-don’t play the role or speak the jargon, that means that their skill
-speaks for them. 3) Underestimating Luck and Randomness Another factor
-that makes advice hard to translate is luck and randomness. Most
-communicated advice is flawed: Even if the giver of the advice is
-innocuous, advice is like handing you the numbers to their winning
-lottery ticket. 
+*** Fortune Tellers  
+THere is an old problem of skepticism in the tradition of Hume,
+Algazel and Sextus Empiricus. This is the "The Turkey Problem": a
+turkey knows its been fed consistently everyday for the last three
+months. How much will the Turkey be fed after THanskgiving? Past data
+mistakes the possibility of an unobserved future event. Prediction is
+for turkeys. 
 
-Inverse: Advice to follow The advice you can trust, but is hard to profit from
-and thus rarely given, is what to avoid. The ten commandments are all
-acts of omission. Trust the advice of old sources (your grandma and
-old books)
+Forecasters, speculators and economists sometimes have as much
+knowledge about the future as fortune teller. At times, all the
+knowledge we know about the past can't tell us everything about the
+future. And there are unanticiptaed unknowable events in the future
+which, by ignoring them, we make ourselves susceptible to ruinous
+harm. We miss the big things.
 
-*** Filtering Information 
-1) *Time* - Informatino that has been around a long time will likely
- be around for a lot longer than the new thing. Prune "news" sources- 
-TV, radio, social media, etc. Trendy information is 
-fragile information. Stick to old books 2) *Distribution* -  what a
-million people know is not worth knowing. If you know what everyone
-else knows, your payoff will be average.  3) *corollary:* in
-conjunction with preferring old books, Acquire as many books as you
-can possibly own. What you don't know (and no one else knows) is far
-more important than what you do. There is no upper limit to what you
-don't know. 4) *Learn what can be used immediately.* Information not
-put to use is wasted. Knowledge that is personally valuable remains
-with you. Learn info that you searched for, never what is curated by
-an algorithm. 5) *Learning is repetition* Books are like friends, get
-to know them a little at a time. Look through the bibliographies of
-your favorite books. The test of whether you really liked a book is to
-reread it; the test of whether you really liked someone’s Company is
-if you are ready to meet him again and again. Friendship that ends
-never was one, any book not worth rereading isn’t worth reading. 
-*** Prediction 
+# You don't know where you're going.  We don't know about the
+# future. we don't
+# know where we're going. 
+ 
+*** Historicism   
+Who does Advice really help?
+Beware  advice. There are hidden pitfalls underneath this kind of
+information that makes the one who presents advice /positiva/ could
+give harm to the one who receives it without recourse. 
 
-So - The turkey problem. Basically all the knowledge we know about the
-past can't tell us everything about the future. And there are
-unanticiptaed unknowable events in the future which, by ignoring them,
-we make ourselves susceptible to ruinous harm. 
+1) *Underestimating Luck and Randomness* -  Another factor that makes
+   advice hard to translate is luck and randomness. Most communicated
+   advice is flawed: Even if the giver of the advice is innocuous,
+   advice is like handing you the numbers to their winning lottery
+   ticket. 
 
-An illustrative  example: In [current year] a turkey has no idea about
-how much food it will be fed on the day after Thanksgiving. But based
-on the data, it can predict that the trend of upward growth in the
-amount of food its been fed it can extrapolate that it will exceed any
-previous amount. A turkey doesnt know what happens on Thanksgiving. 
+2) *Uneven payoffs* - still get paid even when you go bust. For best
+   results, just look at what they do, not what they tell you to
+   do. Another trick is to never trust the beautiful philosopher.  To
+   filter the credibility of advice, don’t take advice from the poster
+   child of their profession. If they don’t play the role or speak the
+   jargon, that means that their skill speaks for them.  There is an
+   asymmetry between givers of “positiva,” (Do This) prescriptive
+   advice as they do not incur the harm you would from following their
+   advice.  Avoid commentary from anyone who has to feed their
+   family. Unsuccessful people give the most advice. 
 
-# 24. Reading is for improving the eyes you use to see
+*** What We Know Best  
+To build a durable base of information, the following will tell you
+with what probability will the inforamtion be true: 
+
+1) *Age* - Informatino that has been around a long time will likely
+   be around for a lot longer than the new thing. Prune "news"
+   sources-  TV, radio, social media, etc. Trendy information is
+   fragile information. Stick to old books. # 24. Trust the advice of
+   old sources (your grandma and old books)
+
+#  Reading is for improving the eyes you use to see
 #    the world. Don't read best-sellers. Business books are a
 #    completely eliminated category by bookstores for writings that
 #    have no depth, no style, no empirical rigor and no
 #    sophistication. Read history, (not about the last 50 years),
-#    philosophy, biography, fiction, the hard sciences, and
+#    philosophy, fiction, the hard sciences, and
 #    mathematics. Through learning the basics, it has a place to hook
 #    your understanding. It opens up a world of interestingness. 
 
+2) *Distribution* -  what a million people know is not worth
+   knowing. If you know what everyone else knows, your payoff will be
+   average.  Acquire as  many books as you can possibly own. What you
+   don't know (and no one else knows) is far more important than
+   what you do. There is no upper limit to what you don't know. 
+
 ** Two: The Problem of Confirmation 
 *** The Problem of Positive Knowledge
-positive empirical evidence is useless. Knowledge increases as we remove false, speculative
-information. Discomfirmation is more rigorous than confirmation. At a
-personal level, We know what we disklike more than what we like. You
-are much more likely to improve your life by removing what you dislike
-rather than what you think you like. Avoidance of ignorant people is
-like being around smart ones. we don't know about the future. we don't
-know where we're going. 
+ Discomfirmation is more rigorous than confirmation. 
+ Knowledge increases as we remove false, speculative
+ information.
+
+At a personal level, We know what we disklike more than what we
+like. You are much more likely to improve your life by removing what
+you dislike rather than what you think you like. Avoidance of ignorant
+people is like being around smart ones. The advice you can trust, but
+is hard to profit from and thus rarely given, is what to avoid. The
+ten commandments are all acts of omission. 
 
 *** Love Mistakes (While they are small)
 Ignore good news. Identify  to them when they are small. Hard
@@ -200,9 +232,8 @@ conversations get harder the longer you wait to have them. Focus on
 picking the low hanging fruit. When someone says they are stupid,
 they are more stupid than he thinks. 
 
-*** Anti-teleological 
-You don't know where you're going. 
-
+Small mistakes are bounties of information. The more places you don't
+know where to look, the better you are at finding where to look. 
 
 ** Three: Commodification & Fragility  
 *** Artificial Domains  
@@ -289,7 +320,19 @@ topic” feels profane. Why would you write about something you can’t
 remember? That you wouldn’t use? Let Procrastination kill anything
 that I’m putting off too long. Avoid things that don’t give you energy
 Embracing nature > fighting nature. 
-  
+
+5) *Learning is repetition* Books are like friends, get
+to know them a little at a time. Look through the bibliographies of
+your favorite books. The test of whether you really liked a book is to
+reread it; the test of whether you really liked someone’s Company is
+if you are ready to meet him again and again. Friendship that ends
+never was one, any book not worth rereading isn’t worth reading. 
+
+4) *Learn what can be used immediately.* Information not put to use is
+   wasted. Knowledge that is personally valuable remains with
+   you. Learn info that you searched for, never what is curated by an
+   algorithm. 
+
 *** The Difference between Work & Play 
 How the mind gets unstuck intelligent when you don’t instruct it what to do. 
 Work should look like play. Weekends shouldn’t
@@ -332,11 +375,57 @@ time out of life. If you don’t know what your problem is, you need to
 sleep. Dreaming is When the conductor falls asleep the orchestra
 starts playing on its own accord.
 
+** Four: Diary
 
-*  Part II: The Stoic 
+
+
+** Sextus Empiricus 
+** bottom up 
+** fat tony 
+** interested in what lies outside the platonic fold 
+where real life happens
+** respect for those who say i dont know 
+those who doen't know where they're going. 
+** black swans are the dominant source of randomness 
+Mediocristan v Extremistan. 
+
+randomness as the rule 
+
+domains where average is useless. and highly fragile.
+
+We focus on preselected segments of the seen and generalize from it to
+the unseen: the error of confirmation.
+
+b. We fool ourselves with stories that cater to our Platonic thirst
+for distinct patterns: the narrative fallacy.
+
+c. We behave as if the Black Swan does not exist: human nature is not
+programmed for Black Swans.
+
+d. What we see is not necessarily all that is there. History hides
+Black Swans from us and gives us a mistaken idea about the odds of
+these events: this is the distortion of silent evidence.
+
+e. We “tunnel”: that is, we focus on a few well-defined sources of
+uncertainty, on too specific a list of Black Swans (at the expense of
+the others that do not easily come to mind).
+
+** doesn't wear suits 
+** prefers to be broadly right 
+** minimal theory , considers theorizing as a disease to resist
+** does not believe we can easily compute probabilities 
+** develpos intuition from practice, goes from observations to books
+** not inspride by any science, uses messy mathematics, 
+** ideas based on skeepticism, based on tnhe unread books in the library. 
+** assumes extremistan 
+** sophisticated craft 
+** seeks to be approximately right across a broad set of eventualities 
+
+*  Part II: The Stoic, Old Tricks 
 :PROPERTIES:
 :UNNUMBERED:
 :END:
+** Seneca 
 ** Four: Rationality of Risk Taking 
 *** What Rationality is Good for
 1) *Survival* What is rational is what
@@ -421,10 +510,26 @@ with dignity.  You can choose to call the grapes sour no matter and
 free yourself from hope and expectation. Accept what randomness
 brings, and act independently of current circumstances. The only
 thing fate does not have control over is how you behave. 
-* Part III The Epicurean 
+
+
+** Errors & Tinkering, stochastic tinkering 
+*** fail fast fail foolish, 
+*** loves mistakes 
+** hormesis 
+** modifying exposure to evenst 
+** heuristics, practical tricks, 
+** attraction 
+** flaneur with a large private library 
+** real life and library 
+** post traumatic growth 
+** acute stressors with recovery. 
+** street fights 
+
+* Part III The Epicurean, Old Truths 
 :PROPERTIES:
 :UNNUMBERED:
 :END:
+** Epicurus 
 ** Ten: Freedom  
 *** Wealth 
 wealth is the means, not the end 
@@ -478,3 +583,14 @@ a Category of one. Devote yourself to something. Enjoying your work is
 the best way to become the best at what you do. Never try to convince yourself to do something. 
 
 
+
+** never try to persuade a human being to be reasonable 
+** it's foolish to complain that you do not have enough time 
+** do not look for meaning 
+** it's better to be indifferent than feel you have to love them 
+** forget pursuing happiness, and you'll find it. 
+** life is not a story 
+** instincts 
+** sleep for the joy of sleeping 
+** beware anyone who offers to make you happy 
+** diversion 
