@@ -1,0 +1,65 @@
+
+#+TITLE: Philosophical Notebook
+#+SUBTITLE: What our Ancestors Forget to Tell Us
+#+AUTHOR: Joseph Ruocco 
+
+
+# version 3 of new toc
+
+* Preface 
+* Chapter Summaries 
+* The Skeptic
+:PROPERTIES:
+:UNNUMBERED:
+:END:
+** One: Life is more random than we think
+*** How to be Unfaithful  
+*** The Average is meaningless 
+** Two: Planning hurts 
+*** Traveling without a Map  
+*** Personal Decision Making 
+*** In Mother Nature We Trust 
+*** Forecasters 
+** Three: A potential solution
+*** Disconfirmation 
+*** Sir Karl Raimund Popper
+*** Subtractive Knowledge
+*** Valuable Information 
+** Four: Looking Backwards 
+*** Last Week's New York Times 
+*** Memory helps us Forget 
+*** Learning from History 
+* The Stoic 
+:PROPERTIES:
+:UNNUMBERED:
+:END:
+** Five: Ratinoality under uncertainty 
+*** Nihil Perditi 
+*** Order Matters 
+*** How to Assess Risks 
+** Six: How to Decommiditize
+*** Nature's Thirst for Chance 
+*** What the Body is For 
+*** Learning with Emotions 
+** Seven: Tinkering 
+*** Creativity is your number of trials 
+*** Rational about the upside (Seeing) 
+*** Loving Mistakes
+** Eight: Commentators, Critics, and Cowards
+** Nine: Randomness & Dignity 
+*** Bow to Lady Fortuna 
+*** No Such Thing as Failure 
+*** Amor fati 
+* The Epicurean 
+:PROPERTIES:
+:UNNUMBERED:
+:END:
+** Ten: What to Do About Time   
+*** Work, Calendars & Schedules.
+** Twelve: Friendship 
+*** Never Ending  
+*** True Equality 
+*** Arguing with Unreason 
+** Eleven: UltraHappiness is Suffering 
+*** Beware the Beautiful Philosopher 
+*** Feeling Nausated in Rome
