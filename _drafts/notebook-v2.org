@@ -118,6 +118,20 @@
 #
 #
 
+#
+#  decommidifying exrecise, learning, health, etc. - tinkering ? 
+#    a. we need the exposure to randomennes - systems perform better
+# with slight randomenns  - hormetics. 
+#  subtracting noise 
+#  you find happiness when you stop looking for it - happiness is not self-reproducing 
+#  to be rational is to first survive. 
+#  life is (mostly) random trial and error 
+#  old ideas endure 
+#  
+
+
+
+
 
 * Part I: The Skeptic, Old PRoblems 
 :PROPERTIES:
@@ -594,3 +608,9 @@ the best way to become the best at what you do. Never try to convince yourself t
 ** sleep for the joy of sleeping 
 ** beware anyone who offers to make you happy 
 ** diversion 
+
+
+
+
+
+
