@@ -3,7 +3,6 @@
 #+SUBTITLE: What our Ancestors Forget to Tell Us
 #+AUTHOR: Joseph Ruocco 
 
-
 # version 3 of new toc
 
 * Preface 
@@ -46,6 +45,8 @@
 *** Rational about the upside (Seeing) 
 *** Loving Mistakes
 ** Eight: Commentators, Critics, and Cowards
+*** deeds over words. 
+*** 
 ** Nine: Randomness & Dignity 
 *** Bow to Lady Fortuna 
 *** No Such Thing as Failure 
@@ -56,6 +57,9 @@
 :END:
 ** Ten: What to Do About Time   
 *** Work, Calendars & Schedules.
+**** work/play is just branding. 
+**** Trade speed for depth 
+**** busyness 
 ** Twelve: Friendship 
 *** Never Ending  
 *** True Equality 
