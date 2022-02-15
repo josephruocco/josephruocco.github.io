@@ -4,66 +4,205 @@
 #+AUTHOR: Joseph Ruocco 
 
 # version 3 of new toc
+# 
+# * Preface 
+# * Chapter Summaries 
+# * The Skeptic :PROPERTIES:
+# 
+# :UNNUMBERED:
+# :END:
+# ** One: The Characteristics of Extreme Domains   
+# *** The PRoblem of Infidelity 
+# Consider that if a husband only cheats on his on average 1 day a year, why
+# would she leave him. 
+# *** Life is more random than we think
+# *** The Average is meaningless 
+# ** Two: Planning hurts 
+# *** Traveling without a Map  
+# Make decisions without 
+# *** Personal Decision Making 
+# *** In Mother Nature We Trust 
+# *** Forecasters 
+# ** Three: A potential solution
+# *** Disconfirmation 
+# *** Sir Karl Raimund Popper
+# *** Subtractive Knowledge
+# *** Valuable Information 
+# ** Four: Looking Backwards 
+# *** Last Week's New York Times 
+# *** Memory helps us Forget 
+# *** Learning from History 
+# * The Stoic 
+# :PROPERTIES:
+# :UNNUMBERED:
+# :END:
+# ** Five: Ratinoality under uncertainty 
+# *** Nihil Perditi 
+# *** Order Matters 
+# *** How to Assess Risks 
+# ** Six: How to Decommiditize
+# *** Nature's Thirst for Chance 
+# *** What the Body is For 
+# *** Learning with Emotions 
+# ** Seven: Tinkering 
+# *** Creativity is your number of trials 
+# *** Rational about the upside (Seeing) 
+# *** Loving Mistakes
+# ** Eight: Commentators, Critics, and Cowards
+# *** deeds over words. 
+# *** 
+# ** Nine: Randomness & Dignity 
+# *** Bow to Lady Fortuna 
+# *** No Such Thing as Failure 
+# *** Amor fati 
+# * The Epicurean 
+#  :PROPERTIES:
+# :UNNUMBERED:
+# :END:
+# ** Ten: What to Do About Time   
+# *** Work, Calendars & Schedules.
+# **** work/play is just branding. 
+# **** Trade speed for depth 
+# **** busyness 
+# ** Twelve: Friendship 
+# *** Never Ending  
+# *** True Equality 
+# *** Arguing with Unreason 
+# ** Eleven: UltraHappiness is Suffering 
+# *** Beware the Beautiful Philosopher 
+# *** Feeling Nausated in Rome
+# 
+# 
 
-* Preface 
-* Chapter Summaries 
-* The Skeptic
-:PROPERTIES:
-:UNNUMBERED:
-:END:
-** One: Life is more random than we think
-*** How to be Unfaithful  
-*** The Average is meaningless 
-** Two: Planning hurts 
-*** Traveling without a Map  
-*** Personal Decision Making 
-*** In Mother Nature We Trust 
-*** Forecasters 
-** Three: A potential solution
-*** Disconfirmation 
-*** Sir Karl Raimund Popper
-*** Subtractive Knowledge
-*** Valuable Information 
-** Four: Looking Backwards 
-*** Last Week's New York Times 
-*** Memory helps us Forget 
-*** Learning from History 
+
+ 
+* The Skeptic 
+** /Characteristics of Extreme Domains/ 
+- /*The Impact of Rare Events*/ We exist in a world where some situations
+  are dominated by the singular occurances of rare events. Consider
+  that even if you cheat on your spouse only once in the duration of
+  relationship, /you are not going to be in a relationship for much
+  longer/ [fn:1]  Life is such that the future will bring events we've
+  never seen before and we look at the past as if we could've known it
+  all along.
+
+** /Knowledge Through Subtraction/  
+- /The Power of Disconfirmation/ In life, disconfirmation is more rigorous
+  than confirmation. One single piece of disconfirming evidence wipes
+  out any prior confirming examples. Reasoning fails in extreme domains when we
+  try to go from specific instances to categoricals. 
+
+- /Hunting for Black Swans/ What you don't know is more important than
+  what you do know. Acquire as many books as you can possibly own.
+
+- /Negative Advice in Personal Life/ Knowledge becomes robust by
+  necessarily avoiding fragile information. We get smarter by learning
+  what not to do and by avoiding ignorance. We know what is wrong
+  better than what is right. Avoid unhappiness than it is to pursue
+  happiness. 
+
+-  Time distorts our memory of events and emotions. A diary
+  retells the past from the present perspective without retelling a
+  narrative. 
+- Make decisions as late as possible. 
+- Cultivate a long attention span. Don't read something that you need
+  to speedread, don't watch a video that you have to watch at 2x, If
+  you're not fully engaged, find a better way or don't do it. 
+-
+- Learning is repetition. Read what you would reread. 
+- What a million people know isn't worth knowing. The news isn't worth
+  watching. 
+- Learn what you can use immediately. 
+- Only consume information that you seek out. 
+
+
+
 * The Stoic 
-:PROPERTIES:
-:UNNUMBERED:
-:END:
-** Five: Ratinoality under uncertainty 
-*** Nihil Perditi 
-*** Order Matters 
-*** How to Assess Risks 
-** Six: How to Decommiditize
-*** Nature's Thirst for Chance 
-*** What the Body is For 
-*** Learning with Emotions 
-** Seven: Tinkering 
-*** Creativity is your number of trials 
-*** Rational about the upside (Seeing) 
-*** Loving Mistakes
-** Eight: Commentators, Critics, and Cowards
-*** deeds over words. 
-*** 
-** Nine: Randomness & Dignity 
-*** Bow to Lady Fortuna 
-*** No Such Thing as Failure 
-*** Amor fati 
+** /How to Become Indestructable/
+- /'Less Is More' Rationality/ - Rationality is survival of the worst
+  case. Rationality is what you do to avoid ruin in the event of the
+  worst case. Take steps for your business and life to take care of
+  that and the rest takes care of itself. In the real world, the worst
+  case is worse than anything you've seen before or could reasonably
+  predict. We can use the following rules to increase robustness.
+  1) To learn how to survive, learn to respect what has survived. If
+     something has been true for a while, and it seems irratinoal, you
+     have the wrong definition of rationality. 
+  2) Redundancy & Applications. We can learn from Mother Nature -- the oldest and the
+     wisest -- that aggressive redundancy can best prepare us for an
+     unknowable future. 
+     - Backups. As they say among military groups, 'Two is one and One
+       is None.' Redundancy in the cash under the mattress is security
+       against an unpredictable future. Expecting fragile objects to
+       break in only a  matter of time is not only wise but realistic.
+       Redundancy takes other forms too, like extra strength or
+       capacity that makes having it more efficient than a
+       preconceived 'optimal' route. 
+     - Functional Redundancy. Meaning that multiple objects can
+       perform the same function. Eyes can hear by reading lips. Smell
+       enhances taste. Your Diploma of Graduation in Russian
+       Comparative Literature can be used as a mousepad. Your
+       copy of /War And Peace/ can be used as a doorstop. 
+     - Decision Making. Redundancy can take the form of having
+       multiple options. With uncertainty, the best decision at any
+       time allows us to change course when new information surfaces. 
+  3) At the end of the day, you are the one to determine your risk
+     level. Avoid taking so much risk that you lose sleep at night. 
+
+** /Modernity & Domain Depedence/
+- /Overcompensation/ When forced to overcompensate we become better
+  off when not under such conditions. 
+  - Human bones are strengthened through episodic stress. Falling
+    asleep is easier with background noise. 
+  - Interpersonal relationships are well maintained when problems (and
+    conversations) are had early. 
+  - Innovation and Discovery. Innovation happen through aggressive
+    trial and by accident, discovering a product or use of a product
+    never seen before. Increase your exposures and fail
+    early. Creativity is your number of trials. 
+- /Education/ Curriculums suffers from one-size-fits-all effect. On
+  average the knowledge you learn in schools is of little copmetitve
+  value. To reverse this effect, learn with the mind's natural
+  senses of boredom and curiosity. Knowledge that is worth knowing
+  is as far from the center as possilbe. What will take you there is
+  through deep curiosity. Evaluate curiosity daily. Read
+  accordingly. Second... 
+- /Diet and Exercise/ Diets & Exercise Regimens tax the body with
+  chronic stressors. Gyms are sterilized environments that work one
+  muscle at a time, making the part stronger at teh expense of the
+  whole. Diets through modern constructions rely on strong willed
+  moderation instead of randomized fasting and volume intake. To
+  simulate natural exercise and dietary conditions, try Hiking on rocky trails
+  with steep inclines. Deadlift your maxlift on a barbell. Never eat
+  foods out of a box, and avoid modernized diet foods. Randomly skip
+  meals, and work out when hungry. 
+
+** /Personal Dignity/ 
+- There is no such thing as failure, only death. Which is happening
+  anyway 
+
 * The Epicurean 
-:PROPERTIES:
-:UNNUMBERED:
-:END:
-** Ten: What to Do About Time   
-*** Work, Calendars & Schedules.
-**** work/play is just branding. 
-**** Trade speed for depth 
-**** busyness 
-** Twelve: Friendship 
-*** Never Ending  
-*** True Equality 
-*** Arguing with Unreason 
-** Eleven: UltraHappiness is Suffering 
-*** Beware the Beautiful Philosopher 
-*** Feeling Nausated in Rome
+** /Less Is More/ 
+  - Less Information - Increasingly 1% of decisions we make affect 99%
+    of our wellbeing. 
+  - Never Convince yourself to do something. If you have more than one
+    reason, don't do it. Nobody says: "he 
+  - Sleep is best enjoyed when tired, food when hungry, water when
+    thirsty. To be grateful for something, deprive yourself of it. 
+
+- You have not much more control over your thought and emotions than
+  you do over your heartbeat. You can't buy happiness, so avoid people
+  who are trying to sell it and avoid pursuing it. 
+- Don't reason with someone about something they didn't reason 
+  themselves into 
+
+- The Things you like you also like at a given frequency. Junk
+  food/junk inforamtion is enjoyed best when kept restrained to a weekly
+  "cheat day" than moderately throughout. 
+- you're smart as the stupidest person you spend time arguing with. 
+
+- Idleness is fertile 
+
+* Footnotes 
+[fn:1] If you're in a relationship that tolerates infidelity, you
+shouldn't be in that relationship.
