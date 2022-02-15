@@ -90,32 +90,35 @@
 - /The Power of Disconfirmation/ In life, disconfirmation is more rigorous
   than confirmation. One single piece of disconfirming evidence wipes
   out any prior confirming examples. Reasoning fails in extreme domains when we
-  try to go from specific instances to categoricals. 
+  try to go from specific instances to categoricals. The importance of
+  discon. is that it lengthens the gap in these instances between what
+  you know and what you don't know. Which as a result a much, much higher
+  premium on what you do not know. 
 
-- /Hunting for Black Swans/ What you don't know is more important than
-  what you do know. Acquire as many books as you can possibly own.
+- /Hunting for Black Swans/ Half of the game is realizing that it is
+  about what you don't know and what others know is more important
+  than the reverse. Or what you dislike and others like (hence, your
+  futuer self). Learning is admitting you were wrong. Acquire as many
+  books as you can possibly own. Research more you disagree with than
+  the reverse.  What a million people know isn't worth knowing. The
+  news isn't worth watching. Fed to you via algorithm. Only consume
+  information that you seek out. [fn:2] 
 
 - /Negative Advice in Personal Life/ Knowledge becomes robust by
-  necessarily avoiding fragile information. We get smarter by learning
-  what not to do and by avoiding ignorance. We know what is wrong
-  better than what is right. Avoid unhappiness than it is to pursue
-  happiness. 
+  necessarily knowing what is wrong and avoiding it. We get smarter by
+  learning what not to do and by avoiding ignorance. We know what is
+  wrong better than what is right. Avoid unhappiness than it is to
+  pursue happiness. Avoiding ignorant people is easier than
+  surrounding yourself with 'intelligent' ones. 
 
--  Time distorts our memory of events and emotions. A diary
-  retells the past from the present perspective without retelling a
-  narrative. 
-- Make decisions as late as possible. 
-- Cultivate a long attention span. Don't read something that you need
-  to speedread, don't watch a video that you have to watch at 2x, If
-  you're not fully engaged, find a better way or don't do it. 
--
-- Learning is repetition. Read what you would reread. 
-- What a million people know isn't worth knowing. The news isn't worth
-  watching. 
-- Learn what you can use immediately. 
-- Only consume information that you seek out. 
-
-
+- /Life is Not A Story/ A consequence of seeing the world through
+  your own mind is suffering from the mental distortion our memory of
+  events and emotions through time all human beings do. We see the
+  past through a narrative lens (most historical records, news,
+  journalism, etc) and the future vicariously through another story
+  (our plans, forecasts, etc). A diary retells the past from the
+  present prspective without retelling a narrative. Avoid planning,
+  maximize /optionality/, (the subject of Part II.)
 
 * The Stoic 
 ** /How to Become Indestructable/
@@ -140,45 +143,93 @@
        preconceived 'optimal' route. 
      - Functional Redundancy. Meaning that multiple objects can
        perform the same function. Eyes can hear by reading lips. Smell
-       enhances taste. Your Diploma of Graduation in Russian
-       Comparative Literature can be used as a mousepad. Your
-       copy of /War And Peace/ can be used as a doorstop. 
+       enhances taste.  Your copy of /War And Peace/ can be used as a
+       doorstop. Your Diploma of Graduation in Russian Comparative
+       Literature can be used as a mousepad.
+
      - Decision Making. Redundancy can take the form of having
        multiple options. With uncertainty, the best decision at any
        time allows us to change course when new information surfaces. 
+       - Listening to Instincts (Procrastination & Forgetfulness) Make
+         decisions as late as possible.
+         
   3) At the end of the day, you are the one to determine your risk
      level. Avoid taking so much risk that you lose sleep at night. 
 
 ** /Modernity & Domain Depedence/
-- /Overcompensation/ When forced to overcompensate we become better
-  off when not under such conditions. 
-  - Human bones are strengthened through episodic stress. Falling
+- /Overcompensation/ Modernity seeks to deprive us of life's innate
+  sense of variability and randomness. When forced to overcompensate
+  we become better off when not under such conditions. 
+  1) Human bones are strengthened through episodic stress. Falling
     asleep is easier with background noise. 
-  - Interpersonal relationships are well maintained when problems (and
+  2) Interpersonal relationships are well maintained when problems (and
     conversations) are had early. 
-  - Innovation and Discovery. Innovation happen through aggressive
+  3) Innovation and Discovery. Innovation happen through aggressive
     trial and by accident, discovering a product or use of a product
     never seen before. Increase your exposures and fail
     early. Creativity is your number of trials. 
+
 - /Education/ Curriculums suffers from one-size-fits-all effect. On
   average the knowledge you learn in schools is of little copmetitve
   value. To reverse this effect, learn with the mind's natural
-  senses of boredom and curiosity. Knowledge that is worth knowing
-  is as far from the center as possilbe. What will take you there is
-  through deep curiosity. Evaluate curiosity daily. Read
-  accordingly. Second... 
+  senses of boredom and curiosity.
+  1) /Learning With Emotions/ In Part 1, it was shown that Knowledge
+     that is worth knowing is as far from the center as possilbe. What
+     will take you there is through undirected trial-and-error.  
+     - /Risk Makes Things Interesting/ Learn out of necessity. Learn
+       to solve a problem or out of interest, never out of obligation.
+       When we have something to lose, or risk failure, we become
+       desparately to find out as much as we can about a subject. Much
+       like the pilot of a plane is maximally paranoid or an addict's
+       cunning comes from to procure drugs. 
+
+     - /Avoiding Boredom/ If you get bored easily that means your
+       /b***t/ detector is functioning properly. Evaluate curiosity
+       daily, Read accordingly. Notice when you a book starts to bore
+       you. As soon as that's the case, switch to another book. (This
+       is where it is extremely helpful but not necessary to own a lot
+       of books ) Don't read something that you need to speedread,
+       don't watch a video that you have to watch at 2x, If you're not
+       fully engaged or easily distracted, find a better way or don't
+       do it. 
+       
+ # Learning about subjects with skin in the game 
+ # addiction to learning.  
+
+  2) /Books & Real Friends/ Get to know books as you would friends,
+     get to know them a little at a time. The test of whether you
+     really liked a book is to reread it; the test of whether you
+     really like someone’s. Company is if you are ready to meet him
+     again and again. Friendship that ends never was one, any book
+     not worth rereading isn’t worth reading. The number of books
+     you finished reading through once this year has as much meaning
+     as the number of people you met once and never saw again. Seek
+     the ones that will stick around for a long time. 
+   
+  3) /Leisure is Fertile without Distraction/ - Intelligence in the
+     absence of any constraints, work, schedules: By setting oneself
+     totally free of constraints, free of thoughts, free of this
+     debilitating activity called work, free of offers,  then
+     mysteries that you never thought existed emerge in front of your
+     eyes.Recognizing a new opportunity requires plenty of idle time,
+     wandering about, tinkering, trial and error, long walks,
+     randomized attention. And other inefficiencies of that
+     sort. First step is recognizing the opportunity. Second step is
+     pouncing on the good ones. Can’t do any of those things if you
+     squeeze all the idle time out of life. [fn:3]   
+
 - /Diet and Exercise/ Diets & Exercise Regimens tax the body with
   chronic stressors. Gyms are sterilized environments that work one
   muscle at a time, making the part stronger at teh expense of the
   whole. Diets through modern constructions rely on strong willed
   moderation instead of randomized fasting and volume intake. To
-  simulate natural exercise and dietary conditions, try Hiking on rocky trails
-  with steep inclines. Deadlift your maxlift on a barbell. Never eat
-  foods out of a box, and avoid modernized diet foods. Randomly skip
-  meals, and work out when hungry. 
+  simulate natural exercise and dietary conditions, try Hiking on
+  rocky trails with steep inclines. Deadlift your maxlift on a
+  barbell. Never eat foods out of a box, and avoid modernized diet
+  foods. Randomly skip meals, and work out when hungry. 
 
 ** /Personal Dignity/ 
-- There is no such thing as failure, only death. Which is happening
+- /Failure/ There is no such thing as failure, only death. Which is happening
   anyway 
 
 * The Epicurean 
@@ -206,3 +257,9 @@
 * Footnotes 
 [fn:1] If you're in a relationship that tolerates infidelity, you
 shouldn't be in that relationship.
+[fn:2] The Information age equivalent of 'only eat what you kill.'
+[fn:3] /A note on addiction, boredom, & laziness/ Not to be
+misunderstood. Manufactured modern distractions feed our addictions to
+novelty. Removing these leveraged forms of distraction (as you would
+say, with a heroin addict, not by /giving them more drugs/) Laziness
+is enduring a boring existence and not doing anything about it. 
