@@ -212,15 +212,6 @@ with what probability will the inforamtion be true:
    fragile information. Stick to old books. # 24. Trust the advice of
    old sources (your grandma and old books)
 
-#  Reading is for improving the eyes you use to see
-#    the world. Don't read best-sellers. Business books are a
-#    completely eliminated category by bookstores for writings that
-#    have no depth, no style, no empirical rigor and no
-#    sophistication. Read history, (not about the last 50 years),
-#    philosophy, fiction, the hard sciences, and
-#    mathematics. Through learning the basics, it has a place to hook
-#    your understanding. It opens up a world of interestingness. 
-
 2) *Distribution* -  what a million people know is not worth
    knowing. If you know what everyone else knows, your payoff will be
    average.  Acquire as  many books as you can possibly own. What you
