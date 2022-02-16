@@ -77,46 +77,40 @@
 
  
 * The Skeptic 
-** /: Probability, Randomness, and Games / 
-
-- /Coins/ 
-
+** /Probability, Randomness, and Games/ 
 - /*The Impact of Rare Events*/ We exist in a world where some situations
   are dominated by the singular occurances of rare events. Consider
   that even if you cheat on your spouse only once in the duration of
   relationship, /you are not going to be in a relationship for much
-  longer/ [fn:1]  
-
-  how fragile is the system to extreme variatians? 
-
-- /The Difference betwene / 
+  longer/ [fn:1] How fragile is the system to extreme variatians? 
 
 ** /Ten Steps to Become An Entrepreneur, or How to take Advice/ 
-Who does Advice really help?
-Beware  advice. There are hidden pitfalls underneath this kind of
-information that makes the one who presents advice /positiva/ could
-give harm to the one who receives it without recourse. 
-/Jumping into a Volcano/ 
+- /When to Jump into a Volcano/ We only sample the traits of
+  successful individuals from a sample of successful individuals,
+  ignoring the ones who used those traits but didn't end up so
+  lucky. Would any deceased parachute jumpers recommend going
+  skydiving? 
 
-We only sample the traits of successful individuals from a sample of
-successful individuals, ignoring the ones who used those traits but
-didn't end up so lucky. 
-1) /Advice and Lotto Tickets-  Another factor that makes
-   advice hard to translate is luck and randomness. Most communicated
-   advice is flawed: Even if the giver of the advice is innocuous,
-   advice is like handing you the numbers to their winning lottery
-   ticket. We don't see the people who failed with this advice.
-2) /Giving Advice is Better than Taking Advice/ - still get paid even
-   when you go bust. For best results, just look at what they do, not
-   what they tell you to do. Another trick is to never trust the
-   beautiful philosopher.  To filter the credibility of advice, don’t
-   take advice from the poster child of their profession. If they don’t
-   play the role or speak the jargon, that means that their skill
-   speaks for them.  There is an asymmetry between givers of
-   “positiva,” (Do This) prescriptive advice as they do not incur the
-   harm you would from following their advice.  Avoid commentary from
-   anyone who has to feed their family. Unsuccessful people give the
-   most advice. 
+- /Who does Advice really help?/ Beware  advice. There are hidden
+  pitfalls underneath this kind of information that makes the one who
+  presents advice /positiva/ could give harm to the one who receives
+  it without recourse. 
+  1) /Advice and Lotto Tickets-  Another factor that makes
+     advice hard to translate is luck and randomness. Most communicated
+     advice is flawed: Even if the giver of the advice is innocuous,
+     advice is like handing you the numbers to their winning lottery
+     ticket. We don't see the people who failed with this advice.
+  2) /Giving Advice is Better than Taking Advice/ - still get paid even
+     when you go bust. For best results, just look at what they do, not
+     what they tell you to do. Another trick is to never trust the
+     beautiful philosopher.  To filter the credibility of advice, don’t
+     take advice from the poster child of their profession. If they don’t
+     play the role or speak the jargon, that means that their skill
+     speaks for them.  There is an asymmetry between givers of
+     “positiva,” (Do This) prescriptive advice as they do not incur the
+     harm you would from following their advice.  Avoid commentary from
+     anyone who has to feed their family. Unsuccessful people give the
+     most advice. 
 /Saying "I Don't Know" 
 
 ** /Human Nature/
@@ -339,36 +333,38 @@ didn't end up so lucky.
 
 ** /Happiness/ 
   - /Happiness & Commiditization/  You can't buy happiness, so avoid
-    people who are trying to sell it and avoid pursuing it. The more you pay for
-    luxury, the more inflamed you will feel when there are minor
-    imperfection. True happiness is restful sleep, frequent laughs,
-    meals with friends, afternoon naps, good coffee, gratitude, and
-    clear conscience. 
-    1) /Frequency of Pleasures/ The Things you like you also like at a
+    people who are trying to sell it and avoid pursuing it. 
+    1) /Forgot Modern Happiness/ - Modern thought is grounded in the
+       objective of maximizing "happiness" utility", "success" or
+       similar amtters that are both selfish and over which you have
+       little control. Switch your objective to maximize "pride" and
+       see how different-- and more controllable-- things become. The
+       more you pay for    luxury, the more inflamed you will feel
+       when there are minor    imperfection. True happiness is restful
+       sleep, frequent laughs,    meals with friends, afternoon naps,
+       good coffee, gratitude, and    clear conscience. 
+
+    2) /Frequency of Pleasures/ The Things you like you also like at a
       given frequency. Junk FOOD/JUNK INFORAMTION IS enjoyed best when
       kept restrained to a weekly "cheat day" than moderately
-      throughout. Think, Sleep is best enjoyed when tired, food when
-      hungry, water when thirsty. To be grateful for something,
-      deprive yourself of it. NO cheese no desert and no manmade
-      cuisine on the planet will be able TO surpass in taste the
-      simplest food we get after an episode of HUNGER; and no liquid
-      will ever improve on the taste of water after a prolonged period
-      of thirst. 
+      throughout.  
 
-    2) /Injecting Randomness/ Life is better with surprises. The best
-       days can be recovering a lost wallet or phone. The greatest
-       acts of kindness you expericnec may be from total
-       strangers. (While those closest to you--, your spouse,
-       stepbrother, mother-in-law are most likely to betray you!) 
+    3) /The Essence of Life is Some Volatility/  NO cheese no desert
+       and no manmade cuisine on the planet will be able to surpass in
+       taste the simplest food we get after an episode of hunger; and
+       no liquid will ever improve on the taste of water after a
+       prolonged period of thirst. The best days can be recovering a
+       lost wallet or phone. The greatest acts of kindness you
+       expericnec may be from total strangers. 
 
-    3) /Vacationing/ It's foolish to complain you
+    4) /Vacationing/ It's foolish to complain you
        don't have enough time. We shouldn't know when the week begins
        or ends. Not being prisoner to a schedule ro calendar, an alarm clock or
        wristwatch. Rehearsed conversations, rehearsed laughs.  if
        luxury is not creating more and more varied options for life,
        you're doing it wrong. 
 
-    4) /Freedom/ When you can do things without any explanation. That
+    5) /Freedom/ When you can do things without any explanation. That
        you like doing just for the sake of doing it, that's freedom.
  
   - /The Misery of Optimization/ A word on the major difference is
@@ -394,13 +390,13 @@ didn't end up so lucky.
       Nobel or A Booker where luck plays a large role (hidden or
       forgotten). 
 
-    -
+    
 ** /Friendship/  
--/Logic of Arguing/  Don't reason with someone about something they didn't reason
+- /Logic of Arguing/  Don't reason with someone about something they didn't reason
   themselves into. Arguing and winning an argument are two different
   things. 
--/Whom to Respect/ 
--/Conduct Among Your Peers/ Never status signal or wealth signal. 
+- /Whom to Respect/ 
+- /Conduct Among Your Peers/ Never status signal or wealth signal. 
 
 
 -----
