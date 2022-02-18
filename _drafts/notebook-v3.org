@@ -73,73 +73,89 @@
 # *** Feeling Nausated in Rome
 # 
 # 
-
-
  
-* The Skeptic 
-** /Probability, Randomness, and Games/ 
-- /*The Impact of Rare Events*/ We exist in a world where some situations
-  are dominated by the singular occurances of rare events. Consider
-  that even if you cheat on your spouse only once in the duration of
-  relationship, /you are not going to be in a relationship for much
-  longer/ [fn:1] How fragile is the system to extreme variatians? 
+* The Skeptic: What's Worth Knowing
+:PROPERTIES:
+:UNNUMBERED: 
+:END:
 
-** /Ten Steps to Become An Entrepreneur, or How to take Advice/ 
-- /When to Jump into a Volcano/ We only sample the traits of
-  successful individuals from a sample of successful individuals,
-  ignoring the ones who used those traits but didn't end up so
-  lucky. Would any deceased parachute jumpers recommend going
-  skydiving? 
+** /How to Be A Good Lover, or, Trust & Knowledge in the Information Age/ 
+We exist in a world where some situations are dominated by the
+singular occurances of rare events. Consider that even if you cheat on
+your spouse only once in the duration of relationship, /you are not
+going to be in a relationship for much longer/ [fn:1] How fragile is
+the system to extreme variatians? 
 
-- /Who does Advice really help?/ Beware  advice. There are hidden
+What we can learn from such an incident: 
+  - /Emotional Sugarcoating/ We avoid silent evidence of other people
+    who may have been in the same situtaion. 
+  - /Asymmetry of Knowledge/ A feature fo this to natice is that
+    once the truth is revealed, one person is surprised and another
+    isn't. Knowledge of rare events is relevant to your expectation. 
+  - /Equality under Uncertainty/ What people who have been through
+    affairs know that others don't is that 
+
+- /Who does Advice really help?/ Beware advice. There are hidden
   pitfalls underneath this kind of information that makes the one who
   presents advice /positiva/ could give harm to the one who receives
   it without recourse. 
-  1) /Advice and Lotto Tickets-  Another factor that makes
+  - /Advice on Jumping into a Volcano/ Situations like the relationship
+    one- suffering the problem of infidelity, or others largely
+    unpredictable - we can't see. We only sample the traits of
+    successful individuals from a sample of successful individuals,
+    ignoring the ones who used those traits but didn't end up so
+    lucky. I haven't seens too many interviews with skydivers who's
+    parachutes didn't open or with pilots who crash their plans. 
+
+  - /The Trouble With Athiest Economists/ Due to the natuer of rare
+    events, and the impossiblity to predict them due to their
+    /infintissimally small/ odds, forecasting is in reality just a
+    vulgar illusion of control. IF you want an illusion of control,
+    start going to church on Sundays. Necktie-wearing economists can't
+    be trusted who still get paid even if you blow up. In fact, how
+    much worse is it that we still listen to predictions in light of
+    how little we can be sure of? 
+
+    - /The Advice Business/ 
+
+      - /Look at what they do/ Another trick is to never trust the beautiful
+        philosopher.  To filter the credibility of advice, don’t take
+        advice from the poster child of their profession. If they
+        don’t play the role or speak the jargon, that means that their
+        skill speaks for them.  There is an asymmetry between givers
+        of “positiva,” 
+
+      - (Do This) prescriptive advice as they do not incur the harm
+        you would from following their advice.  Avoid commentary from
+        anyone who has to feed their family. Unsuccessful people give
+        the most advice. 
+
+** /How to Become An Entrepreneur in 10 Steps/ 
+
+- /The Stanford Business School 5-Step Entrepreneurial Program/ The
+  most recent business best seller/ 5-step program is commiditized
+  knowledge. It's incredulious to believe that a course /anyone has
+  access to/, a YouTube video /anyone could watch/ could proffer any
+  knowledge of real value. 
+  - /Advice and Lotto Tickets-  Another factor that makes
      advice hard to translate is luck and randomness. Most communicated
      advice is flawed: Even if the giver of the advice is innocuous,
      advice is like handing you the numbers to their winning lottery
      ticket. We don't see the people who failed with this advice.
-  2) /Giving Advice is Better than Taking Advice/ - still get paid even
-     when you go bust. For best results, just look at what they do, not
-     what they tell you to do. Another trick is to never trust the
-     beautiful philosopher.  To filter the credibility of advice, don’t
-     take advice from the poster child of their profession. If they don’t
-     play the role or speak the jargon, that means that their skill
-     speaks for them.  There is an asymmetry between givers of
-     “positiva,” (Do This) prescriptive advice as they do not incur the
-     harm you would from following their advice.  Avoid commentary from
-     anyone who has to feed their family. Unsuccessful people give the
-     most advice. 
-/Saying "I Don't Know" 
-
-** /Human Nature/
-*** asceticism
-*** lumpy rewards - NNT new procrustes
-
-** /Knowledge Through Subtraction/  
-- /The Power of Disconfirmation/ In life, disconfirmation is more rigorous
-  than confirmation. One single piece of disconfirming evidence wipes
-  out any prior confirming examples. Reasoning fails in extreme domains when we
-  try to go from specific instances to categoricals. The importance of
-  discon. is that it lengthens the gap in these instances between what
-  you know and what you don't know. Which as a result a much, much higher
-  premium on what you do not know. 
-  - /Hunting for Counterevidence/ Half of the game is realizing that it is
-    about what you don't know and what others know is more important
-    than the reverse. Or what you dislike and others like (hence, your
-    futuer self). Learning is admitting you were wrong. Acquire as many
-    books as you can possibly own. Research more you disagree with than
-    the reverse.  What a million people know isn't worth knowing. The
-    news isn't worth watching. Fed to you via algorithm. Only consume
-    information that you seek out. [fn:2] 
-  - /What We Know Best/ Knowledge becomes robust by
-    necessarily knowing what is wrong and avoiding it. We get smarter by
-    learning what not to do and by avoiding ignorance. We know what is
-    wrong better than what is right. Avoid unhappiness than it is to
-    pursue happiness. Avoiding ignorant people is easier than
-    surrounding yourself with 'intelligent' ones. 
-
+  - /Rare Knowledge is Valuable/ 
+  - /Business is predicated on Discovery/ What a million people know
+    isn't worth knowing. Any real vaule of a business is based on
+    discovering a "secret," - that is, somehting not many people know
+    or believe to be true. Real value is made through Differentitade,
+    rare, inimitable qualities of businesses. One-in-a-kind products. 
+  - /Business Plans/ Business PLans are faulty thinking. Coca Cola
+    originally made XYZ, Kodak made stationary, Aspirin wasn't thought
+    to be a bloodthinner or Anti-inflammatory  
+  - 
+  - /Trial and Error/Empricism/Practice Over Theories/ You can learn
+    creative experimentation can lead to outcomes you can't
+    predict. Feel free to take all matter of risk in this domain. 
+ 
 ** /No Grand Theory of Everything/
 - /Life is Not A Story/ A consequence of seeing the world through
   your own mind is suffering from the mental distortion our memory of
@@ -152,7 +168,8 @@
   present prspective without retelling a narrative. Avoid planning,
   maximize /optionality/, (More on that later) 
 
-- /Is A Wrong Map Better than No Map?/
+- /Is A Wrong Map Better than No Map?/ 
+- /Get Better at Saying "I Don't Know"/ 
 
 - /Too Early to Judge/ Sextus represented and jotted down the ideas of
   the school of the Pyrrhonian skeptics who were after some form of
@@ -166,14 +183,42 @@
   conservative in their habits, they were rabid in their fight against
   dogma.
 
+** /Knowledge Through Subtraction/  
+- /The Power of Disconfirmation/ In life, disconfirmation is more rigorous
+  than confirmation. One single piece of disconfirming evidence wipes
+  out any prior confirming examples. Reasoning fails in extreme domains when we
+  try to go from specific instances to categoricals. The importance of
+  discon. is that it lengthens the gap in these instances between what
+  you know and what you don't know. Which as a result a much, much higher
+  premium on what you do not know. \\
+  - Hunting for Counterevidence :: Half of the game is realizing that it is
+    about what you don't know and what others know is more important
+    than the reverse. Or what you dislike and others like (hence, your
+    futuer self). Learning is admitting you were wrong. Acquire as many
+    books as you can possibly own. Research more you disagree with than
+    the reverse.  What a million people know isn't worth knowing. The
+    news isn't worth watching. Fed to you via algorithm. Only consume
+    information that you seek out. [fn:2] \\
+
+  - What We Know Best :: Knowledge becomes robust by
+    necessarily knowing what is wrong and avoiding it. We get smarter by
+    learning what not to do and by avoiding ignorance. We know what is
+    wrong better than what is right. Avoid unhappiness than it is to
+    pursue happiness. Avoiding ignorant people is easier than
+    surrounding yourself with 'intelligent' ones. \\
+
+- /The Council of Elders/ 
 1) *Age* - Informatino that has been around a long time will likely
    be around for a lot longer than the new thing. Prune "news"
    sources-  TV, radio, social media, etc. Trendy information is
    fragile information. Stick to old books. # 24. Trust the advice of
    old sources (your grandma and old books)
 
+* The Stoic: The Art of Risk-Taking 
+:PROPERTIES:
+:UNNUMBERED: 
+:END:
 
-* The Stoic 
 ** /How to Become Indestructable/
 - /'Less Is More' Rationality/ - Rationality is survival of the worst
   case. Rationality is what you do to avoid ruin in the event of the
@@ -329,9 +374,11 @@
     are sour. Rejecting the grapes outright is in itself its own more
     rewarding. It is hard to lose at your own game. 
 
-* The Epicurean 
-
-** /Happiness/ 
+* The Epicurean: The Pursuit of Happiness 
+:PROPERTIES:
+:UNNUMBERED: 
+:END:
+** /Happiness As the Ancients Knew It/ 
   - /Happiness & Commiditization/  You can't buy happiness, so avoid
     people who are trying to sell it and avoid pursuing it. 
     1) /Forgot Modern Happiness/ - Modern thought is grounded in the
@@ -389,19 +436,21 @@
       like feeling happiness, having a romantic partner, getting a
       Nobel or A Booker where luck plays a large role (hidden or
       forgotten). 
-
     
-** /Friendship/  
+** /Long Time Friends/  
 - /Logic of Arguing/  Don't reason with someone about something they didn't reason
   themselves into. Arguing and winning an argument are two different
   things. 
 - /Whom to Respect/ 
 - /Conduct Among Your Peers/ Never status signal or wealth signal. 
 
+** /Engagement/
+- / / 
 
 -----
 [fn:1] If you're in a relationship that tolerates infidelity, you
-shouldn't be in that relationship.
+shouldn't be in that relationship. Also, I don't remember who to
+credit this to. It's a slight variation of the Turkey Problem. 
 [fn:2] The Information age equivalent of 'only eat what you kill.'
 [fn:3] /A note on addiction, distraction, boredom, & laziness/ Not to be
 misunderstood. Manufactured modern distractions feed our addictions to
