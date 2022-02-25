@@ -74,10 +74,85 @@
 # 
 # 
  
-* The Skeptic: What's Worth Knowing
+* The Skeptic And The Empiric: What's Worth Knowing
 :PROPERTIES:
 :UNNUMBERED: 
 :END:
+
+** Inside and Outside the Veil of Opacity.   
++ In the real world, truth is secondary to consequence. Whats the
+  price of your opinion?  Can you afford to have an opinion if you're
+  not willing to pay the price?  
+
++ I've been struggling with the notion of opinion and belief.Seems to
+  me that the words are thrown around a lot interchangeably with
+  little hardly any nuance 
+
++ It appears to me that they (opinion/belief) can be used to mean the
+  same thing. Where opinion/belief are inextricably tied is not about
+  right/wrong but the payoff space. I don't want to be right more than
+  i want to survive. Opinions are dangerous to have if it means the
+  harm could be severly consequential. 
+
++ Claims to knowledge risk A. the conesquences of you being right
+  versus wrong, and B.,mistaking evidence of absence for absence of
+  evidence 
+
++ Errors of oopinions -> having an opinion based on confirmatory
+  evidence is not scientific. This suggests taht we have an opinion
+  first and then just find the data to back it up. Rather than the
+  reverse. 
+
++ The Trial of Disconfirmation -> In some areas of life,  The
+  Consequencse of who's right or wring is like pulling the trigger in
+  russian roulette- > We pay a heavy irreversable price to be
+  wrong. Highly risk conscientious. 
+
++ Judging someone on their belief is not scientific. When we have
+  beliefs, we don't formulate them based on evidence but rather
+  personal leannings. You can't reason someone else's
+  unreason. Accepting beliefs freely 
+
++ Having as few beliefs as necessary. - Means that the more beliefs
+  you hold onto the more hidden uncertainties (risks) can be
+  hidden.
+  - More information is toxic. 1% of beliefs account for 99% of
+    survival rate. 
+
++ There's no difference bteween risk and uncertainty - what you don't
+  know. What claims can you make about what you don't know - the
+  unobservable, the universal. Faced against the limits of our
+  perceptions, our ablitiy to observe, to measure, to predict, etc. 
+
++ Models are of little use. Fictions give as an illusion of control,
+  an illusion of certainty, when we need to just accept that no belief
+  can tell us 
+
++ IT's better to go looking for what's wrong with your model then
+  keeping your fingers crossed hoping your model is okay. 
+
++ Time shows us what models are useful. The point of religion isn't to
+  tell us what's "true" - it's to provide a model that's useful to
+  survival. Promote ethics that are befitting to survival. 
+
+
+
+
+ There are errors made belief/knowledge 
+
+The Observable / UnObservable, Belief
+
+- Unquestionably, the basis for belief, or a proposition, (True/False)
+  is evidence. 
+- For a sketpic, holding down a belief/opinion is hard to do. There's
+  unobservables 
+
+No belief 
+
+The truth
+APpearences/ phenomena are observable, but hardly true. 
+Belief 
+
 
 ** /How to Be A Good Lover, or, Trust & Knowledge in the Information Age/ 
 We exist in a world where some situations are dominated by the
@@ -191,7 +266,7 @@ What we can learn from such an incident:
   discon. is that it lengthens the gap in these instances between what
   you know and what you don't know. Which as a result a much, much higher
   premium on what you do not know. \\
-  - Hunting for Counterevidence :: Half of the game is realizing that it is
+  - 1. Hunting for Counterevidence :: Half of the game is realizing that it is
     about what you don't know and what others know is more important
     than the reverse. Or what you dislike and others like (hence, your
     futuer self). Learning is admitting you were wrong. Acquire as many
@@ -200,7 +275,7 @@ What we can learn from such an incident:
     news isn't worth watching. Fed to you via algorithm. Only consume
     information that you seek out. [fn:2] \\
 
-  - What We Know Best :: Knowledge becomes robust by
+  - 2. What We Know Best :: Knowledge becomes robust by
     necessarily knowing what is wrong and avoiding it. We get smarter by
     learning what not to do and by avoiding ignorance. We know what is
     wrong better than what is right. Avoid unhappiness than it is to
