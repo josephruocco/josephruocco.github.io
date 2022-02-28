@@ -79,7 +79,6 @@
 :UNNUMBERED: 
 :END:
 
-
 ** Inside and Outside the Veil of Opacity.   
 + In the real world, truth is secondary to consequence. Whats the
   price of your opinion?  Can you afford to have an opinion if you're
@@ -196,6 +195,40 @@ The truth
 APpearences/ phenomena are observable, but hardly true. 
 Belief 
 
+
+** Ignorance and Paranoia
++ The More You Know, the more ignorant you feel. 
++ One Day you could lose more money than you've ever made in your
+  whole life. 
++ Withholding Judgement: From an Eastern fable, the old farmer does not think
+  "this is bad" when the horse breaks his son's legs. As it turns out,
+  the son's broken legs prevented him from being drafted when the
+  country went to war. And so on. 
++ Cognitive Distortions: We think we can predict the future, (which we
+  can't) Something completely unexpected and unpredictable happens,
+  then in hindsight it appears to as if we could've seen it coming all
+  along. 
+
++ Those who care about survival care little about being right or
+  wrong, true or false. When survival matters most, Better to be
+  "wrong" most times and be right when it matters. Then to be right
+  most times and 
+  survive then being "right" and dead 
+
++ Mistake a rope for a snake than a snake for a rope are
+  irreversible. Better the former. The key to understanding is where
+  you can't afford to be wrong. Because we are fragile to snakes,
+  terrorists, etc. justifies hyper paranoia ... The small probability
+  of being right avoiding irreversible negative consequences, so it
+  pays to be wrong most times. 
+
++ It makes sense to act predicated on (probabilistically) wrong
+  beliefs where the single "right" outcomes are severe. 
+
++ It's unenthical to advocate an opinion that you yourself can gain
+  from while avoiding associtaed harm. 
+
+ 
 
 ** /How to Be A Good Lover, or, Trust & Knowledge in the Information Age/ 
 We exist in a world where some situations are dominated by the
@@ -564,6 +597,12 @@ What we can learn from such an incident:
 
 ** /Engagement/
 - / / 
+
+
+* Version History
+| version |       date | notes            |
+|     0.1 | 27-02-2022 | added more draft |
+|         |            |                  |
 
 -----
 [fn:1] If you're in a relationship that tolerates infidelity, you
