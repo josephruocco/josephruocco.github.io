@@ -80,42 +80,43 @@
 * Table of Contents 
 ** Part I: The Skeptic 
 *** [[./2022-03-04-info.org][info overload]]
-*** cheap talk 
+*** [[./][cheap talk]
 *** [[./2022-03-04-instincts.org][instincts]]
-*** perils of giving advice 
-*** economy of beliefs
-*** sucker games 
-*** problem of induction 
-*** non demonstrative knowledge
-*** what a million people know 
-*** subtractive knowledge
-*** time filters knowledge
-*** what we don't know 
-*** averages are dangerous 
-*** the burden of proof 
-*** unreason 
-*** fox and the hedgehog 
+*** [[./][perils of giving advice ]
+*** [[./][economy of beliefs]
+*** [[./][sucker games ]
+*** [[./][problem of induction ]
+*** [[./][non demonstrative knowledge]
+*** [[./][what a million people know ]
+*** [[./][subtractive knowledge]
+*** [[./][time filters knowledge]
+*** [[./][what we don't know ]
+*** [[./][averages are dangerous ]
+*** [[./][the burden of proof ]
+*** [[./][unreason ]
+*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
+*** [[./][fox and the hedgehog ]
 
 ** Part II: The Stoic 
-*** [[2022-03-04-loving-fate.org][More than Mere Indifference]]
+*** [[./2022-03-04-loving-fate.org][More than Mere Indifference]]
 *** [[./2022-03-04-redundancy.org][Reduncdancy]]
-*** decision making & procrastination
-*** Decommoditization, or how to avoid Platonification 
-*** learn w/ curiosity
-*** the human body 
-*** trial & error + computational irreducibility 
-*** fortune favors the prepared
-*** there is no "you"
-*** chronic stress v random stress 
-*** accepting fate 
+*** [[./][decision making & procrastination]
+*** [[./][Decommoditization, or how to avoid Platonification ]
+*** [[./][learn w/ curiosity]
+*** [[./][the human body ]
+*** [[./][trial & error + computational irreducibility ]
+*** [[./][fortune favors the prepared]
+*** [[./][there is no "you"]
+*** [[./][chronic stress v random stress ]
+*** [[./][accepting fate ]
 
 ** Part III: The Epicurean 
 *** [[./2022-03-04-Proust.org][Proust]]
-*** Happiness can't be bought
-*** envy 
-*** freedom 
-*** paradox of progress 
-*** friendship 
+*** [[./][Happiness can't be bought]
+*** [[./][envy ]
+*** [[./][freedom ]
+*** [[./][paradox of progress ]
+*** [[./][friendship ]
 
 
 * The Skeptic And The Empiric: What's Worth Knowing
@@ -671,4 +672,4 @@ addictive 'self-improvement' type As. While it's literally doing
 nothing, purpotedly that's still better than the information most
 people consume. 
 
-* 2022-03-04-redundancy.org
+

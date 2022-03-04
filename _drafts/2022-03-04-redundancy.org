@@ -9,8 +9,10 @@ of your body compensates for its fraility by suppling you with /a
 backup/ is no mistake by Mother nature. 
 
 Overspecialization and optimization are frail to the unknown. 
+Limiting single points of failure. Like depending on a single
+supplier, a single employee, or a single product to complete a task. 
 
 Stockpiling is aggressively efficient. Having physical and functional
-redundancies keeps you alive. 
+redundancies keeps you alive. Having multiple options is freedom. 
 
 
