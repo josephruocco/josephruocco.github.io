@@ -1,0 +1,20 @@
+
+#+TITLE: Information Overload 
+
+Having so much information at our fingertips  wouldn't be so much of a
+problem if it wasn't for our limited attention and mental capacity. 
+
+The problems of too much information: 
+1) the paradox of choice- too many options makes choosing debilitating
+2) "Tunneling" - focusing on smaller, inconsequential data, say, what
+   shoes pedestratians are wearing while crossing the street, could
+   make you miss the car that's driving down the lane. 
+
+So, the amount of information we consume regularly can reach a toxic
+threshhold,- i.e. /we must be careful about how much we consume/
+
+The important implication being, as well, that the ratio of
+noise/signal skews  nonlinearly as the size of data increases.
+
+Less is more. Focus on what's important. 
+ 
