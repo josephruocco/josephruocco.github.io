@@ -109,14 +109,13 @@
 *** [[./][fortune favors the prepared]
 *** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
 *** [[./2022-03-07-chance.org][chronic stress v random stress ]]
-*** [[./][accepting fate ]
-*** [[
+*** [[./2022-03-07-fate.org][To Hell With Fate]]
 
 ** Part III: The Epicurean 
-*** [[./2022-03-04-Proust.org][Proust]]
-*** [[./2022-03-04-finding-time.org][Finding Time]]
-*** [[./][Happiness can't be bought]
-*** [[./][envy ]
+*** [[./2022-03-04-Proust.org][Proust & Epicurus]]
+*** [[./2022-03-04-finding-time.org][Pursuits of Your Own]]
+*** [[./2022-03-07-happiness.org][No conditional Happiness]]
+*** [[./2022-03-07-time.org][Time]]
 *** [[./][freedom ]
 *** [[./][paradox of progress ]
 *** [[./][friendship ]
@@ -551,8 +550,7 @@ iva/ could give harm to the one who receives
   suddenly make a big difference for the rest of your life. 
   - say, the outcome of a job interview, a lawsuit, winning the lotto,
     meeting a significant other, getting a paper accepted, have gold
-    rise, have your brother in law die in a car accident, or other
-    events that can markedly chaneg your life. If this is the case for
+     rise, your boss dies, or other events that can markedly change your life. If this is the case for
     you are royally enslaved to circumstances. 
   - Take good events when they happen, but don't depend on them like a
     loser. 
