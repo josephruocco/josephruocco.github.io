@@ -75,51 +75,54 @@
 # 
 # 
 
+* Progress: 10/ 33(48) (drafts)
 
-* Progress: 3/ 33(48) (drafts)
+
 * Table of Contents 
 ** Part I: The Skeptic 
 *** [[./2022-03-04-info.org][info overload]]
-*** [[./][cheap talk]
 *** [[./2022-03-04-instincts.org][instincts]]
+*** [[./2022-03-06-time.org][time filters knowledge]]
+# *** [[./][the burden of proof ]
+*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
+*** [[./][cheap talk]
 *** [[./][perils of giving advice ]
-*** [[./][economy of beliefs]
+*** [[./][economy of beliefs ]
 *** [[./][sucker games ]
 *** [[./][problem of induction ]
-*** [[./][non demonstrative knowledge]
+*** [[./][non demonstrative knowledge ]
 *** [[./][what a million people know ]
-*** [[./][subtractive knowledge]
-*** [[./][time filters knowledge]
+*** [[./][subtractive knowledge ]
 *** [[./][what we don't know ]
 *** [[./][averages are dangerous ]
-*** [[./][the burden of proof ]
 *** [[./][unreason ]
-*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
 *** [[./][fox and the hedgehog ]
 
 ** Part II: The Stoic 
 *** [[./2022-03-04-loving-fate.org][More than Mere Indifference]]
-*** [[./2022-03-04-redundancy.org][Reduncdancy]]
-*** [[./][decision making & procrastination]
+*** [[./2022-03-04-redundancy.org][Redundancy]]
+*** [[./2022-03-05-procrastination.org][Decision Making & Procrastination]]
+*** [[./2022-03-05-curiosity.org][Learn w/ Curiosity]]
 *** [[./][Decommoditization, or how to avoid Platonification ]
-*** [[./][learn w/ curiosity]
 *** [[./][the human body ]
 *** [[./][trial & error + computational irreducibility ]
 *** [[./][fortune favors the prepared]
-*** [[./][there is no "you"]
-*** [[./][chronic stress v random stress ]
+*** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
+*** [[./2022-03-07-chance.org][chronic stress v random stress ]]
 *** [[./][accepting fate ]
+*** [[
 
 ** Part III: The Epicurean 
 *** [[./2022-03-04-Proust.org][Proust]]
+*** [[./2022-03-04-finding-time.org][Finding Time]]
 *** [[./][Happiness can't be bought]
 *** [[./][envy ]
 *** [[./][freedom ]
 *** [[./][paradox of progress ]
 *** [[./][friendship ]
 
-
-* The Skeptic And The Empiric: What's Worth Knowing
+* Writing 
+** The Skeptic And The Empiric: What's Worth Knowing
 :PROPERTIES:
 :UNNUMBERED: 
 :END:
@@ -242,7 +245,6 @@ The truth
 APpearences/ phenomena are observable, but hardly true. 
 Belief 
 
-
 ** Ignorance and Paranoia
 + The More You Know, the more ignorant you feel. 
 + One Day you could lose more money than you've ever made in your
@@ -276,7 +278,6 @@ Belief
   from while avoiding associtaed harm. 
 
  
-
 ** /How to Be A Good Lover, or, Trust & Knowledge in the Information Age/ 
 We exist in a world where some situations are dominated by the
 singular occurances of rare events. Consider that even if you cheat on
@@ -295,7 +296,9 @@ What we can learn from such an incident:
 
 - /Who does Advice really help?/ Beware advice. There are hidden
   pitfalls underneath this kind of information that makes the one who
-  presents advice /positiva/ could give harm to the one who receives
+  presents advice /posit
+
+iva/ could give harm to the one who receives
   it without recourse. 
   - /Advice on Jumping into a Volcano/ Situations like the relationship
     one- suffering the problem of infidelity, or others largely
@@ -305,16 +308,6 @@ What we can learn from such an incident:
     lucky. I haven't seens too many interviews with skydivers who's
     parachutes didn't open or with pilots who crash their plans. 
 
-  - /The Trouble With Athiest Economists/ Due to the natuer of rare
-    events, and the impossiblity to predict them due to their
-    /infintissimally small/ odds, forecasting is in reality just a
-    vulgar illusion of control. IF you want an illusion of control,
-    start going to church on Sundays. Necktie-wearing economists can't
-    be trusted who still get paid even if you blow up. In fact, how
-    much worse is it that we still listen to predictions in light of
-    how little we can be sure of? 
-
-    - /The Advice Business/ 
 
       - /Look at what they do/ Another trick is to never trust the beautiful
         philosopher.  To filter the credibility of advice, don’t take
@@ -327,6 +320,20 @@ What we can learn from such an incident:
         you would from following their advice.  Avoid commentary from
         anyone who has to feed their family. Unsuccessful people give
         the most advice. 
+
+
+
+  - /The Trouble With Athiest Economists/ Due to the natuer of rare
+    events, and the impossiblity to predict them due to their
+    /infintissimally small/ odds, forecasting is in reality just a
+    vulgar illusion of control. IF you want an illusion of control,
+    start going to church on Sundays. Necktie-wearing economists can't
+    be trusted who still get paid even if you blow up. In fact, how
+    much worse is it that we still listen to predictions in light of
+    how little we can be sure of? 
+
+    - /The Advice Business/ 
+
 
 ** /How to Become An Entrepreneur in 10 Steps/ 
 
@@ -346,9 +353,8 @@ What we can learn from such an incident:
     discovering a "secret," - that is, somehting not many people know
     or believe to be true. Real value is made through Differentitade,
     rare, inimitable qualities of businesses. One-in-a-kind products. 
-  - /Business Plans/ Business PLans are faulty thinking. Coca Cola
-    originally made XYZ, Kodak made stationary, Aspirin wasn't thought
-    to be a bloodthinner or Anti-inflammatory  
+  - /Business Plans/ Business PLans are faulty thinking. THis was the
+    case for Coca Cola, Tiffany, Kodak, and Aspirin. 
   - 
   - /Trial and Error/Empricism/Practice Over Theories/ You can learn
     creative experimentation can lead to outcomes you can't
@@ -412,11 +418,10 @@ What we can learn from such an incident:
    fragile information. Stick to old books. # 24. Trust the advice of
    old sources (your grandma and old books)
 
-* The Stoic: The Art of Risk-Taking 
+** The Stoic: The Art of Risk-Taking 
 :PROPERTIES:
 :UNNUMBERED: 
 :END:
-
 ** /How to Become Indestructable/
 - /'Less Is More' Rationality/ - Rationality is survival of the worst
   case. Rationality is what you do to avoid ruin in the event of the
@@ -565,6 +570,7 @@ What we can learn from such an incident:
   way, their game. There are no rules, no boundaries. Play your game;
   not theirs. You have a real life if and only if you do not compete
   with anyone in any of your pursuits. 
+
   - /Personal Dignity/ A moment about Saying f**k you to fate. Should
     fate turn against you, do not play victim. Do not complain. Be
     worthy. As with the Sour Grapes from Aesop’s fable, fate can hold
@@ -572,7 +578,12 @@ What we can learn from such an incident:
     are sour. Rejecting the grapes outright is in itself its own more
     rewarding. It is hard to lose at your own game. 
 
-* The Epicurean: The Pursuit of Happiness 
+don't change the rules just because they odds are against you. 
+
+- cultivate a long attention span 
+
+
+** The Epicurean: The Pursuit of Happiness 
 :PROPERTIES:
 :UNNUMBERED: 
 :END:
@@ -586,8 +597,8 @@ What we can learn from such an incident:
        see how different-- and more controllable-- things become. The
        more you pay for    luxury, the more inflamed you will feel
        when there are minor    imperfection. True happiness is restful
-       sleep, frequent laughs,    meals with friends, afternoon naps,
-       good coffee, gratitude, and    clear conscience. 
+       sleep, frequent laughs, meals with friends, afternoon naps,
+       good coffee, gratitude, and a clear conscience. 
 
     2) /Frequency of Pleasures/ The Things you like you also like at a
       given frequency. Junk FOOD/JUNK INFORAMTION IS enjoyed best when
@@ -621,9 +632,7 @@ What we can learn from such an incident:
       collective is more important than the individual. We are more
       important than me. Not just the loss of your life, but one that
       lies in a broader set of people, one that includes a family, a
-      community, a tribe, a fraternity. And let the instinct of
-      gratitude take over. Don’t give crap don’t take crap. If it is
-      good for the community, it is good for me. 
+      community, a tribe, a fraternity. 
 
     - /The Promise of Marshmallows/ In popular psychology there's 'the
       Marshmallow Test' or something, which participants choose
@@ -647,9 +656,10 @@ What we can learn from such an incident:
 
 
 * Version History
-| version |       date | notes            |
-|     0.1 | 27-02-2022 | added more draft |
-|         |            |                  |
+| version |       date | notes                                   |
+|     0.2 | 2022-04-03 | structured document into separate files |
+|     0.1 | 27-02-2022 | added more draft                        |
+|         |            |                                         |
 
 -----
 [fn:1] If you're in a relationship that tolerates infidelity, you
