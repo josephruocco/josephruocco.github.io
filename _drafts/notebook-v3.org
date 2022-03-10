@@ -79,12 +79,14 @@
 
 
 * Table of Contents 
-** Part I: The Skeptic 
+** Introduction
+Death/ Truth 
+** [[./][Part I: The Skeptic
 *** [[./2022-03-04-info.org][info overload]]
 *** [[./2022-03-04-instincts.org][instincts]]
 *** [[./2022-03-06-time.org][time filters knowledge]]
 # *** [[./][the burden of proof ]
-*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
+*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]]
 *** [[./][cheap talk]
 *** [[./][perils of giving advice ]
 *** [[./][economy of beliefs ]
@@ -103,22 +105,26 @@
 *** [[./2022-03-04-redundancy.org][Redundancy]]
 *** [[./2022-03-05-procrastination.org][Decision Making & Procrastination]]
 *** [[./2022-03-05-curiosity.org][Learn w/ Curiosity]]
-*** [[./][Decommoditization, or how to avoid Platonification ]
-*** [[./][the human body ]
-*** [[./][trial & error + computational irreducibility ]
-*** [[./][fortune favors the prepared]
-*** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
 *** [[./2022-03-07-chance.org][chronic stress v random stress ]]
-*** [[./2022-03-07-fate.org][To Hell With Fate]]
+*** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
+*** [[./2022-03-07-fate.org][Be like Fire]]
 
+*** [[./][Decommoditization, or how to avoid Platonification ] - We Need Dimensonioality/ Noise 
+*** - Boredm - Joseph Brodsky, Dostoevsky, Kierkegaard
+*** [[./][the human body ]
+*** [[./][trial & error + computational irreducibility ]- simple, crucial innovations cannot be made with sophisticated tools 
+*** [[./][fortune favors the prepared]
 ** Part III: The Epicurean 
 *** [[./2022-03-04-Proust.org][Proust & Epicurus]]
 *** [[./2022-03-04-finding-time.org][Pursuits of Your Own]]
 *** [[./2022-03-07-happiness.org][No conditional Happiness]]
-*** [[./2022-03-07-time.org][Time]]
-*** [[./][freedom ]
+*** [[./2022-03-07-time.org][Happiness/Time]]
+*** [[./2022-03-07-bought-happiness.org][Happiness/Money]]
+Humor - 
 *** [[./][paradox of progress ]
 *** [[./][friendship ]
+** Conclusion 
+Absurdism
 
 * Writing 
 ** The Skeptic And The Empiric: What's Worth Knowing
