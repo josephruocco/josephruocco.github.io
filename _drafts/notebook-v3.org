@@ -93,7 +93,7 @@ Death/ Truth
 *** [[./][sucker games ]
 *** [[./][problem of induction ]
 *** [[./][non demonstrative knowledge ]
-*** [[./][what a million people know ]
+c*** [[./][what a million people know ]
 *** [[./][subtractive knowledge ]
 *** [[./][what we don't know ]
 *** [[./][averages are dangerous ]
@@ -123,8 +123,8 @@ Death/ Truth
 Humor - 
 *** [[./][paradox of progress ]
 *** [[./][friendship ]
-** Conclusion 
-Absurdism
+** Part IV: The Harmonious Balance   
+
 
 * Writing 
 ** The Skeptic And The Empiric: What's Worth Knowing
