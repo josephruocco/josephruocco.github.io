@@ -79,14 +79,46 @@
 
 
 * Table of Contents 
-** Introduction
-Death/ Truth 
+** What This Is About 
+/On Cicero arriving at the tomb of Archimedes/
+In Cicero's /On Old Age/, he recounts seeing the tomb of archimedes,
+the godfather of Mathematics, shrouded in overgrowth. 
+
+As the old saying goes, Those who fail to learn what our ancestors
+know are doomed to repeat it. 
+
+More importantly, let us focus on what they /did/, not what they
+thought they knew or what historians thought they thought they knew. 
+
+Mother Nature leaves hints, traces. Instincts. The obvious answers are
+hidden in plain sight. 
+
+In practice, Our ancestors focused on survival. Our ancestors listened
+to Mother nature. We are foolish not to heed these lessons. 
+
+
+/What Modernity Silences/ 
+Modernity shuts out qualities of Nature that are fatally ignored. 
+- commoditization over realtionships - 
+- sterilizes the randomness of real life with simplified models -
+  gyms, schools, prediction models, etc. Modernity seeks to deprive us of life's innate sense of variability
+and randomness. When forced to overcompensate we become better off
+when not under such conditions.
+ 
+- product for process - what makes you a hero is how you fight, not if
+  you win. 
+
+
+
 ** [[./][Part I: The Skeptic
-*** [[./2022-03-04-info.org][info overload]]
+*** 
+*** [[./2022-03-04-info.org][info overload]] 
 *** [[./2022-03-04-instincts.org][instincts]]
+*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
 *** [[./2022-03-06-time.org][time filters knowledge]]
 # *** [[./][the burden of proof ]
-*** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]]
+*** [[./2022-03-21-dont-know.org][what we don't know]]
+*** 
 *** [[./][cheap talk]
 *** [[./][perils of giving advice ]
 *** [[./][economy of beliefs ]
@@ -95,12 +127,12 @@ Death/ Truth
 *** [[./][non demonstrative knowledge ]
 c*** [[./][what a million people know ]
 *** [[./][subtractive knowledge ]
-*** [[./][what we don't know ]
 *** [[./][averages are dangerous ]
 *** [[./][unreason ]
 *** [[./][fox and the hedgehog ]
 
 ** Part II: The Stoic 
+*** 
 *** [[./2022-03-04-loving-fate.org][More than Mere Indifference]]
 *** [[./2022-03-04-redundancy.org][Redundancy]]
 *** [[./2022-03-05-procrastination.org][Decision Making & Procrastination]]
@@ -111,10 +143,13 @@ c*** [[./][what a million people know ]
 
 *** [[./][Decommoditization, or how to avoid Platonification ] - We Need Dimensonioality/ Noise 
 *** - Boredm - Joseph Brodsky, Dostoevsky, Kierkegaard
+
 *** [[./][the human body ]
-*** [[./][trial & error + computational irreducibility ]- simple, crucial innovations cannot be made with sophisticated tools 
+*** [[./2022-03-23-trial.org][trial & error + computational irreducibility]] 
+- simple, crucial innovations cannot be made with sophisticated tools
 *** [[./][fortune favors the prepared]
 ** Part III: The Epicurean 
+*** 
 *** [[./2022-03-04-Proust.org][Proust & Epicurus]]
 *** [[./2022-03-04-finding-time.org][Pursuits of Your Own]]
 *** [[./2022-03-07-happiness.org][No conditional Happiness]]
@@ -124,7 +159,8 @@ Humor -
 *** [[./][paradox of progress ]
 *** [[./][friendship ]
 ** Part IV: The Harmonious Balance   
-
+*** Silver Rule 
+*** 
 
 * Writing 
 ** The Skeptic And The Empiric: What's Worth Knowing
