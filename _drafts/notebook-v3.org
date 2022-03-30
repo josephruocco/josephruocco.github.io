@@ -2,6 +2,7 @@
 #+TITLE: Philosophical Notebook
 #+SUBTITLE: What our Ancestors Forget to Tell Us
 #+AUTHOR: Joseph Ruocco 
+#+STARTUP: show3levels
 
 * Comments 
 # version 3 of new toc
@@ -79,22 +80,8 @@
 
 
 * Table of Contents 
-** What This Is About 
-/On Cicero arriving at the tomb of Archimedes/
-In Cicero's /On Old Age/, he recounts seeing the tomb of archimedes,
-the godfather of Mathematics, shrouded in overgrowth. 
-
-As the old saying goes, Those who fail to learn what our ancestors
-know are doomed to repeat it. 
-
-More importantly, let us focus on what they /did/, not what they
-thought they knew or what historians thought they thought they knew. 
-
-Mother Nature leaves hints, traces. Instincts. The obvious answers are
-hidden in plain sight. 
-
-In practice, Our ancestors focused on survival. Our ancestors listened
-to Mother nature. We are foolish not to heed these lessons. 
+** PREFACE 
+*** [[./2022-03-30-Cicero.org][Cicero Arriving at the tomb of Archimedes]]
 
 
 /What Modernity Silences/ 
@@ -110,64 +97,52 @@ when not under such conditions.
   you win. 
 
 
-** [[./][Part I: The Skeptic
-*** 
-*** [[./2022-03-04-info.org][info overload]] 
+** Part I: The Skeptic
+*** [[./2022-03-04-info.org][info overload]]
 *** [[./2022-03-04-instincts.org][instincts]]
 *** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
 *** [[./2022-03-06-time.org][time filters knowledge]]
-# *** [[./][the burden of proof ]
-*** [[./2022-03-21-dont-know.org][what we don't know]]
-*** 
-*** [[./][cheap talk]
-*** [[./][perils of giving advice ]
-*** [[./][economy of beliefs ]
-*** [[./][sucker games ]
-*** [[./][problem of induction ]
-*** [[./][non demonstrative knowledge ]
-c*** [[./][what a million people know ]
-*** [[./][subtractive knowledge ]
-*** [[./][averages are dangerous ]
-*** [[./][unreason ]
-*** [[./][fox and the hedgehog ]
+*** [[./2022-03-21-dont-know.org][what we don't know]] 
+*** [[./2022-03-03-advice.org][perils of giving advice]]
+*** [[./2022-03-30-economy.org][economy of beliefs ]]
+*** [[./2022-03-30-subtract.org][subtractive knowledge ]]
+*** Prediction ?/Induction 
+
+*** Old Sections 
+**** [[./][cheap talk]
+**** [[./][sucker games ]
+**** [[./][problem of induction ]
+**** [[./][non demonstrative knowledge ]
+**** [[./][what a million people know ]
+**** [[./][averages are dangerous ]
+**** *** [[./][unreason ]
+**** [[./][fox and the hedgehog ]
 
 ** Part II: The Stoic 
-*** 
-*** [[./2022-03-04-loving-fate.org][More than Mere Indifference]]
+*** [[./2022-03-04-loving-fate.org][More than Mere Indifference]] 
 *** [[./2022-03-04-redundancy.org][Redundancy]]
 *** [[./2022-03-05-procrastination.org][Decision Making & Procrastination]]
 *** [[./2022-03-05-curiosity.org][Learn w/ Curiosity]]
 *** [[./2022-03-07-chance.org][Reinstating Dimensionality]]
 *** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
-*** [[./2022-03-07-fate.org][Be like Fire]]
+*** [[./2022-03-23-trial.org][trial & error + computational irreducibility]]
+*** [[./2022-03-07-fate.org][Killing Hope]]
 
-*** [[./][Decommoditization, or how to avoid Platonification ] - We Need Dimensonioality/ Noise 
-*** - Boredm - Joseph Brodsky, Dostoevsky, Kierkegaard
-
-*** [[./][the human body ]
-*** [[./2022-03-23-trial.org][trial & error + computational irreducibility]] 
-- simple, crucial innovations cannot be made with sophisticated tools
-*** [[./][fortune favors the prepared]
 ** Part III: The Epicurean 
-*** 
-*** [[./2022-03-04-Proust.org][Proust & Epicurus]]
-*** [[./2022-03-04-finding-time.org][Pursuits of Your Own]]
-*** [[./2022-03-07-happiness.org][No conditional Happiness]]
-*** [[./2022-03-07-time.org][Happiness/Time]]
+*** [[./2022-03-04-Proust.org][Proust & Epicurus]] 
+*** [[./2022-03-04-finding-time.org][Productivity Versus Savoring]]
+*** [[./2022-03-07-happiness.org][Playing Your Own Game]]
 *** [[./2022-03-07-bought-happiness.org][Happiness/Money]]
-Humor - 
-*** [[./][paradox of progress ]
-*** [[./][friendship ]
-** Part IV: The Harmonious Balance   
-*** Silver Rule 
-*** 
+*** OLD SECTIONS 
+**** [[./][paradox of progress ]
+**** [[./][friendship ]
+
 
 * Writing 
 ** The Skeptic And The Empiric: What's Worth Knowing
 :PROPERTIES:
 :UNNUMBERED: 
 :END:
-
 ** Inside and Outside the Veil of Opacity.   
 
 + We Know waht we don't like more than what we like, 
@@ -318,7 +293,6 @@ Belief
 + It's unenthical to advocate an opinion that you yourself can gain
   from while avoiding associtaed harm. 
 
- 
 ** /How to Be A Good Lover, or, Trust & Knowledge in the Information Age/ 
 We exist in a world where some situations are dominated by the
 singular occurances of rare events. Consider that even if you cheat on
@@ -374,7 +348,6 @@ iva/ could give harm to the one who receives
     how little we can be sure of? 
 
     - /The Advice Business/ 
-
 
 ** /How to Become An Entrepreneur in 10 Steps/ 
 
@@ -695,7 +668,6 @@ this is no failure, only death. which is happening anyway.
 
 ** /Engagement/
 - / / 
-
 
 * Version History
 | version |       date | notes                                   |
