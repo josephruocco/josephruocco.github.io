@@ -83,8 +83,7 @@
 ** PREFACE 
 *** [[./2022-03-30-Cicero.org][Cicero Arriving at the tomb of Archimedes]]
 
-
-/What Modernity Silences/ 
+*** [[./2022-03-30-modern-problems.org][What Modernity Silences]]
 Modernity shuts out qualities of Nature that are fatally ignored. 
 - commoditization over realtionships - 
 - life is more random than we think. 
