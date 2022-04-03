@@ -82,19 +82,7 @@
 * Table of Contents 
 ** PREFACE 
 *** [[./2022-03-30-Cicero.org][Cicero Arriving at the tomb of Archimedes]]
-
 *** [[./2022-03-30-modern-problems.org][What Modernity Silences]]
-Modernity shuts out qualities of Nature that are fatally ignored. 
-- commoditization over realtionships - 
-- life is more random than we think. 
-- sterilizes the randomness of real life with simplified models -
-  gyms, schools, prediction models, etc. Modernity seeks to deprive us of life's innate sense of variability
-and randomness. When forced to overcompensate we become better off
-when not under such conditions.
-- Talk is a lot cheaper. /Looking good is more important than doing good/
-- product for process - what makes you a hero is how you fight, not if
-  you win. 
-
 
 ** Part I: The Skeptic
 *** [[./2022-03-04-info.org][info overload]]
