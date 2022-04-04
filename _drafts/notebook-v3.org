@@ -83,6 +83,7 @@
 ** PREFACE 
 *** [[./2022-03-30-Cicero.org][Cicero Arriving at the tomb of Archimedes]]
 *** [[./2022-03-30-modern-problems.org][What Modernity Silences]]
+*** [[./2022-04-02-virtue.org][Virtue]]
 
 ** Part I: The Skeptic
 *** [[./2022-03-04-info.org][info overload]]
