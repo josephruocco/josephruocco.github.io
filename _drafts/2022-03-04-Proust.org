@@ -1,5 +1,5 @@
 
-#+TITLE: Proust 
+#+TITLE: Preferences part 1 
 
 In /A la Recherche du temps perdu/, the novel by Marcel Proust, the
 narrator tests the pleasures of modern living and learns that our
