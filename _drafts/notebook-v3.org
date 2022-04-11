@@ -89,7 +89,8 @@
 ** PREFACE 
 *** [[./2022-03-30-Cicero.org][Cicero Arriving at the tomb of Archimedes]]
 *** [[./2022-03-30-modern-problems.org][What Modernity Silences]]
-*** [[./2022-04-02-virtue.org][Virtue]]
+*** [[./2022-04-02-virtue.org][
+The Art of Being Human]]
 
 ** Part I: The Madness of Crowds & Negative Advice 
 *** [[./2022-03-04-info.org][info overload]]
@@ -128,7 +129,15 @@
 *** [[./2022-03-04-finding-time.org][Effortless Action]]
 *** [[./2022-03-07-happiness.org][Community]]
 *** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
+*** Beauty & Aesthetics 
+there is no life without beauty 
+nature, 
+disciplen is 
+*** discipline is "saying no"
+saying no to BS 
+fasting instead of eating right 
 *** OLD SECTIONS 
+
 **** [[./][paradox of progress ]
 **** [[./][friendship ]
 
