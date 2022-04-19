@@ -88,10 +88,10 @@
 * Contents 
 ** PREFACE 
 *** [[./2022-03-30-Cicero.org][Cicero Arriving at the tomb of Archimedes]]
-*** [[./2022-03-30-modern-problems.org][What Modernity Silences]]
+*** [[./2022-03-30-modern-problems.org][Silenced by Modernity]]
 
 
-** Part I: The Skeptic - The Madness of Crowds & Negative Advice 
+** Part I: The Skeptic 
 *** [[./2022-03-04-info.org][info overload]]
 *** [[./2022-03-04-instincts.org][instincts]]
 *** [[./2022-03-04-memory-and-forgetfulness.org][memory & forgetfulness]]
@@ -110,9 +110,10 @@
 **** [[./][what a million people know ]
 **** [[./][averages are dangerous ]
 **** *** [[./][unreason ]
-**** [[./][fox and the hedgehog ]
+**** [[./][fox and the hedgehog
 
-** Part II: The SToic - SKin in the Game, Antifragility, and Loss Aversion 
+
+** Part II: The SToic  
 *** [[./2022-04-02-virtue.org][The Art of Being Human]]
 *** [[./2022-03-04-loving-fate.org][More than Mere Indifference]]
 *** [[./2022-03-04-redundancy.org][Redundancy]]
@@ -123,19 +124,13 @@
 *** [[./2022-03-07-fate.org][Not Caring About the Outcome]]
 
 
-** Part III: The Epicurean - Less Is More & The Paradox of progress 
+** Part III: The Epicurean 
 *** [[./2022-03-04-Proust.org][Preferences Part 1]]
 *** [[./2022-03-07-bought-happiness.org][Preferences]]
 *** [[./2022-03-04-finding-time.org][Effortless Action]]
 *** [[./2022-03-07-happiness.org][Community]]
 *** [[./2022-03-07-there-is-no-you.org][there is no "you"]]
-*** Beauty & Aesthetics 
-there is no life without beauty 
-nature, 
-disciplen is 
-*** discipline is "saying no"
-saying no to BS 
-fasting instead of eating right 
+*** Beauty & Aesthetics
 *** OLD SECTIONS 
 
 **** [[./][paradox of progress ]
