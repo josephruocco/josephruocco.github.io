@@ -1,5 +1,6 @@
 ---
 title: Memory & Forgetfulness
+layout: default
 ---
 
 To be forgetful is to have a functioning mind.

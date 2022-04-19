@@ -1,5 +1,6 @@
 ---
 title: Silenced by Modernity
+layout: default
 ---
 
 *On Cicero arriving at the tomb of Archimedes* In Cicero\'s *On Old

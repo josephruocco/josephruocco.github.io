@@ -1,5 +1,6 @@
 ---
 title: Learning with Emotions,
+layout: default
 ---
 
 Modernity by definition removes the variability out of life.
