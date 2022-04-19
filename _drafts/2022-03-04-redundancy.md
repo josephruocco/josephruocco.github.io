@@ -1,5 +1,6 @@
 ---
 title: Redundancy
+layout: default
 ---
 
 How do we prepare for the worst, given that we don\'t know what the next

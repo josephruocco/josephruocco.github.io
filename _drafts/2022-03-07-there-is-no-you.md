@@ -1,5 +1,6 @@
 ---
 title: There is no \"You\"
+layout: default
 ---
 
 The central flaw with optimizing is that \"everything else\" ceases to

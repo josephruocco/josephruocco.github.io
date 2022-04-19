@@ -1,5 +1,6 @@
 ---
 title: Community and FRiendshp
+layout: default
 ---
 
 -   Playing your own Game

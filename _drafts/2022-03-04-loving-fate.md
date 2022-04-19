@@ -1,5 +1,6 @@
 ---
 title: More than Mere Indifference.
+layout: default
 ---
 
 The Buddhist teaching of indifferenc to the events of fate strikes a

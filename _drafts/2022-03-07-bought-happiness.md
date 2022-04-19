@@ -1,5 +1,6 @@
 ---
 title: Preferences
+layout: default
 ---
 
 Happiness can\'t be bought, so ignore those who are selling it and stop

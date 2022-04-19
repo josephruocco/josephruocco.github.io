@@ -1,5 +1,6 @@
 ---
 title: Instincts
+layout: default
 ---
 
 Most of the time our mental perpcetions lead us to error, but since

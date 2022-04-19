@@ -1,21 +1,7 @@
 ---
-author: Joseph Ruocco
-subtitle: Good enough tricks on how to live
 title: What our Ancestors Forget to Tell Us
+layout: default
 ---
-
-```{=org}
-#+STARTUP: show3levels
-```
-# Comments
-
-### Level 1
-
-1.  Level 2
-
-    1.  Level 3
-
-        1.  Level 4
 
 # Progress: 18/ 33(48) (drafts)
 

@@ -1,5 +1,6 @@
 ---
 title: Decision Making and Procrastination
+layout: default
 ---
 
 Make Decisions as late as possible.

@@ -1,5 +1,6 @@
 ---
 title: Effortless Action
+layout: default
 ---
 
 Having fun is a performance enhancing drug.
