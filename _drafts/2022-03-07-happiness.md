@@ -1,5 +1,5 @@
 ---
-title: Community and FRiendshp
+title: Community and Friendshp
 layout: default
 ---
 
