@@ -1,6 +1,6 @@
 ---
-Title: Updates
 layout: page
+title: Updates
 subtitle: "Take a peek at what I'm currently up to:" 
 ---
 
