@@ -1,5 +1,5 @@
 ---
-title: How To Procrastinate
+title: Why Procrastination Is The Best Way To Make Decisions
 layout: default
 ---
 
