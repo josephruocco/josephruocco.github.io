@@ -1,5 +1,5 @@
 ---
-title: Decision Making and Procrastination
+title: How To Procrastinate
 layout: default
 ---
 

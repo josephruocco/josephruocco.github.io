@@ -1,5 +1,5 @@
 ---
-title: Silenced by Modernity
+title: What Modernity Has Done
 layout: default
 ---
 

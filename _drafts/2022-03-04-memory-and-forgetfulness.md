@@ -1,5 +1,5 @@
 ---
-title: Memory & Forgetfulness
+title: How To Remember & How To Forget
 layout: default
 ---
 

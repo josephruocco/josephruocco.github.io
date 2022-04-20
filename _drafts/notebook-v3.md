@@ -1,5 +1,5 @@
 ---
-title: What our Ancestors Forget to Tell Us
+title: What Our Ancestors Forget To Tell Us
 layout: default
 ---
 

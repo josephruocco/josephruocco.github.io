@@ -1,5 +1,5 @@
 ---
-title: Effortless Action
+title: Work Shouldn't Look Like Work 
 layout: default
 ---
 

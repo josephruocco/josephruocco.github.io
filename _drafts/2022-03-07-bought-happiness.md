@@ -1,5 +1,5 @@
 ---
-title: Preferences
+title: Where To Find Happiness
 layout: default
 ---
 

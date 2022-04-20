@@ -1,5 +1,5 @@
 ---
-title: More than Mere Indifference.
+title: How To Love Your Fate
 layout: default
 ---
 

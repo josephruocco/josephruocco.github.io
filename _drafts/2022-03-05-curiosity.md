@@ -1,5 +1,5 @@
 ---
-title: Learning with Emotions,
+title: Unboxed Learning
 layout: default
 ---
 
