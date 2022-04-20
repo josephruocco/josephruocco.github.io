@@ -1,5 +1,5 @@
 ---
-title: The Only Rationality Is Survival
+title: How To Think Clearly
 layout: default
 ---
 

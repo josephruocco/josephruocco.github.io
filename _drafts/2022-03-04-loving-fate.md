@@ -1,5 +1,5 @@
 ---
-title: How To Love Your Fate
+title: "To Value What Can't Be Taken Away"
 layout: default
 ---
 
