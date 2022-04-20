@@ -1,7 +1,5 @@
----
-title: How To Abandon Your Desires
-layout: default
----
+
+# Table of Contents
 
 In *A la Recherche du temps perdu*, the novel by Marcel Proust, the
 narrator tests the pleasures of modern living and learns that our

@@ -1,5 +1,5 @@
 ---
-title: Redundancy
+title: How Mother Nature Survives
 layout: default
 ---
 

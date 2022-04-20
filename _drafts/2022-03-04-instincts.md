@@ -1,5 +1,5 @@
 ---
-title: Instincts
+title: The Only Rationality Is Survival
 layout: default
 ---
 
