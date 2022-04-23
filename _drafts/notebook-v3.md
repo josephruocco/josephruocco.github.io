@@ -5,7 +5,7 @@ layout: default
 
 # Contents
 
-## PREFACE
+## Preface
 
 * [Cicero Arriving at the tomb of Archimedes](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/Cicero/)
 
@@ -29,7 +29,6 @@ layout: default
 
 * [subtractive knowledge ](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/subtract/)
 
-* Prediction ?/Induction
 
 ## Part II: The SToic
 
