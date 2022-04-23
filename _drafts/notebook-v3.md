@@ -42,7 +42,7 @@ layout: default
 
 * [Reinstating Dimensionality](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/chance/)
 
-* [trial & error + computational irreducibility](https://superlative-kelpie-eabf4e.netlify.app/2022/03/23/trial/)
+* [trial & error](https://superlative-kelpie-eabf4e.netlify.app/2022/03/23/trial/)
 
 * [Not Caring About the Outcome](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/fate/)
 
