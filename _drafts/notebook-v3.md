@@ -28,7 +28,7 @@ layout: default
 * [subtractive knowledge ](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/subtract/)
 
 
-## Part II: The SToic
+## Part II: The Stoic
 
 * [The Art of Being Human](https://superlative-kelpie-eabf4e.netlify.app/2022/04/02/virtue/)
 
@@ -38,7 +38,7 @@ layout: default
 
 * [Decision Making & Procrastination](https://superlative-kelpie-eabf4e.netlify.app/2022/03/05/procrastination/)
 
-* [Learn w/ Curiosity](https://superlative-kelpie-eabf4e.netlify.app/2022/03/05/curiosity/)
+* [Learn with Curiosity](https://superlative-kelpie-eabf4e.netlify.app/2022/03/05/curiosity/)
 
 * [Reinstating Dimensionality](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/chance/)
 
@@ -56,4 +56,4 @@ layout: default
 
 * [Community](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/happiness/)
 
-* [there is no \"you\"](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/there-is-no-you/)
+* [there is no "you"](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/there-is-no-you/)
