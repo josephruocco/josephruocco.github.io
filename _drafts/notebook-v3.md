@@ -7,56 +7,56 @@ layout: default
 
 ## PREFACE
 
-### [Cicero Arriving at the tomb of Archimedes](./2022-03-30-Cicero.md)
+### [Cicero Arriving at the tomb of Archimedes](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/Cicero/)
 
-### [Silenced by Modernity](./2022-03-30-modern-problems.md)
+### [Silenced by Modernity](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern/problems/)
 
 ## Part I: The Skeptic
 
-### [info overload](./2022-03-04-info.md)
+### [info overload](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/info/)
 
-### [instincts](./2022-03-04-instincts.md)
+### [instincts](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/instincts/)
 
-### [memory & fmdetfulness](./2022-03-04-memory-and-forgetfulness.md)
+### [memory & fmdetfulness](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/memory/and/forgetfulness/)
 
-### [time filters knowledge](./2022-03-06-time.md)
+### [time filters knowledge](https://superlative-kelpie-eabf4e.netlify.app/2022/03/06/time/)
 
-### [what we don\'t know](./2022-03-21-dont-know.md)
+### [what we don\'t know](https://superlative-kelpie-eabf4e.netlify.app/2022/03/21/dont/know/)
 
-### [perils of giving advice](./2022-03-03-advice.md)
+### [perils of giving advice](https://superlative-kelpie-eabf4e.netlify.app/2022/03/03/advice/)
 
-### [economy of beliefs ](./2022-03-30-economy.md)
+### [economy of beliefs ](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/economy/)
 
-### [subtractive knowledge ](./2022-03-30-subtract.md)
+### [subtractive knowledge ](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/subtract/)
 
 ### Prediction ?/Induction
 
 ## Part II: The SToic
 
-### [The Art of Being Human](./2022-04-02-virtue.md)
+### [The Art of Being Human](https://superlative-kelpie-eabf4e.netlify.app/2022/04/02/virtue/)
 
-### [More than Mere Indifference](./2022-03-04-loving-fate.md)
+### [More than Mere Indifference](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/loving/fate/)
 
-### [Redundancy](./2022-03-04-redundancy.md)
+### [Redundancy](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/redundancy/)
 
-### [Decision Making & Procrastination](./2022-03-05-procrastination.md)
+### [Decision Making & Procrastination](https://superlative-kelpie-eabf4e.netlify.app/2022/03/05/procrastination/)
 
-### [Learn w/ Curiosity](./2022-03-05-curiosity.md)
+### [Learn w/ Curiosity](https://superlative-kelpie-eabf4e.netlify.app/2022/03/05/curiosity/)
 
-### [Reinstating Dimensionality](./2022-03-07-chance.md)
+### [Reinstating Dimensionality](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/chance/)
 
-### [trial & error + computational irreducibility](./2022-03-23-trial.md)
+### [trial & error + computational irreducibility](https://superlative-kelpie-eabf4e.netlify.app/2022/03/23/trial/)
 
-### [Not Caring About the Outcome](./2022-03-07-fate.md)
+### [Not Caring About the Outcome](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/fate/)
 
 ## Part III: The Epicurean
 
-### [Preferences Part 1](./2022-03-04-Proust.md)
+### [Preferences Part 1](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/Proust/)
 
-### [Preferences](./2022-03-07-bought-happiness.md)
+### [Preferences](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/bought/happiness/)
 
-### [Effortless Action](./2022-03-04-finding-time.md)
+### [Effortless Action](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/finding/time/)
 
-### [Community](./2022-03-07-happiness.md)
+### [Community](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/happiness/)
 
-### [there is no \"you\"](./2022-03-07-there-is-no-you.md)
+### [there is no \"you\"](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/there/is/no/you/)
