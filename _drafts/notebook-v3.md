@@ -3,13 +3,15 @@ title: What Our Ancestors Forget To Tell Us
 layout: default
 ---
 
-# Contents
+# What Our Ancestors Forgot To Tell Us
 
-## Preface
+## Contents
+
+### Preface
 
 * [Silenced by Modernity](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern-problems/)
 
-## Part I: The Skeptic
+### Part I: The Skeptic
 
 * [info overload](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/info/)
 
@@ -28,7 +30,7 @@ layout: default
 * [subtractive knowledge ](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/subtract/)
 
 
-## Part II: The Stoic
+### Part II: The Stoic
 
 * [The Art of Being Human](https://superlative-kelpie-eabf4e.netlify.app/2022/04/02/virtue/)
 
@@ -46,7 +48,7 @@ layout: default
 
 * [Not Caring About the Outcome](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/fate/)
 
-## Part III: The Epicurean
+### Part III: The Epicurean
 
 * [Preferences Part 1](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/Proust/)
 
