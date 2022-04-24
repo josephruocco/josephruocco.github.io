@@ -32,9 +32,9 @@ layout: default
 
 ### Part II: The Stoic
 
-* [The Art of Being Human](https://superlative-kelpie-eabf4e.netlify.app/2022/04/02/virtue/)
-
 * [More than Mere Indifference](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/loving-fate/)
+
+* [The Art of Being Human](https://superlative-kelpie-eabf4e.netlify.app/2022/04/02/virtue/)
 
 * [Redundancy](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/redundancy/)
 
