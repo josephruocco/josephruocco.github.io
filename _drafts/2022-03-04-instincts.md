@@ -1,5 +1,5 @@
 ---
-title: How To Think Clearly
+title: Classical Rationality
 layout: default
 ---
 
