@@ -9,7 +9,7 @@ layout: default
 
 ### Preface
 
-* [Silenced by Modernity](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern-problems/)
+* [The Modern Dilemma: Stochastophobia](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern-problems/)
 
 ### Part I: The Skeptic
 
