@@ -13,7 +13,7 @@ layout: default
 
 ### Part I: The Skeptic
 
-* [info overload](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/info/)
+* [More Information, More Delusions](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/info/)
 
 * [instincts](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/instincts/)
 
