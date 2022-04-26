@@ -1,6 +1,6 @@
 ---
 title: Classical Rationality
-layout: default
+layout: page
 ---
 
 Most of the time our mental perceptions lead us to error,

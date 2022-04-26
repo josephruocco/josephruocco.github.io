@@ -1,6 +1,6 @@
 ---
 title: Work Shouldn't Look Like Work 
-layout: default
+layout: page
 ---
 
 Having fun is a performance enhancing drug.

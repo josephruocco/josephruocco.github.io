@@ -1,6 +1,6 @@
 ---
 title: Why Procrastination Is The Best Way To Make Decisions
-layout: default
+layout: page
 ---
 
 Make Decisions as late as possible.

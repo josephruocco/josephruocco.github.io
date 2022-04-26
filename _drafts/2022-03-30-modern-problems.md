@@ -1,6 +1,6 @@
 ---
 title: What Modernity Has Done
-layout: default
+layout: page
 ---
 
 *On Cicero arriving at the tomb of Archimedes* In Cicero\'s *On Old

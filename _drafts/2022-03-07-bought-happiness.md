@@ -1,6 +1,6 @@
 ---
 title: Where To Find Happiness
-layout: default
+layout: page
 ---
 
 Happiness can\'t be bought, so ignore those who are selling it and stop

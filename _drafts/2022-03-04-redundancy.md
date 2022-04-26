@@ -1,6 +1,6 @@
 ---
 title: How Mother Nature Survives
-layout: default
+layout: page
 ---
 
 How do we prepare for the worst, given that we don\'t know what the next
