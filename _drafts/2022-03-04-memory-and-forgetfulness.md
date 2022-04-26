@@ -1,6 +1,6 @@
 ---
 title: How To Remember & How To Forget
-layout: default
+layout: page
 ---
 
 To be forgetful is to have a functioning mind.

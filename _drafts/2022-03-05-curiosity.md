@@ -1,6 +1,6 @@
 ---
 title: Unboxed Learning
-layout: default
+layout: page
 ---
 
 Modernity by definition removes the variability out of life.

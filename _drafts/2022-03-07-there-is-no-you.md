@@ -1,6 +1,6 @@
 ---
 title: The Flaw With Optimization
-layout: default
+layout: page
 ---
 
 The central flaw with optimizing is that \"everything else\" ceases to

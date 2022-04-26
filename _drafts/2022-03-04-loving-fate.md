@@ -1,6 +1,6 @@
 ---
 title: "To Value What Can't Be Taken Away"
-layout: default
+layout: page
 ---
 
 The Buddhist teaching of indifferenc to the events of fate strikes a

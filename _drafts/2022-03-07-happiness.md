@@ -1,6 +1,6 @@
 ---
 title: Community and Friendshp
-layout: default
+layout: page
 ---
 
 -   Playing your own Game
