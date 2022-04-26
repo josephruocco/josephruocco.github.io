@@ -3,8 +3,6 @@ title: What Our Ancestors Forget To Tell Us
 layout: page
 ---
 
-# What Our Ancestors Forgot To Tell Us
-
 ## Contents
 
 ### Preface
