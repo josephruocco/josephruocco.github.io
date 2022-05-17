@@ -9,7 +9,7 @@ layout: page
 
 * [The Modern Dilemma, or Learning to Act Our Age](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern-problems/)
 
-### Part I: The Skeptic
+### Part I: The Skeptic, or Detecting Bull***t 
 
 * [More Information, More Delusions](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/info/)
 
@@ -28,7 +28,7 @@ layout: page
 * [Increasing the worth of what you know](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/subtract/)
 
 
-### Part II: The Stoic
+### Part II: The Stoic, or the Thirst for Conflict 
 
 * [No Downside](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/loving-fate/)
 
@@ -46,7 +46,7 @@ layout: page
 
 * [Acceptance](https://superlative-kelpie-eabf4e.netlify.app/2022/03/07/fate/)
 
-### Part III: The Epicurean
+### Part III: The Epicurean, or Living on Your Own Terms
 
 * [Savouring the Good](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/Proust/)
 
