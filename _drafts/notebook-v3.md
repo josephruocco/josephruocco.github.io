@@ -30,7 +30,7 @@ layout: page
 
 ### Part II: The Stoic, or the Thirst for Conflict 
 
-* [No Downside](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/loving-fate/)
+//* [No Downside](https://superlative-kelpie-eabf4e.netlify.app/2022/03/04/loving-fate/)
 
 * [What Can't be Taken Away](https://superlative-kelpie-eabf4e.netlify.app/2022/04/02/virtue/)
 
