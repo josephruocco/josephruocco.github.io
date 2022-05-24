@@ -22,28 +22,16 @@ yourself to do something you don\'t like doing.
 
 The optimal path is never the shortest one.
 
-It\'s foolish to complain you don\'t have enough time.
-
 We shouldn\'t know when the week begins or ends. Not being prisoner to a
 schedule ro calendar, an alarm clock or wristwatch.
 
 Don\'t run for trains.
 
-Speed
-
--   Slowly as possible, to savor it,
--   Why read something that you'd want to Speeding reading, watching at
-    2x speed
-    -   fast drivers just get to the next red light quickly
+Fast drivers just get to the next red light quickly
 
 Never do work you can't get lost in
 
 There\'s no discipline in doing something that is boring, unnaturla and
 devoid of organic stimulus.
 
-1.  *Leisure is Fertile without Distraction* The mind is most
-    intelligent while devoted to effortless activity. When freed from
-    constraints, work, schedules, the mind discoveries opportunities
-    that it didn\'t see before. As anyone who might have taken a shower
-    before would realize. Go for a walk without a phone, without
-    listening to music. \[fn:4\]
+ The mind is most intelligent while devoted to effortless activity. When freed from constraints, work, schedules, the mind discoveries opportunities that it didn\'t see before. As anyone who might have taken a shower before would realize. Go for a walk without a phone, without listening to music. 
