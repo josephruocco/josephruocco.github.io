@@ -7,7 +7,7 @@ layout: page
 
 ### Preface
 
-* [The Modern Dilemma, or Learning to Act Our Age](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern-problems/)
+* [What this book is about](https://superlative-kelpie-eabf4e.netlify.app/2022/03/30/modern-problems/)
 
 ### Part I: The Skeptic, or Detecting Bull***t 
 
