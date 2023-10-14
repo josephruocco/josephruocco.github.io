@@ -5,37 +5,40 @@ subtitle: "A few books I learned a ton from and like to read and reread."
 ---
 
 In no particular order... 
-1. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is for cooking 
-2. Everything by Derek Sivers - I like Hell Yeah or No! And How to Live, both for sale on his website. 
-3. Everything by Charlie Hoehn - Play It Away!, Stress Hacks, 10 Day anxiety fix. 
-4. Everything by Nassim Nicholas Taleb - the Black Swan, Anti-fragile, Skin in the Game, Fooled by Randomness, and the Bed of Procrustes 
-5. The Almanac of Naval Ravikant by Eric Jorgenson- Naval’s sayings have a crystalline clarity. 
+1. Everything by Nassim Nicholas Taleb - the Black Swan, Anti-fragile, Skin in the Game, Fooled by Randomness, and the Bed of Procrustes
+2. The New Evolution Diet by Art De Vany
+3. Becoming a Supple Leopard and DeskBound by Kelly Starrett
+4. Everything by Derek Sivers - I like Hell Yeah or No! And How to Live, both for sale on his website. 
+5. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is for cooking 
+   4. Everything by Charlie Hoehn - Play It Away!, Stress Hacks, 10 Day anxiety fix. 
+
+6. The Almanac of Naval Ravikant by Eric Jorgenson- Naval’s sayings have a crystalline clarity. 
     1. Also: Kamal Ravikant’s Love Yourself Like Your Life Depends on It. 
-6. The 5am Club by Robin Sharma - a book with a weird narrative style that I think about often. 
-7. Straw Dogs and Feline Philosophy by John Gray 
-8. All I Want to Know is Where I’m Going to Die… by Peter Bevelin.
+7. The 5am Club by Robin Sharma - a book with a weird narrative style that I think about often. 
+8. Straw Dogs and Feline Philosophy by John Gray 
+9. All I Want to Know is Where I’m Going to Die… by Peter Bevelin.
     1. Related: Poor Charlie’s Almanack by Peter Kaufman 
-9. 12 Rules for Life & Beyond Order by Jordan B. Peterson 
-10. Mind for Numbers & Learning How to Learn by Barbara Oakley and Terrence Sjenowski 
-11. Steal like an Artist! & Show your Work! By Austin Kleon. Keep Going is also great. 
-12. Choose Yourself, The Power of No and How to Be the Luckiest Person Alive! By James Altucher 
+10. 12 Rules for Life & Beyond Order by Jordan B. Peterson 
+11. Mind for Numbers & Learning How to Learn by Barbara Oakley and Terrence Sjenowski 
+12. Steal like an Artist! & Show your Work! By Austin Kleon. Keep Going is also great. 
+13. Choose Yourself, The Power of No and How to Be the Luckiest Person Alive! By James Altucher 
     1. Related: The Power Bible by William Beteet and Brendan Lemon
-13. How to Fail at Almost Everything and Still Win Big! By Scott Adams 
-14. The Life Changing Magic of Tidying Up by Marie Kondo 
-15. I Will Teach You to Be Rich by Ramit Sethi 
+14. How to Fail at Almost Everything and Still Win Big! By Scott Adams 
+15. The Life Changing Magic of Tidying Up by Marie Kondo 
+16. I Will Teach You to Be Rich by Ramit Sethi 
     1. 53 things I’ve Learned in 27 Years on Planet Earth by Maneesh Sethi 
-16. The Willpower instinct by Kelly McGonigal 
-17. Discipline Equals Freedom By Jocko Willink 
-18. Deep Work by Cal Newport 
-19. Flow by Mikhail Chiksentmihyl 
-20. Fluent Forever by Gabriel Wyner 
-21. Atmamun, Direct Truth, and A Master’s Secret Whispers by Kapil Gupta 
+17. The Willpower instinct by Kelly McGonigal 
+18. Discipline Equals Freedom By Jocko Willink 
+19. Deep Work by Cal Newport 
+20. Flow by Mikhail Chiksentmihyl 
+21. Fluent Forever by Gabriel Wyner 
+22. Atmamun, Direct Truth, and A Master’s Secret Whispers by Kapil Gupta 
  	Also: The works of Jed McKenna: The Damndest Trilogy and Theory of Everything
-22. It Could be Worse, You Could Be Me by Ariel Leve 
-23. “This is Water” (speech) and “Good Old Neon” (short story) and Consider the Lobster (essays) and A Supposedly Fun Thing that I Will Never Do Again  by David foster Wallace 
-24. Women and Post Office by Charles Bukowski 
-25. Jesus’ Son by Denis Johnson 
-26. The “Great” Works of Dostoevsky - Crime & Punishment, The Brothers Karamazov, Notes from the Underground, The Devils, and The Idiot. 
+23. It Could be Worse, You Could Be Me by Ariel Leve 
+24. “This is Water” (speech) and “Good Old Neon” (short story) and Consider the Lobster (essays) and A Supposedly Fun Thing that I Will Never Do Again  by David foster Wallace 
+25. Women and Post Office by Charles Bukowski 
+26. Jesus’ Son by Denis Johnson 
+27. The “Great” Works of Dostoevsky - Crime & Punishment, The Brothers Karamazov, Notes from the Underground, The Devils, and The Idiot. 
 
 Health Books:
 1. The 4-Hour Body
