@@ -13,7 +13,7 @@ Here's some books that I have read in full, others in pieces or some none at all
 * [The Comedians](https://www.amazon.com/Comedians-Graham-Greene/dp/0670232084/)
 * [Amerika](https://www.amazon.com/Amerika-Missing-Person-Franz-Kafka/dp/0805242112)
 * [The Black Swan](https://www.amazon.com/Black-Swan-Second-Improbable-Incerto-ebook/dp/B00139XTG4)
-* [Antifragile] (https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/1400067820)
+* [Antifragile](https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/1400067820)
 * [Fooled By Randomness](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/1400067936)
 * [Skin in the Game](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily-ebook/dp/B075HYVP7C)
 * [The Bed of Procrustes](https://www.amazon.com/Bed-Procrustes-Philosophical-Practical-Aphorisms-ebook/dp/B004C43F9S)
