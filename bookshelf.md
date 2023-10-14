@@ -6,6 +6,14 @@ title: Bookshelf
 
 Here's some books that I have read in full, others in pieces or some none at all. These are all books that I have in my possession and I thought I might read. 
 
+* [The Iliad](https://www.amazon.com/Iliad-Homer/dp/0140275363)
+* [Essays](https://www.amazon.com/Michel-Montaigne-Complete-Penguin-Classics/dp/0140446044)
+* [Maxims](https://www.amazon.com/Collected-Maxims-Reflections-Oxford-Classics/dp/0199540004)
+* [In Praise of Folly and other writings](https://www.amazon.com/Praise-Writings-Norton-Critical-Editions/dp/0393957497)
+* [Da Vita Beata](https://www.amazon.com/Happy-Life-Illustrated-Vita-Beata-ebook/dp/B01BB4RVU0/)
+* [On The Good Life](https://www.amazon.com/Good-Life-Penguin-Classics/dp/0140442448/)
+* [The Gay Science](https://www.amazon.com/Gay-Science-Prelude-Rhymes-Appendix-ebook/dp/B003E8AJEM/)
+* [Beyond Good and Evil](https://www.amazon.com/Beyond-Good-Evil-Classic-Illustrated-ebook/dp/B00OR7XJDM/)
 * [The 48 Laws Of Power](https://www.amazon.com/s?k=9780140280197)
 * [Beloved](https://www.amazon.com/s?k=9781400033416)
 * [Watchmen](https://www.amazon.com/s?k=9780930289232)
@@ -56,8 +64,8 @@ Here's some books that I have read in full, others in pieces or some none at all
 * [The Subtle Art Of Not Giving A F**k](https://www.amazon.com/s?k=9780062457714)
 * [Unlimited Power](https://www.amazon.com/s?k=9780684845777)
 * [Made In America](https://www.amazon.com/s?k=9780380713813)
-* If This Is A Man by Primo Levi 
-* Blood Meridian by Cormac McCarthy 
-* The Painted Bird by Jerzy Krazinski 
-* The Way to Love by Anthony de Mello 
-* Been down so long it seems like up to me by Rick Farina 
+* [If This Is A Man](https://www.amazon.com/This-Man-Truce-Primo-Levi/dp/0349100136/)
+* [Blood Meridian](https://www.amazon.com/Blood-Meridian-Evening-Redness-International-ebook/dp/B003XT60E0/)
+* [Steps](https://www.amazon.com/Steps-Jerzy-Kosinski/dp/0802135269)
+* [The Way to Love](https://www.amazon.com/Way-Love-Meditations-Life-ebook/dp/B005GFBNSW/) 
+* [Been down so long it seems like up to me](https://www.amazon.com/Been-Looks-Penguin-Twentieth-century-Classics/dp/0140189300)
