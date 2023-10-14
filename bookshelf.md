@@ -6,6 +6,11 @@ title: Bookshelf
 
 Here's some books that I have read in full, others in pieces or some none at all. These are all books that I have in my possession and I thought I might read. 
 
+* [The Black Swan](https://www.amazon.com/Black-Swan-Second-Improbable-Incerto-ebook/dp/B00139XTG4)
+* [Antifragile] (https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/1400067820)
+* [Fooled By Randomness](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/1400067936)
+* [Skin in the Game](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily-ebook/dp/B075HYVP7C)
+* [The Bed of Procrustes](https://www.amazon.com/Bed-Procrustes-Philosophical-Practical-Aphorisms-ebook/dp/B004C43F9S)
 * [The Iliad](https://www.amazon.com/Iliad-Homer/dp/0140275363)
 * [Essays](https://www.amazon.com/Michel-Montaigne-Complete-Penguin-Classics/dp/0140446044)
 * [Maxims](https://www.amazon.com/Collected-Maxims-Reflections-Oxford-Classics/dp/0199540004)
