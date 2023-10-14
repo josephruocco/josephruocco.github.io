@@ -6,6 +6,12 @@ title: Bookshelf
 
 Here's some books that I have read in full, others in pieces or some none at all. These are all books that I have in my possession and I thought I might read. 
 
+* [A Season in Hell & Illuminations](https://www.amazon.com/Season-Illuminations-Modern-Library-Classics/dp/0679643273/)
+* [House of Leaves](https://www.amazon.com/House-Leaves-Mark-Z-Danielewski/dp/0375420525)
+* [Flowers of Evil](https://www.amazon.com/Flowers-Evil-Charles-Baudelaire/dp/1449555438)
+* [Moby Dick](https://www.amazon.com/Moby-Dick-Penguin-Classics-Melville-Herman/dp/B00NBKHKFE)
+* [The Comedians](https://www.amazon.com/Comedians-Graham-Greene/dp/0670232084/)
+* [Amerika](https://www.amazon.com/Amerika-Missing-Person-Franz-Kafka/dp/0805242112)
 * [The Black Swan](https://www.amazon.com/Black-Swan-Second-Improbable-Incerto-ebook/dp/B00139XTG4)
 * [Antifragile] (https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/1400067820)
 * [Fooled By Randomness](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/1400067936)
