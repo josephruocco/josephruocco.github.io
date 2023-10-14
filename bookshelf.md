@@ -4,7 +4,7 @@ subtitle: "Books I have bought since 2016."
 title: Bookshelf
 ---
 
-Here's some books that I have read in full, others in pieces or some none at all. These are all books that I have in my possession and I thought I might read. 
+Here's some books that I have read in full, others in pieces or some none at all.
 
 * [A Season in Hell & Illuminations](https://www.amazon.com/Season-Illuminations-Modern-Library-Classics/dp/0679643273/)
 * [House of Leaves](https://www.amazon.com/House-Leaves-Mark-Z-Danielewski/dp/0375420525)
