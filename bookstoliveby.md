@@ -11,7 +11,6 @@ In no particular order...
 4. Everything by Derek Sivers - I like Hell Yeah or No! And How to Live, both for sale on his website. 
 5. Tools of Titans and everything else by Tim Ferriss. I recommend the Tribe of Mentors, The 4-Hour Body and The 4-Hour Workweek. The 4-Hour Chef is good too, but all the practical advice is for cooking 
    4. Everything by Charlie Hoehn - Play It Away!, Stress Hacks, 10 Day anxiety fix. 
-
 6. The Almanac of Naval Ravikant by Eric Jorgenson- Naval’s sayings have a crystalline clarity. 
     1. Also: Kamal Ravikant’s Love Yourself Like Your Life Depends on It. 
 7. The 5am Club by Robin Sharma - a book with a weird narrative style that I think about often. 
