@@ -4,6 +4,13 @@ subtitle: "Books I Like."
 title: Bookshelf
 ---
 
+<<<<<<< HEAD
+=======
+Here's some books that I have read in full, others in pieces or some none at all.
+
+New and Improved Bookshelf [here](https://bookshelf.josephruocco.net)
+
+>>>>>>> df1a96465a29280571793687c99ed642cf827e71
 * [A Season in Hell & Illuminations](https://www.amazon.com/Season-Illuminations-Modern-Library-Classics/dp/0679643273/)
 * [House of Leaves](https://www.amazon.com/House-Leaves-Mark-Z-Danielewski/dp/0375420525)
 * [Flowers of Evil](https://www.amazon.com/Flowers-Evil-Charles-Baudelaire/dp/1449555438)
