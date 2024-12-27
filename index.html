@@ -8,44 +8,14 @@ title: Home
   <p>This site is for the writings and creative projects of Joseph Ruocco</p>
 </section>
 
-<section>
-  <h2>Archive</h2>
-  <p>List of posts created <a href="./archive.html">here</a></p>
-</section>
 
 <section>
-
-  {% assign pages_list = site.pages | sort:"url" %}                                                                                       
-    {% for node in pages_list %}                                                                                                            
-      {% if node.title != null %}                                                                                                           {% if node.layout == "page" %}
-          <h2>{{ node.title }}</h2>
-          <p>{{ node.subtitle }}<p>
-          <p> See <a href="{{ node.url }}">my "{{ node.title }}" page</a></p>             
-       {% endif %}                                                                                                                         
-    {% endif %}                                                                                                                             
-{% endfor %}    
-
-</section>
-
-
-<section>
-  <h2>Mailing List</h2>
-  For newsletters and announcements, subscribe <a href="https://joeruocco.substack.com/embed">here</a>. 
+  Substack <a href="https://joeruocco.substack.com/embed">here</a>. 
   </section>
 
 <section>
-  <h2>Search</h2>
-
-	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<label>
-			<input class="widget-search__field" type="search" placeholder="search" value="" name="q" aria-label="">
-		</label>
-		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://josephruocco.net/">
-	</form>
-
+  Twitter <a href="https://x.com/joeruocco">here</a>. 
   </section>
-
 
 <br />
 
