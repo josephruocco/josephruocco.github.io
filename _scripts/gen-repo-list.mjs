@@ -42,7 +42,6 @@ async function fetchAllUserRepos(username) {
   const out = [];
   let page = 1;
 
-  // per_page max = 100
   while (true) {
     const url = `https://api.github.com/users/${username}/repos?per_page=100&page=${page}&sort=updated`;
     const batch = await ghFetch(url);
@@ -77,14 +76,19 @@ async function fetchAllUserRepos(username) {
   }
   const username = at.slice(1);
 
-  // Fetch repos
   let repos = await fetchAllUserRepos(username);
 
-  // Filter: public only, and optionally exclude forks/archived
   repos = repos.filter((r) => {
-    if (r.private) return false;                // HARD LOCK: never leak private repo names
+    // HARD LOCK: never leak private repo names
+    if (r.private) return false;
+
+    // Exclude forks/archived unless explicitly enabled
     if (!includeForks && r.fork) return false;
     if (!includeArchived && r.archived) return false;
+
+    // Exclude your website repo
+    if (r.full_name === "josephruocco/josephruocco.github.io") return false;
+
     return true;
   });
 
@@ -92,13 +96,16 @@ async function fetchAllUserRepos(username) {
   repos.sort((a, b) => new Date(b[sortKey]) - new Date(a[sortKey]));
   repos = repos.slice(0, limit);
 
-  // Render HTML (reliable in Jekyll includes)
   const items = repos.map((r) => {
     const upd = fmtDate(r.updated_at);
     const push = fmtDate(r.pushed_at);
     const stars = r.stargazers_count ?? 0;
+
+    // Remove "josephruocco/" from display text only
+    const label = r.full_name.replace(/^josephruocco\//, "");
+
     const desc = r.description ? ` — ${escapeHtml(r.description)}` : "";
-    return `<li><a href="${r.html_url}">${escapeHtml(r.full_name)}</a> <small>(pushed ${push}, updated ${upd}, ★ ${stars})</small>${desc}</li>`;
+    return `<li><a href="${r.html_url}">${escapeHtml(label)}</a> <small>(pushed ${push}, updated ${upd}, ★ ${stars})</small>${desc}</li>`;
   });
 
   const html = `<ul class="repo-list">\n${items.join("\n")}\n</ul>\n`;
