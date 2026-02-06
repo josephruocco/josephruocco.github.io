@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "gen:repos": "node _scripts/gen-repo-list.mjs _data/repos.txt _includes/repo_list.md",
+    "gen:repos": "node _scripts/gen-repo-list.mjs _data/repos.txt _includes/repo_list.html",
     "build": "npm run gen:repos && bundle exec jekyll build"
   }
 }
