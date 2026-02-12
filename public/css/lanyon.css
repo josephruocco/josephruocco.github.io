@@ -585,3 +585,13 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+.projects-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.projects-list > li {
+  margin: 16px 0;
+}
