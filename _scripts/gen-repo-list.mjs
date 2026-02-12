@@ -16,8 +16,31 @@ function escapeHtml(s) {
     "<": "&lt;",
     ">": "&gt;",
     '"': "&quot;",
-    "'": "&#39;"
+    "'": "&#39;",
   }[c]));
+}
+
+function toTitleCaseFromSlug(slug) {
+  // slug: "mood-orb-extension" -> "Mood Orb Extension"
+  // keep this intentionally simple; use overrides below for acronyms (NYC, IPUMS, etc.)
+  return String(slug ?? "")
+    .replace(/[-_]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+function applyOverrides(title) {
+  // Optional: upgrade common acronyms/words
+  // Add/remove as you like
+  return title
+    .replace(/\bNyc\b/g, "NYC")
+    .replace(/\bIpums\b/g, "IPUMS")
+    .replace(/\bCpp\b/g, "C++")
+    .replace(/\bIrd\b/g, "IRD")
+    .replace(/\bApi\b/g, "API");
 }
 
 async function ghFetch(url) {
@@ -101,14 +124,19 @@ async function fetchAllUserRepos(username) {
     const push = fmtDate(r.pushed_at);
     const stars = r.stargazers_count ?? 0;
 
-    // Remove "josephruocco/" from display text only
-    const label = r.full_name.replace(/^josephruocco\//, "");
+    // Display label (no owner, no hyphens, title case)
+    const slug = r.full_name.replace(/^josephruocco\//, "");
+    const label = applyOverrides(toTitleCaseFromSlug(slug));
 
-    const desc = r.description ? ` — ${escapeHtml(r.description)}` : "";
-    return `<ul class="projects-list"><a href="${r.html_url}">${escapeHtml(label)}</a> <small>(pushed ${push}, updated ${upd}, ★ ${stars})</small>${desc}</ul>`;
+    const desc = r.description ? ` <span class="project-desc">— ${escapeHtml(r.description)}</span>` : "";
+
+    return `<li class="project-item">
+      <a class="project-link" href="${r.html_url}" target="_blank" rel="noopener">${escapeHtml(label)}</a>
+      ${desc}
+    </li>`;
   });
 
-  const html = `<ul class="repo-list">\n${items.join("\n")}\n</ul>\n`;
+  const html = `<ul class="projects-list">\n${items.join("\n")}\n</ul>\n`;
 
   await fs.mkdir("_includes", { recursive: true });
   await fs.writeFile(outputPath, html, "utf8");
