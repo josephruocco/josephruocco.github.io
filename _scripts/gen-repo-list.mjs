@@ -105,7 +105,7 @@ async function fetchAllUserRepos(username) {
     const label = r.full_name.replace(/^josephruocco\//, "");
 
     const desc = r.description ? ` — ${escapeHtml(r.description)}` : "";
-    return `<li><a href="${r.html_url}">${escapeHtml(label)}</a> <small>(pushed ${push}, updated ${upd}, ★ ${stars})</small>${desc}</li>`;
+    return `<ul class="projects-list"><a href="${r.html_url}">${escapeHtml(label)}</a> <small>(pushed ${push}, updated ${upd}, ★ ${stars})</small>${desc}</ul>`;
   });
 
   const html = `<ul class="repo-list">\n${items.join("\n")}\n</ul>\n`;
