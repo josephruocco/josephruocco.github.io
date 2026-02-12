@@ -595,3 +595,6 @@ a.pagination-item:hover {
 .projects-list > li {
   margin: 16px 0;
 }
+
+.site-footer { margin-top: 40px; }
+.site-footer .copyright { text-align: center; }
