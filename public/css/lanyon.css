@@ -139,6 +139,30 @@ h1, h2, h3, h4, h5, h6 {
  * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
 
+.social {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 28px 0 10px;
+}
+
+.social-link {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.12);
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
 /* Style and "hide" the sidebar */
 .sidebar {
   position: fixed;
