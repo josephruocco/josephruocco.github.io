@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign project_posts = site.posts | where: "project", page.project_key %}
+
+{% if project_posts and project_posts.size > 0 %}
+  <p style="color:#666; margin-top:-0.5rem;">
+    {{ project_posts.size }} update{% if project_posts.size != 1 %}s{% endif %}
+  </p>
+
+  <ul style="list-style: none; padding-left: 0; margin-top: 1.5rem;">
+    {% for post in project_posts %}
+      <li style="margin-bottom: 2rem;">
+        <div style="font-size: 0.95rem; color: #666; margin-bottom: 0.3rem;">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </div>
+
+        <div style="font-size: 1.15rem; font-weight: 600; margin-bottom: 0.4rem;">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </div>
+
+        {% if post.excerpt %}
+          <div style="color:#444;">
+            {{ post.excerpt | strip_html }}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No updates yet.</p>
+{% endif %}
