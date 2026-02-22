@@ -51,6 +51,17 @@ const PROJECT_UPDATES = {
   "heston-streamlit": "/projects/heston-streamlit/",
 };
 
+// Optional site-specific description overrides.
+// If a slug is not listed here, the script falls back to the GitHub repo description.
+const PROJECT_DESCRIPTIONS = {
+  "blackout-poem-extension":
+    "Makes blackout poems from the text on your screen, with better results from visible-text filtering and cleaner poem selection.",
+  "screen-gloss":
+    "A reading overlay that adds instant definitions, references, and annotations on top of text you’re reading.",
+  "summa":
+    "A reading overlay that adds instant definitions, references, and annotations on top of text you’re reading.",
+};
+
 async function ghFetch(url) {
   const headers = {
     Accept: "application/vnd.github+json",
@@ -123,6 +134,17 @@ async function fetchAllUserRepos(username) {
     return true;
   });
 
+  // Only show repos pushed in the last 30 days
+  const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+
+  repos = repos.filter((r) => {
+    if (!r.pushed_at) return false;
+    const pushedAt = new Date(r.pushed_at).getTime();
+    if (Number.isNaN(pushedAt)) return false;
+    return (now - pushedAt) <= THIRTY_DAYS_MS;
+  });
+
   // Sort + take top N
   repos.sort((a, b) => new Date(b[sortKey]) - new Date(a[sortKey]));
   repos = repos.slice(0, limit);
@@ -137,8 +159,10 @@ async function fetchAllUserRepos(username) {
     const slug = r.full_name.replace(/^josephruocco\//, "");
     const label = applyOverrides(toTitleCaseFromSlug(slug));
 
-    const descLine = r.description
-      ? `<div class="project-desc-line" style="margin-top:0.2rem; color:#555;">${escapeHtml(r.description)}</div>`
+    const siteDescription = PROJECT_DESCRIPTIONS[slug] || r.description;
+
+    const descLine = siteDescription
+      ? `<div class="project-desc-line" style="margin-top:0.2rem; color:#555;">${escapeHtml(siteDescription)}</div>`
       : "";
 
     const updatesUrl = PROJECT_UPDATES[slug];
@@ -166,7 +190,7 @@ async function fetchAllUserRepos(username) {
   await fs.mkdir("_includes", { recursive: true });
   await fs.writeFile(outputPath, html, "utf8");
 
-  console.log(`Wrote ${outputPath}: top ${repos.length} by ${sortKey}`);
+  console.log(`Wrote ${outputPath}: ${repos.length} recent repo(s) (<=30 days), top ${limit} by ${sortKey}`);
 })().catch((e) => {
   console.error(e.stack || String(e));
   process.exit(1);
