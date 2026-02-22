@@ -22,7 +22,6 @@ function escapeHtml(s) {
 
 function toTitleCaseFromSlug(slug) {
   // slug: "mood-orb-extension" -> "Mood Orb Extension"
-  // keep this intentionally simple; use overrides below for acronyms (NYC, IPUMS, etc.)
   return String(slug ?? "")
     .replace(/[-_]+/g, " ")
     .trim()
@@ -33,8 +32,7 @@ function toTitleCaseFromSlug(slug) {
 }
 
 function applyOverrides(title) {
-  // Optional: upgrade common acronyms/words
-  // Add/remove as you like
+  // Upgrade common acronyms/words
   return title
     .replace(/\bNyc\b/g, "NYC")
     .replace(/\bIpums\b/g, "IPUMS")
@@ -130,18 +128,17 @@ async function fetchAllUserRepos(username) {
   repos = repos.slice(0, limit);
 
   const items = repos.map((r) => {
-    // Keeping these in case you want to display metadata later
+    // Kept in case you want to surface metadata later
     const upd = fmtDate(r.updated_at);
     const push = fmtDate(r.pushed_at);
     const stars = r.stargazers_count ?? 0;
     void upd; void push; void stars;
 
-    // Display label (no owner, no hyphens, title case)
     const slug = r.full_name.replace(/^josephruocco\//, "");
     const label = applyOverrides(toTitleCaseFromSlug(slug));
 
-    const desc = r.description
-      ? ` <span class="project-desc">— ${escapeHtml(r.description)}</span>`
+    const descLine = r.description
+      ? `<div class="project-desc-line" style="margin-top:0.2rem; color:#555;">${escapeHtml(r.description)}</div>`
       : "";
 
     const updatesUrl = PROJECT_UPDATES[slug];
@@ -151,16 +148,14 @@ async function fetchAllUserRepos(username) {
 
     const repoLink = `<a class="project-meta-link" href="${r.html_url}" target="_blank" rel="noopener">Repo</a>`;
 
-    const metaLinks = updatesLink
-      ? `${repoLink} · ${updatesLink}`
-      : `${repoLink}`;
+    const metaLinks = updatesLink ? `${repoLink} · ${updatesLink}` : repoLink;
 
-    return `<li class="project-item">
-      <div>
-        <a class="project-link" href="${r.html_url}" target="_blank" rel="noopener">${escapeHtml(label)}</a>
-        ${desc}
+    return `<li class="project-item" style="margin-bottom: 1.5rem;">
+      <div class="project-title" style="font-size: 1.1rem; font-weight: 600;">
+        ${escapeHtml(label)}
       </div>
-      <div class="project-meta" style="margin-top:0.2rem; font-size:0.9rem; color:#666;">
+      ${descLine}
+      <div class="project-meta" style="margin-top:0.35rem; font-size:0.95rem; color:#666;">
         ${metaLinks}
       </div>
     </li>`;
