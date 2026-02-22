@@ -43,6 +43,16 @@ function applyOverrides(title) {
     .replace(/\bApi\b/g, "API");
 }
 
+// Map repo slugs to internal Jekyll project update pages.
+// Only repos listed here will show an "Updates" link.
+const PROJECT_UPDATES = {
+  "blackout-poem-extension": "/projects/blackout-poem-extension/",
+  "mutual-vanish": "/projects/mutual-vanish/",
+  "nyc-street-history": "/projects/nyc-street-history/",
+  "mood-orb-extension": "/projects/mood-orb-extension/",
+  "heston-streamlit": "/projects/heston-streamlit/",
+};
+
 async function ghFetch(url) {
   const headers = {
     Accept: "application/vnd.github+json",
@@ -120,19 +130,39 @@ async function fetchAllUserRepos(username) {
   repos = repos.slice(0, limit);
 
   const items = repos.map((r) => {
+    // Keeping these in case you want to display metadata later
     const upd = fmtDate(r.updated_at);
     const push = fmtDate(r.pushed_at);
     const stars = r.stargazers_count ?? 0;
+    void upd; void push; void stars;
 
     // Display label (no owner, no hyphens, title case)
     const slug = r.full_name.replace(/^josephruocco\//, "");
     const label = applyOverrides(toTitleCaseFromSlug(slug));
 
-    const desc = r.description ? ` <span class="project-desc">— ${escapeHtml(r.description)}</span>` : "";
+    const desc = r.description
+      ? ` <span class="project-desc">— ${escapeHtml(r.description)}</span>`
+      : "";
+
+    const updatesUrl = PROJECT_UPDATES[slug];
+    const updatesLink = updatesUrl
+      ? `<a class="project-meta-link" href="${updatesUrl}">Updates</a>`
+      : "";
+
+    const repoLink = `<a class="project-meta-link" href="${r.html_url}" target="_blank" rel="noopener">Repo</a>`;
+
+    const metaLinks = updatesLink
+      ? `${repoLink} · ${updatesLink}`
+      : `${repoLink}`;
 
     return `<li class="project-item">
-      <a class="project-link" href="${r.html_url}" target="_blank" rel="noopener">${escapeHtml(label)}</a>
-      ${desc}
+      <div>
+        <a class="project-link" href="${r.html_url}" target="_blank" rel="noopener">${escapeHtml(label)}</a>
+        ${desc}
+      </div>
+      <div class="project-meta" style="margin-top:0.2rem; font-size:0.9rem; color:#666;">
+        ${metaLinks}
+      </div>
     </li>`;
   });
 
