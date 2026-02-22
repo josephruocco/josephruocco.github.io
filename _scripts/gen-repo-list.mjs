@@ -91,7 +91,7 @@ async function fetchAllUserRepos(username) {
 
   // pushed_at = actual code pushes; updated_at = any repo activity
   const sortKey = process.env.REPO_SORT_KEY || "pushed_at";
-  const limit = Number(process.env.REPO_LIMIT || 5);
+  const limit = Number(process.env.REPO_LIMIT || 7);
 
   // Safety: never output private repos on a public site
   const includeForks = (process.env.INCLUDE_FORKS || "false") === "true";
