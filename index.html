@@ -7,3 +7,55 @@ title: Home
   <h3>Projects</h3>
   {% include repo_list.html %}
 </section>
+
+<section class="site-signup" aria-labelledby="site-signup-title">
+  <div class="site-signup-card">
+    <div class="site-signup-copy">
+      <h3 id="site-signup-title">Get updates by email</h3>
+      <p>Occasional notes on projects, writing, and experiments. No spam.</p>
+    </div>
+
+    <form
+      name="email-signup"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      action="/thanks/"
+      class="site-signup-form"
+    >
+      <input type="hidden" name="form-name" value="email-signup">
+      <input type="hidden" name="source" value="main-site">
+      <input type="hidden" name="list" value="combined">
+      <input type="hidden" name="context" value="homepage">
+
+      <p class="sr-only">
+        <label>Don’t fill this out if you're human:
+          <input name="bot-field">
+        </label>
+      </p>
+
+      <label for="main-signup-name" class="sr-only">Name (optional)</label>
+      <input
+        id="main-signup-name"
+        type="text"
+        name="name"
+        placeholder="Name (optional)"
+        autocomplete="name">
+
+      <label for="main-signup-email" class="sr-only">Email</label>
+      <input
+        id="main-signup-email"
+        type="email"
+        name="email"
+        placeholder="Email"
+        autocomplete="email"
+        required>
+
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <p class="site-signup-note">
+      Occasional updates. You can unsubscribe anytime.
+    </p>
+  </div>
+</section>
