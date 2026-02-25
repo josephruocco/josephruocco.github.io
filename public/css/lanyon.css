@@ -298,3 +298,82 @@ a.pagination-item:hover {
 .site-footer .copyright {
   text-align: center;
 }
+
+.site-signup {
+  margin-top: 2rem;
+}
+
+.site-signup-card {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 1rem;
+}
+
+.site-signup-copy h3 {
+  margin: 0 0 0.35rem;
+}
+
+.site-signup-copy p {
+  margin: 0 0 0.85rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.site-signup-form {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr auto;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.site-signup-form input,
+.site-signup-form button {
+  font: inherit;
+  border-radius: 4px;
+  padding: 0.55rem 0.7rem;
+}
+
+.site-signup-form input {
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #333;
+}
+
+.site-signup-form button {
+  border: 1px solid #d0d0d0;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.site-signup-form button:hover {
+  border-color: #bbb;
+}
+
+.site-signup-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.82rem;
+  color: #777;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .site-signup-form {
+    grid-template-columns: 1fr;
+  }
+
+  .site-signup-form button {
+    width: 100%;
+  }
+}
