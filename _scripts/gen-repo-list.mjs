@@ -1,5 +1,6 @@
 // _scripts/gen-repo-list.mjs
 import fs from "node:fs/promises";
+import { execFileSync } from "node:child_process";
 
 function fmtDate(iso) {
   if (!iso) return "n/a";
@@ -62,6 +63,59 @@ const PROJECT_DESCRIPTIONS = {
     "A reading overlay that adds instant definitions, references, and annotations on top of text you’re reading.",
 };
 
+// Optional project-specific links shown alongside Repo/Updates.
+// If not provided, we fall back to GitHub's "homepage" field when available.
+const PROJECT_LINK_OVERRIDES = {
+  "goal-reader": [
+    {
+      label: "Chrome Dev Console",
+      href: "https://chrome.google.com/webstore/devconsole/e4f904b5-3b1e-4e7c-8615-7bb69b10e34e/mchomnhnininjcncokmapokihmkmeeii/edit",
+    },
+  ],
+  "books-josephruocco": [
+    { label: "Site", href: "https://bookshelf.josephruocco.net/" },
+  ],
+};
+
+function isValidHttpUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+function loadYamlConfig(path) {
+  try {
+    const raw = execFileSync(
+      "ruby",
+      [
+        "-ryaml",
+        "-rjson",
+        "-e",
+        "data = YAML.safe_load(File.read(ARGV[0]), permitted_classes: [], aliases: false) || {}; puts JSON.generate(data)",
+        path,
+      ],
+      { encoding: "utf8" }
+    );
+    return JSON.parse(raw);
+  } catch {
+    return {};
+  }
+}
+
+function normalizeLinkList(links) {
+  if (!Array.isArray(links)) return [];
+  return links
+    .filter((link) => link && typeof link === "object")
+    .map((link) => ({
+      label: String(link.label || "").trim(),
+      href: String(link.href || "").trim(),
+    }))
+    .filter((link) => link.label && isValidHttpUrl(link.href));
+}
+
 async function ghFetch(url) {
   const headers = {
     Accept: "application/vnd.github+json",
@@ -99,6 +153,11 @@ async function fetchAllUserRepos(username) {
 (async () => {
   const inputPath = process.argv[2] || "_data/repos.txt";
   const outputPath = process.argv[3] || "_includes/repo_list.html";
+  const projectsConfigPath = process.env.PROJECTS_CONFIG_PATH || "_data/projects.yml";
+  const projectConfig = loadYamlConfig(projectsConfigPath);
+  const projectsBySlug = projectConfig && typeof projectConfig === "object" && projectConfig.projects
+    ? projectConfig.projects
+    : {};
 
   // pushed_at = actual code pushes; updated_at = any repo activity
   const sortKey = process.env.REPO_SORT_KEY || "pushed_at";
@@ -157,9 +216,14 @@ async function fetchAllUserRepos(username) {
     void upd; void push; void stars;
 
     const slug = r.full_name.replace(/^josephruocco\//, "");
-    const label = applyOverrides(toTitleCaseFromSlug(slug));
+    const cfg = projectsBySlug[slug] && typeof projectsBySlug[slug] === "object"
+      ? projectsBySlug[slug]
+      : {};
+    const configuredTitle = String(cfg.title || "").trim();
+    const label = configuredTitle || applyOverrides(toTitleCaseFromSlug(slug));
 
-    const siteDescription = PROJECT_DESCRIPTIONS[slug] || r.description;
+    const configuredDescription = String(cfg.description || "").trim();
+    const siteDescription = configuredDescription || PROJECT_DESCRIPTIONS[slug] || r.description;
 
     const descLine = siteDescription
       ? `<div class="project-desc-line" style="margin-top:0.2rem; color:#555;">${escapeHtml(siteDescription)}</div>`
@@ -172,7 +236,27 @@ async function fetchAllUserRepos(username) {
 
     const repoLink = `<a class="project-meta-link" href="${r.html_url}" target="_blank" rel="noopener">Repo</a>`;
 
-    const metaLinks = updatesLink ? `${repoLink} · ${updatesLink}` : repoLink;
+    const configuredLinks = normalizeLinkList(cfg.links);
+    const explicitLinks = configuredLinks.length > 0
+      ? configuredLinks
+      : (PROJECT_LINK_OVERRIDES[slug] || []);
+    const homepage = String(r.homepage || "").trim();
+
+    const homepageLink = explicitLinks.length === 0 && isValidHttpUrl(homepage)
+      ? [{ label: "Site", href: homepage }]
+      : [];
+
+    const extraLinks = [...explicitLinks, ...homepageLink]
+      .filter((link) => link && link.label && isValidHttpUrl(link.href))
+      .map((link) =>
+        `<a class="project-meta-link" href="${escapeHtml(link.href)}" target="_blank" rel="noopener">${escapeHtml(link.label)}</a>`
+      );
+
+    const primaryMetaLinks = [repoLink, updatesLink].filter(Boolean).join(" · ");
+    const secondaryMetaLinks = extraLinks.join(" · ");
+    const metaHtml = secondaryMetaLinks
+      ? `${primaryMetaLinks}<div style="margin-top:0.2rem;">${secondaryMetaLinks}</div>`
+      : primaryMetaLinks;
 
     return `<li class="project-item" style="margin-bottom: 1.5rem;">
       <div class="project-title" style="font-size: 1.1rem; font-weight: 600;">
@@ -180,7 +264,7 @@ async function fetchAllUserRepos(username) {
       </div>
       ${descLine}
       <div class="project-meta" style="margin-top:0.35rem; font-size:0.95rem; color:#666;">
-        ${metaLinks}
+        ${metaHtml}
       </div>
     </li>`;
   });
