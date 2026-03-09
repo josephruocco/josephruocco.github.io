@@ -72,7 +72,7 @@ const PROJECT_LINK_OVERRIDES = {
       href: "https://chrome.google.com/webstore/devconsole/e4f904b5-3b1e-4e7c-8615-7bb69b10e34e/mchomnhnininjcncokmapokihmkmeeii/edit",
     },
   ],
-  "books-josephruocco": [
+  bookshelf: [
     { label: "Site", href: "https://bookshelf.josephruocco.net/" },
   ],
 };
