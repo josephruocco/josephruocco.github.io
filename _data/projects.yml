@@ -1,5 +1,6 @@
 projects:
   bookshelf:
+    description: Recommended reading
     links:
       - label: Site
         href: https://bookshelf.josephruocco.net/
