@@ -298,6 +298,16 @@ a.pagination-item:hover {
   flex: 0 0 160px;
 }
 
+.project-thumb-link {
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+.project-thumb-link:focus-visible {
+  outline: 2px solid #6a9fb5;
+  outline-offset: 3px;
+}
+
 .project-thumb {
   display: block;
   width: 160px;
@@ -308,6 +318,7 @@ a.pagination-item:hover {
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   background: #f7f7f7;
+  cursor: zoom-in;
 }
 
 .project-copy {
@@ -329,6 +340,63 @@ a.pagination-item:hover {
   margin-top: 0.35rem;
   font-size: 0.95rem;
   color: #666;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.project-lightbox[hidden] {
+  display: none;
+}
+
+.project-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.project-lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0.78);
+  cursor: zoom-out;
+}
+
+.project-lightbox-dialog {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1.25rem;
+}
+
+.project-lightbox-image {
+  max-width: min(92vw, 1100px);
+  max-height: 88vh;
+  border-radius: 0.5rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  background: #fff;
+}
+
+.project-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .site-footer {

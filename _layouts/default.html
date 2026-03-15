@@ -23,7 +23,65 @@
       </div>
     </div>
 
-    <!-- Removed sidebar toggle + script -->
+    <div class="project-lightbox" id="project-lightbox" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded project image">
+      <button class="project-lightbox-backdrop" type="button" data-lightbox-close aria-label="Close image viewer"></button>
+      <div class="project-lightbox-dialog" role="document">
+        <button class="project-lightbox-close" type="button" data-lightbox-close aria-label="Close image viewer">×</button>
+        <img class="project-lightbox-image" id="project-lightbox-image" alt="">
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        var lightbox = document.getElementById('project-lightbox');
+        var lightboxImage = document.getElementById('project-lightbox-image');
+        if (!lightbox || !lightboxImage) return;
+
+        var previousActive = null;
+
+        function openLightbox(src, alt, trigger) {
+          previousActive = trigger || document.activeElement;
+          lightboxImage.src = src;
+          lightboxImage.alt = alt || '';
+          lightbox.hidden = false;
+          lightbox.setAttribute('aria-hidden', 'false');
+          document.body.classList.add('lightbox-open');
+          var closeButton = lightbox.querySelector('.project-lightbox-close');
+          if (closeButton) closeButton.focus();
+        }
+
+        function closeLightbox() {
+          lightbox.hidden = true;
+          lightbox.setAttribute('aria-hidden', 'true');
+          lightboxImage.removeAttribute('src');
+          lightboxImage.alt = '';
+          document.body.classList.remove('lightbox-open');
+          if (previousActive && typeof previousActive.focus === 'function') {
+            previousActive.focus();
+          }
+        }
+
+        document.addEventListener('click', function (event) {
+          var trigger = event.target.closest('[data-lightbox-image]');
+          if (trigger) {
+            event.preventDefault();
+            openLightbox(trigger.getAttribute('data-lightbox-image'), trigger.getAttribute('data-lightbox-alt'), trigger);
+            return;
+          }
+
+          if (event.target.closest('[data-lightbox-close]')) {
+            event.preventDefault();
+            closeLightbox();
+          }
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && !lightbox.hidden) {
+            closeLightbox();
+          }
+        });
+      })();
+    </script>
 
   </body>
 </html>

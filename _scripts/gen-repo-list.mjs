@@ -268,7 +268,9 @@ async function fetchAllUserRepos(username) {
 
     const thumbnailHtml = thumbnailSrc
       ? `<div class="project-thumb-wrap">
-        <img class="project-thumb" src="${escapeHtml(thumbnailSrc)}" alt="${escapeHtml(thumbnailAlt)}" loading="lazy" decoding="async">
+        <a class="project-thumb-link" href="${escapeHtml(thumbnailSrc)}" data-lightbox-image="${escapeHtml(thumbnailSrc)}" data-lightbox-alt="${escapeHtml(thumbnailAlt)}" aria-label="Open larger image for ${escapeHtml(label)}">
+          <img class="project-thumb" src="${escapeHtml(thumbnailSrc)}" alt="${escapeHtml(thumbnailAlt)}" loading="lazy" decoding="async">
+        </a>
       </div>`
       : "";
 
