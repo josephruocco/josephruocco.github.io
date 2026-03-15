@@ -27,3 +27,9 @@ projects:
     links:
       - label: Demo
         href: https://summa-demo.josephruocco.net/
+  citibike-map:
+    thumbnail: /assets/projects/citibike-map.png
+    thumbnail_alt: Citibike Map screenshot
+  nyc-street-history:
+    thumbnail: /assets/projects/nyc-street-history.png
+    thumbnail_alt: NYC Street History screenshot
