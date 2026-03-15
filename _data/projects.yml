@@ -1,4 +1,12 @@
 projects:
+  antidoom:
+    description: A showroom full of obnoxious fake ads that are weirdly on your side.
+    # Example thumbnail path:
+    thumbnail: /assets/projects/antidoom.png
+    thumbnail_alt: Antidoom screenshot
+    links:
+      - label: Site
+        href: https://bookshelf.josephruocco.net/
   bookshelf:
     description: Recommended reading
     # Example thumbnail path:
