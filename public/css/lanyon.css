@@ -302,7 +302,8 @@ a.pagination-item:hover {
   display: block;
   width: 160px;
   height: 160px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   border-radius: 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
