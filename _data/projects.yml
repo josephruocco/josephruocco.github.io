@@ -7,3 +7,7 @@ projects:
     links:
       - label: Chrome WebStore
         href: https://chromewebstore.google.com/detail/goal-reader-pdf/mchomnhnininjcncokmapokihmkmeeii?authuser=0&hl=en
+  summa:
+    links:
+      - label: Demo
+        href: https://summa-demo.josephruocco.net/
