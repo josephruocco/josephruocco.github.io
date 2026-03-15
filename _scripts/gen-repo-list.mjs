@@ -230,9 +230,11 @@ async function fetchAllUserRepos(username) {
 
     const configuredDescription = String(cfg.description || "").trim();
     const siteDescription = configuredDescription || PROJECT_DESCRIPTIONS[slug] || PROJECT_DESCRIPTIONS[normalizedSlug] || r.description;
+    const thumbnailSrc = String(cfg.thumbnail || "").trim();
+    const thumbnailAlt = String(cfg.thumbnail_alt || cfg.thumbnailAlt || `${label} screenshot`).trim();
 
     const descLine = siteDescription
-      ? `<div class="project-desc-line" style="margin-top:0.2rem; color:#555;">${escapeHtml(siteDescription)}</div>`
+      ? `<div class="project-desc-line">${escapeHtml(siteDescription)}</div>`
       : "";
 
     const updatesUrl = PROJECT_UPDATES[slug] || PROJECT_UPDATES[normalizedSlug];
@@ -264,13 +266,22 @@ async function fetchAllUserRepos(username) {
       ? `${primaryMetaLinks}<div style="margin-top:0.2rem;">${secondaryMetaLinks}</div>`
       : primaryMetaLinks;
 
-    return `<li class="project-item" style="margin-bottom: 1.5rem;">
-      <div class="project-title" style="font-size: 1.1rem; font-weight: 600;">
-        ${escapeHtml(label)}
-      </div>
-      ${descLine}
-      <div class="project-meta" style="margin-top:0.35rem; font-size:0.95rem; color:#666;">
-        ${metaHtml}
+    const thumbnailHtml = thumbnailSrc
+      ? `<div class="project-thumb-wrap">
+        <img class="project-thumb" src="${escapeHtml(thumbnailSrc)}" alt="${escapeHtml(thumbnailAlt)}" loading="lazy" decoding="async">
+      </div>`
+      : "";
+
+    return `<li class="project-item">
+      ${thumbnailHtml}
+      <div class="project-copy">
+        <div class="project-title">
+          ${escapeHtml(label)}
+        </div>
+        ${descLine}
+        <div class="project-meta">
+          ${metaHtml}
+        </div>
       </div>
     </li>`;
   });
