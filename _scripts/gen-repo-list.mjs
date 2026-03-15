@@ -75,6 +75,9 @@ const PROJECT_LINK_OVERRIDES = {
   bookshelf: [
     { label: "Site", href: "https://bookshelf.josephruocco.net/" },
   ],
+  summa: [
+    { label: "Demo", href: "https://summa-demo.josephruocco.net/" },
+  ],
 };
 
 function isValidHttpUrl(value) {
@@ -216,20 +219,23 @@ async function fetchAllUserRepos(username) {
     void upd; void push; void stars;
 
     const slug = r.full_name.replace(/^josephruocco\//, "");
+    const normalizedSlug = slug.toLowerCase();
     const cfg = projectsBySlug[slug] && typeof projectsBySlug[slug] === "object"
       ? projectsBySlug[slug]
-      : {};
+      : (projectsBySlug[normalizedSlug] && typeof projectsBySlug[normalizedSlug] === "object"
+        ? projectsBySlug[normalizedSlug]
+        : {});
     const configuredTitle = String(cfg.title || "").trim();
     const label = configuredTitle || applyOverrides(toTitleCaseFromSlug(slug));
 
     const configuredDescription = String(cfg.description || "").trim();
-    const siteDescription = configuredDescription || PROJECT_DESCRIPTIONS[slug] || r.description;
+    const siteDescription = configuredDescription || PROJECT_DESCRIPTIONS[slug] || PROJECT_DESCRIPTIONS[normalizedSlug] || r.description;
 
     const descLine = siteDescription
       ? `<div class="project-desc-line" style="margin-top:0.2rem; color:#555;">${escapeHtml(siteDescription)}</div>`
       : "";
 
-    const updatesUrl = PROJECT_UPDATES[slug];
+    const updatesUrl = PROJECT_UPDATES[slug] || PROJECT_UPDATES[normalizedSlug];
     const updatesLink = updatesUrl
       ? `<a class="project-meta-link" href="${updatesUrl}">Updates</a>`
       : "";
@@ -239,7 +245,7 @@ async function fetchAllUserRepos(username) {
     const configuredLinks = normalizeLinkList(cfg.links);
     const explicitLinks = configuredLinks.length > 0
       ? configuredLinks
-      : (PROJECT_LINK_OVERRIDES[slug] || []);
+      : (PROJECT_LINK_OVERRIDES[slug] || PROJECT_LINK_OVERRIDES[normalizedSlug] || []);
     const homepage = String(r.homepage || "").trim();
 
     const homepageLink = explicitLinks.length === 0 && isValidHttpUrl(homepage)
