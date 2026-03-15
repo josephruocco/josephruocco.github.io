@@ -2,20 +2,20 @@ projects:
   bookshelf:
     description: Recommended reading
     # Example thumbnail path:
-    # thumbnail: /assets/projects/bookshelf-thumb.png
-    # thumbnail_alt: Bookshelf screenshot
+    thumbnail: /assets/projects/bookshelf.png
+    thumbnail_alt: Bookshelf screenshot
     links:
       - label: Site
         href: https://bookshelf.josephruocco.net/
   goal-reader:
-    # thumbnail: /assets/projects/goal-reader-thumb.png
-    # thumbnail_alt: Goal Reader screenshot
+    thumbnail: /assets/projects/goal-reader.png
+    thumbnail_alt: Goal Reader screenshot
     links:
       - label: Chrome WebStore
         href: https://chromewebstore.google.com/detail/goal-reader-pdf/mchomnhnininjcncokmapokihmkmeeii?authuser=0&hl=en
   summa:
-    # thumbnail: /assets/projects/summa-thumb.png
-    # thumbnail_alt: Summa screenshot
+    thumbnail: /assets/projects/summa.png
+    thumbnail_alt: Summa screenshot
     links:
       - label: Demo
         href: https://summa-demo.josephruocco.net/
