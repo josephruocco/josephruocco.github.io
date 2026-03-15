@@ -283,12 +283,51 @@ a.pagination-item:hover {
 
 .projects-list {
   list-style: none;
-  padding-left: 0;
-  margin-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
-.projects-list > li {
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
   margin: 16px 0;
+}
+
+.project-thumb-wrap {
+  flex: 0 0 160px;
+}
+
+.project-thumb {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  background: #f7f7f7;
+}
+
+.project-copy {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.project-desc-line {
+  margin-top: 0.2rem;
+  color: #555;
+}
+
+.project-meta {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  color: #666;
 }
 
 .site-footer {
@@ -369,6 +408,20 @@ a.pagination-item:hover {
 }
 
 @media (max-width: 700px) {
+  .project-item {
+    flex-direction: column;
+  }
+
+  .project-thumb-wrap {
+    flex-basis: auto;
+  }
+
+  .project-thumb {
+    width: min(100%, 220px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
   .site-signup-form {
     grid-template-columns: 1fr;
   }
