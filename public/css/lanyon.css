@@ -410,16 +410,16 @@ a.pagination-item:hover {
 
 @media (max-width: 700px) {
   .project-item {
-    flex-direction: column;
+    gap: 0.75rem;
   }
 
   .project-thumb-wrap {
-    flex-basis: auto;
+    flex: 0 0 88px;
   }
 
   .project-thumb {
-    width: min(100%, 220px);
-    height: auto;
+    width: 88px;
+    height: 88px;
     aspect-ratio: 1 / 1;
   }
 
