@@ -34,7 +34,7 @@ projects:
     thumbnail: /assets/projects/nyc-street-history.png
     thumbnail_alt: NYC Street History screenshot
   TradeBlotterApi:
-    thumbnail: /assets/projects/trade-blotter.png
+    thumbnail: /assets/projects/trade-blotter.png 
     thumbnail_alt: NYC Street History screenshot
   mood-orb-extensio:
     thumbnail: /assets/projects/mood-orb.png
