@@ -260,11 +260,7 @@ async function fetchAllUserRepos(username) {
         `<a class="project-meta-link" href="${escapeHtml(link.href)}" target="_blank" rel="noopener">${escapeHtml(link.label)}</a>`
       );
 
-    const primaryMetaLinks = [repoLink, updatesLink].filter(Boolean).join(" · ");
-    const secondaryMetaLinks = extraLinks.join(" · ");
-    const metaHtml = secondaryMetaLinks
-      ? `${primaryMetaLinks}<div style="margin-top:0.2rem;">${secondaryMetaLinks}</div>`
-      : primaryMetaLinks;
+    const metaHtml = [repoLink, ...extraLinks, updatesLink].filter(Boolean).join(" · ");
 
     const thumbnailHtml = thumbnailSrc
       ? `<div class="project-thumb-wrap">
