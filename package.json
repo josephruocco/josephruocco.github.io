@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "gen:repos": "node _scripts/gen-repo-list.mjs _data/repos.txt _includes/repo_list.html",
-    "build": "npm run gen:repos && bundle exec jekyll build"
+    "gen:repos:all": "REPO_LIMIT=1000 REPO_MAX_AGE_DAYS=0 node _scripts/gen-repo-list.mjs _data/repos.txt _includes/repo_list_all.html",
+    "build": "npm run gen:repos && npm run gen:repos:all && bundle exec jekyll build"
   }
 }

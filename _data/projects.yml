@@ -6,7 +6,7 @@ projects:
     thumbnail_alt: Antidoom screenshot
     links:
       - label: Site
-        href: https://bookshelf.josephruocco.net/
+        href: https://antidoom-demo.josephruocco.net/
   bookshelf:
     description: Recommended reading
     # Example thumbnail path:
