@@ -165,6 +165,7 @@ async function fetchAllUserRepos(username) {
   // pushed_at = actual code pushes; updated_at = any repo activity
   const sortKey = process.env.REPO_SORT_KEY || "pushed_at";
   const limit = Number(process.env.REPO_LIMIT || 7);
+  const maxAgeDays = Number(process.env.REPO_MAX_AGE_DAYS || 30);
 
   // Safety: never output private repos on a public site
   const includeForks = (process.env.INCLUDE_FORKS || "false") === "true";
@@ -196,16 +197,18 @@ async function fetchAllUserRepos(username) {
     return true;
   });
 
-  // Only show repos pushed in the last 30 days
-  const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
-  const now = Date.now();
+  // Optionally filter to repos pushed within the last N days.
+  if (maxAgeDays > 0) {
+    const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
+    const now = Date.now();
 
-  repos = repos.filter((r) => {
-    if (!r.pushed_at) return false;
-    const pushedAt = new Date(r.pushed_at).getTime();
-    if (Number.isNaN(pushedAt)) return false;
-    return (now - pushedAt) <= THIRTY_DAYS_MS;
-  });
+    repos = repos.filter((r) => {
+      if (!r.pushed_at) return false;
+      const pushedAt = new Date(r.pushed_at).getTime();
+      if (Number.isNaN(pushedAt)) return false;
+      return (now - pushedAt) <= maxAgeMs;
+    });
+  }
 
   // Sort + take top N
   repos.sort((a, b) => new Date(b[sortKey]) - new Date(a[sortKey]));
@@ -287,7 +290,8 @@ async function fetchAllUserRepos(username) {
   await fs.mkdir("_includes", { recursive: true });
   await fs.writeFile(outputPath, html, "utf8");
 
-  console.log(`Wrote ${outputPath}: ${repos.length} recent repo(s) (<=30 days), top ${limit} by ${sortKey}`);
+  const ageLabel = maxAgeDays > 0 ? `<=${maxAgeDays} days` : "all ages";
+  console.log(`Wrote ${outputPath}: ${repos.length} repo(s) (${ageLabel}), top ${limit} by ${sortKey}`);
 })().catch((e) => {
   console.error(e.stack || String(e));
   process.exit(1);
