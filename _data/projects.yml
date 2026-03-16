@@ -36,3 +36,6 @@ projects:
   TradeBlotterApi:
     thumbnail: /assets/projects/trade-blotter.png
     thumbnail_alt: NYC Street History screenshot
+  mood-orb-extensio:
+    thumbnail: /assets/projects/mood-orb.png
+    thumbnail_alt: Mood Orb screenshot
