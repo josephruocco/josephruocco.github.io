@@ -307,7 +307,7 @@ a.pagination-item:hover {
   border-radius: 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  background: #f7f7f7;
+  background: #000;
 }
 
 .project-copy {
