@@ -299,6 +299,11 @@ a.pagination-item:hover {
   width: 180px;
 }
 
+.project-thumb-link {
+  display: block;
+  cursor: zoom-in;
+}
+
 .project-thumb {
   display: block;
   width: 100%;
@@ -332,6 +337,49 @@ a.pagination-item:hover {
   margin-top: 0.35rem;
   font-size: 0.95rem;
   color: #666;
+}
+
+body.project-lightbox-open {
+  overflow: hidden;
+}
+
+.project-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.82);
+}
+
+.project-lightbox[hidden] {
+  display: none;
+}
+
+.project-lightbox-image {
+  display: block;
+  max-width: min(92vw, 1100px);
+  max-height: 88vh;
+  border-radius: 0.75rem;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+  background: #111;
+}
+
+.project-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .site-footer {

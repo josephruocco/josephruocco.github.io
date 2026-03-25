@@ -15,12 +15,19 @@ title: Projects
       <li class="project-item">
         {% if project.thumbnail %}
           <div class="project-thumb-wrap">
-            <img
-              class="project-thumb"
-              src="{{ project.thumbnail }}"
-              alt="{{ project.thumbnail_alt | default: title | escape }}"
-              loading="lazy"
-              decoding="async">
+            <a
+              class="project-thumb-link"
+              href="{{ project.thumbnail }}"
+              data-project-lightbox
+              data-lightbox-alt="{{ project.thumbnail_alt | default: title | escape }}"
+              aria-label="Expand {{ title }} image">
+              <img
+                class="project-thumb"
+                src="{{ project.thumbnail }}"
+                alt="{{ project.thumbnail_alt | default: title | escape }}"
+                loading="lazy"
+                decoding="async">
+            </a>
           </div>
         {% endif %}
         <div class="project-copy">
