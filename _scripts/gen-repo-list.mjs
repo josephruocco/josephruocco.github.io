@@ -214,7 +214,7 @@ async function fetchAllUserRepos(username) {
   repos.sort((a, b) => new Date(b[sortKey]) - new Date(a[sortKey]));
   repos = repos.slice(0, limit);
 
-  const items = repos.map((r) => {
+  const items = repos.flatMap((r) => {
     // Kept in case you want to surface metadata later
     const upd = fmtDate(r.updated_at);
     const push = fmtDate(r.pushed_at);
@@ -273,7 +273,11 @@ async function fetchAllUserRepos(username) {
       </div>`
       : "";
 
-    return `<li class="project-item">
+    if (!thumbnailSrc) {
+      return [];
+    }
+
+    return [`<li class="project-item">
       ${thumbnailHtml}
       <div class="project-copy">
         <div class="project-title">
@@ -284,7 +288,7 @@ async function fetchAllUserRepos(username) {
           ${metaHtml}
         </div>
       </div>
-    </li>`;
+    </li>`];
   });
 
   const html = `<ul class="projects-list">\n${items.join("\n")}\n</ul>\n`;
