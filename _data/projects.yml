@@ -19,7 +19,7 @@ projects:
       - label: Chrome WebStore
         href: https://chromewebstore.google.com/detail/goal-reader-pdf/mchomnhnininjcncokmapokihmkmeeii?authuser=0&hl=en
   summa:
-    thumbnail: /assets/projects/summa.png
+    thumbnail: /assets/projects/summa-matte.png
     thumbnail_alt: Summa screenshot
     links:
       - label: Demo
