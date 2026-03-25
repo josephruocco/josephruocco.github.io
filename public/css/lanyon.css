@@ -307,15 +307,15 @@ a.pagination-item:hover {
 .project-thumb {
   display: block;
   width: 100%;
-  max-height: 220px;
+  aspect-ratio: 1 / 1;
   height: auto;
   object-fit: contain;
   object-position: center;
   border-radius: 0.75rem;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  background: #000;
-  padding: 0.3rem;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  padding: 0;
 }
 
 .project-copy {
@@ -470,7 +470,7 @@ body.project-lightbox-open {
   }
 
   .project-thumb {
-    max-height: 160px;
+    aspect-ratio: 1 / 1;
   }
 
   .site-signup-form {
