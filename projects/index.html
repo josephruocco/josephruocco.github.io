@@ -8,12 +8,12 @@ title: Projects
   <p>A fuller list of the projects I’ve published.</p>
   <ul class="projects-list">
     {% for project_entry in site.data.projects.projects %}
-      {% assign slug = project_entry[0] %}
       {% assign project = project_entry[1] %}
-      {% assign repo_url = "https://github.com/josephruocco/" | append: slug %}
-      {% assign title = project.title | default: slug %}
-      <li class="project-item">
-        {% if project.thumbnail %}
+      {% if project.thumbnail %}
+        {% assign slug = project_entry[0] %}
+        {% assign repo_url = "https://github.com/josephruocco/" | append: slug %}
+        {% assign title = project.title | default: slug %}
+        <li class="project-item">
           <div class="project-thumb-wrap">
             <a
               class="project-thumb-link"
@@ -29,22 +29,46 @@ title: Projects
                 decoding="async">
             </a>
           </div>
-        {% endif %}
-        <div class="project-copy">
-          <div class="project-title">{{ title }}</div>
-          {% if project.description %}
-            <div class="project-desc-line">{{ project.description }}</div>
-          {% endif %}
-          <div class="project-meta">
-            <a class="project-meta-link" href="{{ repo_url }}" target="_blank" rel="noopener">Repo</a>
-            {% for link in project.links %}
-              {% if link.href and link.label %}
-                · <a class="project-meta-link" href="{{ link.href }}" target="_blank" rel="noopener">{{ link.label }}</a>
-              {% endif %}
-            {% endfor %}
+          <div class="project-copy">
+            <div class="project-title">{{ title }}</div>
+            {% if project.description %}
+              <div class="project-desc-line">{{ project.description }}</div>
+            {% endif %}
+            <div class="project-meta">
+              <a class="project-meta-link" href="{{ repo_url }}" target="_blank" rel="noopener">Repo</a>
+              {% for link in project.links %}
+                {% if link.href and link.label %}
+                  · <a class="project-meta-link" href="{{ link.href }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
-        </div>
-      </li>
+        </li>
+      {% endif %}
+    {% endfor %}
+    {% for project_entry in site.data.projects.projects %}
+      {% assign slug = project_entry[0] %}
+      {% assign project = project_entry[1] %}
+      {% unless project.thumbnail %}
+        {% assign repo_url = "https://github.com/josephruocco/" | append: slug %}
+        {% assign title = project.title | default: slug %}
+        <li class="project-item">
+          <div class="project-copy">
+            <div class="project-title">{{ title }}</div>
+            {% if project.description %}
+              <div class="project-desc-line">{{ project.description }}</div>
+            {% endif %}
+            <div class="project-meta">
+              <a class="project-meta-link" href="{{ repo_url }}" target="_blank" rel="noopener">Repo</a>
+              {% for link in project.links %}
+                {% if link.href and link.label %}
+                  · <a class="project-meta-link" href="{{ link.href }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 </section>
