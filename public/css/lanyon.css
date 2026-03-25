@@ -288,26 +288,29 @@ a.pagination-item:hover {
 }
 
 .project-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin: 16px 0;
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  align-items: start;
+  gap: 1.25rem;
+  margin: 22px 0;
 }
 
 .project-thumb-wrap {
-  flex: 0 0 160px;
+  width: 180px;
 }
 
 .project-thumb {
   display: block;
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  max-height: 220px;
+  height: auto;
   object-fit: contain;
   object-position: center;
-  border-radius: 0.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   background: #000;
+  padding: 0.3rem;
 }
 
 .project-copy {
@@ -410,17 +413,16 @@ a.pagination-item:hover {
 
 @media (max-width: 700px) {
   .project-item {
-    gap: 0.75rem;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 0.9rem;
   }
 
   .project-thumb-wrap {
-    flex: 0 0 88px;
+    width: 120px;
   }
 
   .project-thumb {
-    width: 88px;
-    height: 88px;
-    aspect-ratio: 1 / 1;
+    max-height: 160px;
   }
 
   .site-signup-form {
