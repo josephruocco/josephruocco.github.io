@@ -166,6 +166,8 @@ async function fetchAllUserRepos(username) {
   const sortKey = process.env.REPO_SORT_KEY || "pushed_at";
   const limit = Number(process.env.REPO_LIMIT || 7);
   const maxAgeDays = Number(process.env.REPO_MAX_AGE_DAYS || 30);
+  const includeThumbnailless = (process.env.INCLUDE_THUMBNAILLESS || "false") === "true";
+  const groupThumbnailsFirst = (process.env.GROUP_THUMBNAILS_FIRST || "false") === "true";
 
   // Safety: never output private repos on a public site
   const includeForks = (process.env.INCLUDE_FORKS || "false") === "true";
@@ -273,11 +275,13 @@ async function fetchAllUserRepos(username) {
       </div>`
       : "";
 
-    if (!thumbnailSrc) {
+    if (!thumbnailSrc && !includeThumbnailless) {
       return [];
     }
 
-    return [`<li class="project-item">
+    return [{
+      hasThumbnail: Boolean(thumbnailSrc),
+      html: `<li class="project-item">
       ${thumbnailHtml}
       <div class="project-copy">
         <div class="project-title">
@@ -288,10 +292,18 @@ async function fetchAllUserRepos(username) {
           ${metaHtml}
         </div>
       </div>
-    </li>`];
+    </li>`,
+    }];
   });
 
-  const html = `<ul class="projects-list">\n${items.join("\n")}\n</ul>\n`;
+  const orderedItems = groupThumbnailsFirst
+    ? [
+        ...items.filter((item) => item.hasThumbnail),
+        ...items.filter((item) => !item.hasThumbnail),
+      ]
+    : items;
+
+  const html = `<ul class="projects-list">\n${orderedItems.map((item) => item.html).join("\n")}\n</ul>\n`;
 
   await fs.mkdir("_includes", { recursive: true });
   await fs.writeFile(outputPath, html, "utf8");
