@@ -287,12 +287,24 @@ a.pagination-item:hover {
   margin: 0;
 }
 
+.projects-section-title {
+  margin: 1.8rem 0 0.75rem;
+}
+
 .project-item {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);
   align-items: start;
   gap: 1.25rem;
   margin: 22px 0;
+}
+
+.project-item-text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.projects-list-text-only .project-item {
+  margin: 16px 0;
 }
 
 .project-thumb-wrap {

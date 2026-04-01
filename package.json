@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "gen:repos": "node _scripts/gen-repo-list.mjs _data/repos.txt _includes/repo_list.html",
-    "gen:projects-archive": "REPO_LIMIT=1000 REPO_MAX_AGE_DAYS=0 INCLUDE_THUMBNAILLESS=true GROUP_THUMBNAILS_FIRST=true node _scripts/gen-repo-list.mjs _data/repos.txt _includes/all_projects.html",
+    "gen:projects-archive": "REPO_LIMIT=1000 REPO_MAX_AGE_DAYS=365 INCLUDE_THUMBNAILLESS=true GROUP_THUMBNAILS_FIRST=true SECTION_HEADINGS=true node _scripts/gen-repo-list.mjs _data/repos.txt _includes/all_projects.html",
     "build": "npm run gen:repos && npm run gen:projects-archive && bundle exec jekyll build"
   }
 }

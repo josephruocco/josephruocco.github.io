@@ -23,8 +23,10 @@ function escapeHtml(s) {
 
 function toTitleCaseFromSlug(slug) {
   // slug: "mood-orb-extension" -> "Mood Orb Extension"
+  // slug: "TradeBlotterApi" -> "Trade Blotter Api"
   return String(slug ?? "")
-    .replace(/[-_]+/g, " ")
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/[._-]+/g, " ")
     .trim()
     .split(/\s+/)
     .filter(Boolean)
@@ -35,12 +37,22 @@ function toTitleCaseFromSlug(slug) {
 function applyOverrides(title) {
   // Upgrade common acronyms/words
   return title
+    .replace(/\bCsci\b/g, "CSCI")
+    .replace(/\bCss\b/g, "CSS")
     .replace(/\bNyc\b/g, "NYC")
     .replace(/\bIpums\b/g, "IPUMS")
     .replace(/\bCpp\b/g, "C++")
     .replace(/\bIrd\b/g, "IRD")
     .replace(/\bApi\b/g, "API");
 }
+
+const PROJECT_TITLES = {
+  "josephruocco.com": "Josephruocco.com",
+  "josephruoc.co": "Josephruoc.co",
+  TradeBlotterApi: "Trade Blotter API",
+  "csci13600-labs": "CSCI 13600 Labs",
+  css133: "CSS 133",
+};
 
 // Map repo slugs to internal Jekyll project update pages.
 // Only repos listed here will show an "Updates" link.
@@ -168,6 +180,7 @@ async function fetchAllUserRepos(username) {
   const maxAgeDays = Number(process.env.REPO_MAX_AGE_DAYS || 30);
   const includeThumbnailless = (process.env.INCLUDE_THUMBNAILLESS || "false") === "true";
   const groupThumbnailsFirst = (process.env.GROUP_THUMBNAILS_FIRST || "false") === "true";
+  const sectionHeadings = (process.env.SECTION_HEADINGS || "false") === "true";
 
   // Safety: never output private repos on a public site
   const includeForks = (process.env.INCLUDE_FORKS || "false") === "true";
@@ -195,6 +208,7 @@ async function fetchAllUserRepos(username) {
 
     // Exclude your website repo
     if (r.full_name === "josephruocco/josephruocco.github.io") return false;
+    if (r.full_name === "josephruocco/josephruocco") return false;
 
     return true;
   });
@@ -231,7 +245,8 @@ async function fetchAllUserRepos(username) {
         ? projectsBySlug[normalizedSlug]
         : {});
     const configuredTitle = String(cfg.title || "").trim();
-    const label = configuredTitle || applyOverrides(toTitleCaseFromSlug(slug));
+    const explicitTitle = PROJECT_TITLES[slug] || PROJECT_TITLES[normalizedSlug] || "";
+    const label = configuredTitle || explicitTitle || applyOverrides(toTitleCaseFromSlug(slug));
 
     const configuredDescription = String(cfg.description || "").trim();
     const siteDescription = configuredDescription || PROJECT_DESCRIPTIONS[slug] || PROJECT_DESCRIPTIONS[normalizedSlug] || r.description;
@@ -281,7 +296,7 @@ async function fetchAllUserRepos(username) {
 
     return [{
       hasThumbnail: Boolean(thumbnailSrc),
-      html: `<li class="project-item">
+      html: `<li class="project-item${thumbnailSrc ? "" : " project-item-text-only"}">
       ${thumbnailHtml}
       <div class="project-copy">
         <div class="project-title">
@@ -296,14 +311,29 @@ async function fetchAllUserRepos(username) {
     }];
   });
 
-  const orderedItems = groupThumbnailsFirst
-    ? [
-        ...items.filter((item) => item.hasThumbnail),
-        ...items.filter((item) => !item.hasThumbnail),
-      ]
-    : items;
+  let html = "";
 
-  const html = `<ul class="projects-list">\n${orderedItems.map((item) => item.html).join("\n")}\n</ul>\n`;
+  if (sectionHeadings) {
+    const thumbnailItems = items.filter((item) => item.hasThumbnail);
+    const textOnlyItems = items.filter((item) => !item.hasThumbnail);
+
+    if (thumbnailItems.length > 0) {
+      html += `<h4 class="projects-section-title">Featured Projects</h4>\n<ul class="projects-list">\n${thumbnailItems.map((item) => item.html).join("\n")}\n</ul>\n`;
+    }
+
+    if (textOnlyItems.length > 0) {
+      html += `${thumbnailItems.length > 0 ? "\n" : ""}<h4 class="projects-section-title">Other Projects</h4>\n<ul class="projects-list projects-list-text-only">\n${textOnlyItems.map((item) => item.html).join("\n")}\n</ul>\n`;
+    }
+  } else {
+    const orderedItems = groupThumbnailsFirst
+      ? [
+          ...items.filter((item) => item.hasThumbnail),
+          ...items.filter((item) => !item.hasThumbnail),
+        ]
+      : items;
+
+    html = `<ul class="projects-list">\n${orderedItems.map((item) => item.html).join("\n")}\n</ul>\n`;
+  }
 
   await fs.mkdir("_includes", { recursive: true });
   await fs.writeFile(outputPath, html, "utf8");
