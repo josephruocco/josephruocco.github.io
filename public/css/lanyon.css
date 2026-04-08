@@ -459,6 +459,36 @@ body.project-lightbox-open {
   color: #777;
 }
 
+/*
+ * Updates list
+ */
+
+.updates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.update-item {
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.update-item:last-child {
+  border-bottom: 0;
+}
+
+.update-item a {
+  font-weight: 500;
+}
+
+.update-date {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: #999;
+  font-size: 0.85rem;
+}
+
 .sr-only {
   position: absolute !important;
   width: 1px;

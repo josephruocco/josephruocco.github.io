@@ -1,0 +1,16 @@
+{% assign recent = site.posts | slice: 0, 5 %}
+{% if recent.size > 0 %}
+<ul class="updates-list">
+  {% for post in recent %}
+    <li class="update-item">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small class="update-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+{% if site.posts.size > 5 %}
+  <p><a href="/updates/">View all updates</a></p>
+{% endif %}
+{% else %}
+<p>Nothing yet - check back soon.</p>
+{% endif %}
