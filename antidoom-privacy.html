@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AntiDoom — Privacy Policy</title>
+    <style>
+      body {
+        margin: 0;
+        background: #fffdf5;
+        color: #171717;
+        font-family: Georgia, 'Times New Roman', serif;
+      }
+      .privacy-shell {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 24px 80px;
+      }
+      .privacy-shell h1 {
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        font-size: 48px;
+        letter-spacing: -0.04em;
+        margin: 0 0 8px;
+        color: #171717;
+      }
+      .privacy-shell .updated {
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #555;
+        margin: 0 0 40px;
+      }
+      .privacy-shell h2 {
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 36px 0 8px;
+        color: #171717;
+      }
+      .privacy-shell p, .privacy-shell li {
+        font-size: 17px;
+        line-height: 1.65;
+        color: #222;
+      }
+      .privacy-shell table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 16px 0;
+        font-size: 15px;
+      }
+      .privacy-shell th {
+        text-align: left;
+        padding: 8px 12px;
+        background: #171717;
+        color: #fff8df;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .privacy-shell td {
+        padding: 8px 12px;
+        border-bottom: 2px solid #171717;
+        vertical-align: top;
+      }
+      .privacy-shell tr:nth-child(even) td {
+        background: rgba(255,214,78,0.18);
+      }
+      code {
+        background: rgba(0,0,0,0.06);
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="privacy-shell">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: April 7, 2026</p>
+
+      <h2>What AntiDoom does</h2>
+      <p>AntiDoom is a Chrome extension that detects excessive scrolling on distracting websites and displays a motivational popup to encourage you to stop and take a break.</p>
+
+      <h2>What data we collect</h2>
+      <p><strong>None.</strong> AntiDoom does not collect, transmit, or share any personal data.</p>
+      <p>All settings (scroll thresholds, enabled sites, popup interval) are stored locally on your device using Chrome's <code>chrome.storage.sync</code> API. This data syncs across your Chrome instances via your Google account — it is never sent to or accessible by us.</p>
+
+      <h2>Permissions we use and why</h2>
+      <table>
+        <thead>
+          <tr><th>Permission</th><th>Why</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><code>storage</code></td><td>Save your settings locally</td></tr>
+          <tr><td><code>activeTab</code></td><td>Detect which site you're on to decide whether to activate</td></tr>
+          <tr><td><code>scripting</code></td><td>Inject the scroll-detection and popup scripts</td></tr>
+          <tr><td><code>tabs</code></td><td>Close the educational redirect tab after it opens</td></tr>
+          <tr><td>Host permissions</td><td>Only activate on the specific sites you've enabled (Reddit, YouTube, etc.)</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Third-party services</h2>
+      <p>None. AntiDoom makes no external network requests.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the updated version will be posted here with a new date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions? Open an issue on <a href="https://github.com/josephruocco/antidoom">GitHub</a>.</p>
+    </main>
+  </body>
+</html>
