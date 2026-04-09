@@ -26,6 +26,9 @@ projects:
     title: Lockscreen Game
     thumbnail: /assets/projects/lockscreen-game.png
     thumbnail_alt: Lockscreen Game screenshot
+    links:
+      - label: Site
+        href: https://lockscreengame.josephruocco.net
   summa:
     thumbnail: /assets/projects/summa-matte.png
     thumbnail_alt: Summa screenshot
