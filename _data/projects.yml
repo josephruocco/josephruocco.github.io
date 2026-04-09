@@ -6,6 +6,7 @@ projects:
       - label: Site
         href: https://antidoom-demo.josephruocco.net/
   blackout-poem-extension:
+    title: Newspaper Blackout Poem Extension
     thumbnail: /assets/projects/blackout-poem-extension.png
     thumbnail_alt: Blackout Poem Extension thumbnail
   bookshelf:
