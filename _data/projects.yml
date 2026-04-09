@@ -5,6 +5,9 @@ projects:
     links:
       - label: Site
         href: https://antidoom-demo.josephruocco.net/
+  blackout-poem-extension:
+    thumbnail: /assets/projects/blackout-poem-extension.png
+    thumbnail_alt: Blackout Poem Extension thumbnail
   bookshelf:
     # Example thumbnail path:
     thumbnail: /assets/projects/bookshelf.png
