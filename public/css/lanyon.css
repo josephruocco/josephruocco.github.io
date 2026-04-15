@@ -402,6 +402,20 @@ body.project-lightbox-open {
   text-align: center;
 }
 
+.footer-avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.footer-avatar img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
 .site-signup {
   margin-top: 2rem;
 }
