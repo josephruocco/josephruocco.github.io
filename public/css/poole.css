@@ -305,6 +305,23 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 }
+.masthead-inner {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+.masthead-avatar-link {
+  display: inline-flex;
+  flex: 0 0 auto;
+  line-height: 0;
+}
+.masthead-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
