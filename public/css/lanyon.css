@@ -402,18 +402,36 @@ body.project-lightbox-open {
   text-align: center;
 }
 
-.footer-avatar {
+.footer-about {
   display: flex;
-  justify-content: center;
-  margin-top: 24px;
+  align-items: center;
+  gap: 20px;
+  max-width: 420px;
+  margin: 24px auto 0;
 }
 
-.footer-avatar img {
+.footer-about-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.footer-about-text p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #707070;
+  margin: 0;
+}
+
+.footer-about-text a {
+  color: #505050;
+}
+
+.footer-about-avatar {
+  flex-shrink: 0;
   width: 72px;
   height: 72px;
   border-radius: 50%;
   object-fit: cover;
-  display: block;
 }
 
 .site-signup {
