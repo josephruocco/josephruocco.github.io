@@ -85,10 +85,10 @@ const PROJECT_LINK_OVERRIDES = {
     },
   ],
   bookshelf: [
-    { label: "Site", href: "https://bookshelf.josephruocco.net/" },
+    { label: "Try It", href: "https://bookshelf.josephruocco.net/" },
   ],
   summa: [
-    { label: "Demo", href: "https://summa-demo.josephruocco.net/" },
+    { label: "Try It", href: "https://summa-demo.josephruocco.net/" },
   ],
 };
 
@@ -262,8 +262,6 @@ async function fetchAllUserRepos(username) {
       ? `<a class="project-meta-link" href="${updatesUrl}">Updates</a>`
       : "";
 
-    const repoLink = `<a class="project-meta-link" href="${r.html_url}" target="_blank" rel="noopener">Repo</a>`;
-
     const configuredLinks = normalizeLinkList(cfg.links);
     const explicitLinks = configuredLinks.length > 0
       ? configuredLinks
@@ -280,7 +278,7 @@ async function fetchAllUserRepos(username) {
         `<a class="project-meta-link" href="${escapeHtml(link.href)}" target="_blank" rel="noopener">${escapeHtml(link.label)}</a>`
       );
 
-    const metaHtml = [repoLink, ...extraLinks, updatesLink].filter(Boolean).join(" · ");
+    const metaHtml = [...extraLinks, updatesLink].filter(Boolean).join(" · ");
 
     const thumbnailHtml = thumbnailSrc
       ? `<div class="project-thumb-wrap">

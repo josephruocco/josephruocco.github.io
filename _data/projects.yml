@@ -3,37 +3,40 @@ projects:
     thumbnail: /assets/projects/antidoom.png
     thumbnail_alt: Antidoom screenshot
     links:
-      - label: Site
+      - label: Try It
         href: https://antidoom-demo.josephruocco.net/
   blackout-poem-extension:
     title: Newspaper Blackout Poem Extension
     thumbnail: /assets/projects/blackout-poem-extension.png
     thumbnail_alt: Blackout Poem Extension thumbnail
+    links:
+      - label: Try It
+        href: https://newspoem.josephruocco.net/
   bookshelf:
     # Example thumbnail path:
     thumbnail: /assets/projects/bookshelf.png
     thumbnail_alt: Bookshelf screenshot
     links:
-      - label: Site
+      - label: Try It
         href: https://bookshelf.josephruocco.net/
   goal-reader:
     thumbnail: /assets/projects/goal-reader.png
     thumbnail_alt: Goal Reader screenshot
     links:
-      - label: Chrome WebStore
+      - label: Download
         href: https://chromewebstore.google.com/detail/goal-reader-pdf/mchomnhnininjcncokmapokihmkmeeii?authuser=0&hl=en
   lockscreen-game:
     title: Lockscreen Game
     thumbnail: /assets/projects/lockscreen-game.png
     thumbnail_alt: Lockscreen Game screenshot
     links:
-      - label: Site
+      - label: Play Now!
         href: https://lockscreengame.josephruocco.net
   summa:
     thumbnail: /assets/projects/summa-matte.png
     thumbnail_alt: Summa screenshot
     links:
-      - label: Demo
+      - label: Try It
         href: https://summa-demo.josephruocco.net/
   citibike-map:
     thumbnail: /assets/projects/citibike-map.png
