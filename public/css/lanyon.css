@@ -351,6 +351,41 @@ a.pagination-item:hover {
   color: #666;
 }
 
+.project-action-link {
+  display: inline-block;
+  padding: 0.2em 0.75em;
+  border-radius: 999px;
+  background: #6b8fa3;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.project-action-link:hover {
+  background: #537a91;
+  text-decoration: none;
+}
+
+.random-project-btn {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.45em 1.1em;
+  border-radius: 999px;
+  background: #6b8fa3;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.random-project-btn:hover {
+  background: #537a91;
+}
+
 body.project-lightbox-open {
   overflow: hidden;
 }

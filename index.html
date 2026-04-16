@@ -8,7 +8,22 @@ title: Home
   {% include repo_list.html %}
   <p class="projects-github-note">Most of my code is open source — feel free to <a href="https://github.com/josephruocco" target="_blank" rel="noopener">explore on GitHub</a>.</p>
   <p><a href="/projects/">View all projects</a></p>
+  <button class="random-project-btn" onclick="randomProject()">Take me to a random project</button>
 </section>
+
+<script>
+function randomProject() {
+  var projects = [
+    "https://newspoem.josephruocco.net/",
+    "https://antidoom-demo.josephruocco.net/",
+    "https://bookshelf.josephruocco.net/",
+    "https://lockscreengame.josephruocco.net/",
+    "https://summa-demo.josephruocco.net/",
+    "https://chromewebstore.google.com/detail/goal-reader-pdf/mchomnhnininjcncokmapokihmkmeeii?authuser=0&hl=en"
+  ];
+  window.open(projects[Math.floor(Math.random() * projects.length)], "_blank");
+}
+</script>
 
 <section>
   <h3>Daily Log</h3>
