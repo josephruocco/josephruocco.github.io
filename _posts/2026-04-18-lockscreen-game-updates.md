@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What I shipped this week (and why I stopped looking for new ideas)"
+title: "What I shipped this week"
 ---
 
 Spent the last couple weeks just iterating on [Lockscreen Game](https://lockscreengame.josephruocco.net) instead of starting anything new. I kept noticing small issues to fix or add so it's been preoccupying me for longer than I thought.
