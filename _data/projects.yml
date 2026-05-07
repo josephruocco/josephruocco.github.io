@@ -5,6 +5,8 @@ projects:
     links:
       - label: Try It
         href: https://antidoom-demo.josephruocco.net/
+      - label: Chrome Web Store
+        href: https://chromewebstore.google.com/detail/antidoom/kpibmejclghfaeiaofoijdnagaapomjh
   blackout-poem-extension:
     title: Newspaper Blackout Poem Extension
     thumbnail: /assets/projects/blackout-poem-extension.png
