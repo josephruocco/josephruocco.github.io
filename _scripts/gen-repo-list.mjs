@@ -11,6 +11,12 @@ function fmtDate(iso) {
   return `${yyyy}-${mm}-${dd}`;
 }
 
+function fmtMonthYear(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return d.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+}
+
 function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({
     "&": "&amp;",
@@ -231,11 +237,9 @@ async function fetchAllUserRepos(username) {
   repos = repos.slice(0, limit);
 
   const items = repos.flatMap((r) => {
-    // Kept in case you want to surface metadata later
-    const upd = fmtDate(r.updated_at);
-    const push = fmtDate(r.pushed_at);
     const stars = r.stargazers_count ?? 0;
-    void upd; void push; void stars;
+    void stars;
+    const lastUpdated = fmtMonthYear(r.pushed_at);
 
     const slug = r.full_name.replace(/^josephruocco\//, "");
     const normalizedSlug = slug.toLowerCase();
@@ -298,7 +302,7 @@ async function fetchAllUserRepos(username) {
       ${thumbnailHtml}
       <div class="project-copy">
         <div class="project-title">
-          ${escapeHtml(label)}
+          ${escapeHtml(label)}${lastUpdated ? `<span class="project-updated">${escapeHtml(lastUpdated)}</span>` : ""}
         </div>
         ${descLine}
         <div class="project-meta">
