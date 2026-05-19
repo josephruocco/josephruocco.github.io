@@ -62,13 +62,8 @@ const PROJECT_TITLES = {
 
 // Map repo slugs to internal Jekyll project update pages.
 // Only repos listed here will show an "Updates" link.
-const PROJECT_UPDATES = {
-  "blackout-poem-extension": "/projects/blackout-poem-extension/",
-  "mutual-vanish": "/projects/mutual-vanish/",
-  "nyc-street-history": "/projects/nyc-street-history/",
-  "mood-orb-extension": "/projects/mood-orb-extension/",
-  "heston-streamlit": "/projects/heston-streamlit/",
-};
+// (Cleared — "Updates" links removed site-wide.)
+const PROJECT_UPDATES = {};
 
 // Optional site-specific description overrides.
 // If a slug is not listed here, the script falls back to the GitHub repo description.
@@ -95,6 +90,7 @@ const PROJECT_LINK_OVERRIDES = {
   ],
   summa: [
     { label: "Try It", href: "https://summa-demo.josephruocco.net/" },
+    { label: "Download", href: "https://github.com/josephruocco/Summa/releases/latest" },
   ],
 };
 
