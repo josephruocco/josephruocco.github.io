@@ -14,6 +14,10 @@ projects:
     links:
       - label: Try It
         href: https://newspoem.josephruocco.net/
+  blaze-runner:
+    links:
+      - label: Play It Now
+        href: https://joerogames.itch.io/blazerunner
   bookshelf:
     # Example thumbnail path:
     thumbnail: /assets/projects/bookshelf.png
