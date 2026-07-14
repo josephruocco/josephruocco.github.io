@@ -36,3 +36,17 @@
   <div class="copyright">© {{ "now" | date: "%Y" }} {{ site.title }}.</div>
 </footer>
 
+<script>
+function randomProject() {
+  var projects = [
+    "https://newspoem.josephruocco.net/",
+    "https://antidoom-demo.josephruocco.net/",
+    "https://bookshelf.josephruocco.net/",
+    "https://lockscreengame.josephruocco.net/",
+    "https://summa-demo.josephruocco.net/",
+    "https://chromewebstore.google.com/detail/goal-reader-pdf/mchomnhnininjcncokmapokihmkmeeii?authuser=0&hl=en"
+  ];
+  window.open(projects[Math.floor(Math.random() * projects.length)], "_blank");
+}
+</script>
+
