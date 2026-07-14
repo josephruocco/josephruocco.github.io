@@ -285,6 +285,9 @@ a.pagination-item:hover {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 1.75rem;
 }
 
 .projects-section-title {
@@ -292,11 +295,10 @@ a.pagination-item:hover {
 }
 
 .project-item {
-  display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
-  align-items: start;
-  gap: 1.25rem;
-  margin: 22px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0;
 }
 
 .project-item-text-only {
@@ -308,7 +310,7 @@ a.pagination-item:hover {
 }
 
 .project-thumb-wrap {
-  width: 180px;
+  width: 100%;
 }
 
 .project-thumb-link {
@@ -319,7 +321,7 @@ a.pagination-item:hover {
 .project-thumb {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 3;
   height: auto;
   object-fit: contain;
   object-position: center;
@@ -579,17 +581,8 @@ body.project-lightbox-open {
 }
 
 @media (max-width: 700px) {
-  .project-item {
-    grid-template-columns: 120px minmax(0, 1fr);
-    gap: 0.9rem;
-  }
-
-  .project-thumb-wrap {
-    width: 120px;
-  }
-
-  .project-thumb {
-    aspect-ratio: 1 / 1;
+  .projects-list {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .site-signup-form {
