@@ -9,8 +9,6 @@ projects:
         href: https://chromewebstore.google.com/detail/antidoom/kpibmejclghfaeiaofoijdnagaapomjh
   blackout-poem-extension:
     title: Newspaper Blackout Poem Extension
-    thumbnail: /assets/projects/blackout-poem-extension.png
-    thumbnail_alt: Blackout Poem Extension thumbnail
     links:
       - label: Try It
         href: https://newspoem.josephruocco.net/
@@ -47,8 +45,6 @@ projects:
       - label: Download
         href: https://github.com/josephruocco/Summa/releases/latest
   citibike-map:
-    thumbnail: /assets/projects/citibike-map.png
-    thumbnail_alt: Citibike Map screenshot
   streetlore-nyc:
     thumbnail: /assets/projects/nyc-street-history.png
     thumbnail_alt: StreetLore NYC screenshot
@@ -56,5 +52,3 @@ projects:
     thumbnail: /assets/projects/trade-blotter.png 
     thumbnail_alt: NYC Street History screenshot
   mood-orb-extension:
-    thumbnail: /assets/projects/mood-orb.png
-    thumbnail_alt: Mood Orb screenshot
