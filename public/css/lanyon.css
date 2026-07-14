@@ -387,7 +387,7 @@ a.pagination-item:hover {
 .random-project-btn {
   display: inline-block;
   margin-top: 0.75rem;
-  padding: 0.45em 1.1em;
+  padding: 0.6em 1.35em;
   border-radius: 999px;
   background: #6b8fa3;
   color: #fff;
@@ -396,10 +396,24 @@ a.pagination-item:hover {
   border: none;
   cursor: pointer;
   font-family: inherit;
+  box-shadow: 0 2px 6px rgba(83, 122, 145, 0.35);
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
 }
 
 .random-project-btn:hover {
   background: #537a91;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(83, 122, 145, 0.45);
+}
+
+.random-project-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(83, 122, 145, 0.4);
+}
+
+.random-project-btn:focus-visible {
+  outline: 2px solid #537a91;
+  outline-offset: 2px;
 }
 
 body.project-lightbox-open {
