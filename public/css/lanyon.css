@@ -384,6 +384,12 @@ a.pagination-item:hover {
   text-decoration: none;
 }
 
+.section-break {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 2rem 0;
+}
+
 .random-project-btn {
   display: inline-block;
   margin-top: 0.75rem;
