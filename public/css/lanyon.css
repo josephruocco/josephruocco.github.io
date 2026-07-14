@@ -290,6 +290,10 @@ a.pagination-item:hover {
   gap: 1.5rem 1.75rem;
 }
 
+.projects-list-text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .projects-section-title {
   margin: 1.8rem 0 0.75rem;
 }
