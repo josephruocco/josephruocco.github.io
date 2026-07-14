@@ -49,9 +49,9 @@ projects:
   citibike-map:
     thumbnail: /assets/projects/citibike-map.png
     thumbnail_alt: Citibike Map screenshot
-  nyc-street-history:
+  streetlore-nyc:
     thumbnail: /assets/projects/nyc-street-history.png
-    thumbnail_alt: NYC Street History screenshot
+    thumbnail_alt: StreetLore NYC screenshot
   TradeBlotterApi:
     thumbnail: /assets/projects/trade-blotter.png 
     thumbnail_alt: NYC Street History screenshot
