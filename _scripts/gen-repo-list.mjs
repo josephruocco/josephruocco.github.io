@@ -228,9 +228,9 @@ async function fetchAllUserRepos(username) {
     });
   }
 
-  // Sort + take top N
+  // Sort (cap to `limit` after thumbnail filtering below, so thumbnailless
+  // repos don't consume a slot before they're dropped)
   repos.sort((a, b) => new Date(b[sortKey]) - new Date(a[sortKey]));
-  repos = repos.slice(0, limit);
 
   const items = repos.flatMap((r) => {
     const stars = r.stargazers_count ?? 0;
@@ -309,11 +309,13 @@ async function fetchAllUserRepos(username) {
     }];
   });
 
+  const limited = items.slice(0, limit);
+
   let html = "";
 
   if (sectionHeadings) {
-    const thumbnailItems = items.filter((item) => item.hasThumbnail);
-    const textOnlyItems = items.filter((item) => !item.hasThumbnail);
+    const thumbnailItems = limited.filter((item) => item.hasThumbnail);
+    const textOnlyItems = limited.filter((item) => !item.hasThumbnail);
 
     if (thumbnailItems.length > 0) {
       html += `<h4 class="projects-section-title">Featured Projects</h4>\n<ul class="projects-list">\n${thumbnailItems.map((item) => item.html).join("\n")}\n</ul>\n`;
@@ -325,10 +327,10 @@ async function fetchAllUserRepos(username) {
   } else {
     const orderedItems = groupThumbnailsFirst
       ? [
-          ...items.filter((item) => item.hasThumbnail),
-          ...items.filter((item) => !item.hasThumbnail),
+          ...limited.filter((item) => item.hasThumbnail),
+          ...limited.filter((item) => !item.hasThumbnail),
         ]
-      : items;
+      : limited;
 
     html = `<ul class="projects-list">\n${orderedItems.map((item) => item.html).join("\n")}\n</ul>\n`;
   }
