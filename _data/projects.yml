@@ -48,6 +48,9 @@ projects:
   streetlore-nyc:
     thumbnail: /assets/projects/nyc-street-history.png
     thumbnail_alt: StreetLore NYC screenshot
+    links:
+      - label: Try It
+        href: https://streetlore.josephruocco.net
   TradeBlotterApi:
     thumbnail: /assets/projects/trade-blotter.png 
     thumbnail_alt: NYC Street History screenshot
