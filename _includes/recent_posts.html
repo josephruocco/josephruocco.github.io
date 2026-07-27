@@ -1,11 +1,11 @@
-{% assign updates = site.posts | where_exp: "p", "p.type != 'essay'" %}
-{% assign recent = updates | slice: 0, 5 %}
+{% assign recent = site.posts | slice: 0, 5 %}
 {% if recent.size > 0 %}
 <ul class="updates-list">
   {% for post in recent %}
     <li class="update-item">
       <a href="{{ post.url }}">{{ post.title }}</a>
       <small class="update-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+      {% if post.subtitle %}<p class="essay-deck">{{ post.subtitle }}</p>{% endif %}
     </li>
   {% endfor %}
 </ul>

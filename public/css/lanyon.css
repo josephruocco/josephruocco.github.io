@@ -622,25 +622,9 @@ body.project-lightbox-open {
   line-height: 1.4;
 }
 
-.featured-essay {
-  margin: 0 0 1.5rem;
-}
-
-.featured-essay h4 {
-  margin: 0 0 .25rem;
-  font-size: 1.25rem;
-}
-
-.featured-essay h4 a {
-  color: #303030;
-  text-decoration: none;
-}
-
-.featured-essay h4 a:hover {
-  text-decoration: underline;
-}
-
 .essay-deck {
-  margin: 0;
+  margin: .15rem 0 0;
   color: #7a7a7a;
+  font-size: .95rem;
+  line-height: 1.4;
 }
