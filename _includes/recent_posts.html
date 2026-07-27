@@ -1,4 +1,5 @@
-{% assign recent = site.posts | slice: 0, 5 %}
+{% assign updates = site.posts | where_exp: "p", "p.type != 'essay'" %}
+{% assign recent = updates | slice: 0, 5 %}
 {% if recent.size > 0 %}
 <ul class="updates-list">
   {% for post in recent %}
@@ -8,8 +9,8 @@
     </li>
   {% endfor %}
 </ul>
-{% if site.posts.size > 5 %}
-  <p><a href="/updates/">View all updates</a></p>
+{% if updates.size > 5 %}
+  <p><a href="/writing/">View all writing</a></p>
 {% endif %}
 {% else %}
 <p>Nothing yet - check back soon.</p>

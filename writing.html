@@ -1,0 +1,14 @@
+---
+layout: page
+title: Writing
+permalink: /writing/
+---
+
+<ul class="updates-list">
+  {% for post in site.posts %}
+    <li class="update-item">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small class="update-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
