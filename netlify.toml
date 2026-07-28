@@ -2,16 +2,17 @@
   command = "npm run build"
   publish = "_site"
 
-# Serve the AntiDoom demo at josephruocco.net/antidoom without changing the URL.
-# (Proxies to the demo's own Netlify site.)
+# Send /antidoom to the AntiDoom demo site.
+# Redirect (301), not a proxy: a proxy + Netlify's trailing-slash normalization
+# created an infinite /antidoom/ -> /antidoom/ loop. Order: deep paths first.
 [[redirects]]
-  from = "/antidoom"
-  to = "/antidoom/"
+  from = "/antidoom/*"
+  to = "https://antidoom-demo.josephruocco.net/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/antidoom/*"
-  to = "https://antidoom-demo.josephruocco.net/:splat"
-  status = 200
+  from = "/antidoom"
+  to = "https://antidoom-demo.josephruocco.net/"
+  status = 301
   force = true
