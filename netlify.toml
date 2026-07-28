@@ -1,3 +1,17 @@
 [build]
   command = "npm run build"
   publish = "_site"
+
+# Serve the AntiDoom demo at josephruocco.net/antidoom without changing the URL.
+# (Proxies to the demo's own Netlify site.)
+[[redirects]]
+  from = "/antidoom"
+  to = "/antidoom/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/antidoom/*"
+  to = "https://antidoom-demo.josephruocco.net/:splat"
+  status = 200
+  force = true
