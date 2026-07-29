@@ -4,7 +4,7 @@ projects:
     thumbnail_alt: Antidoom screenshot
     links:
       - label: Try It
-        href: https://antidoom-demo.josephruocco.net/
+        href: https://antidoom.josephruocco.net/
       - label: Download
         href: https://chromewebstore.google.com/detail/antidoom/kpibmejclghfaeiaofoijdnagaapomjh
   blackout-poem-extension:
@@ -52,6 +52,4 @@ projects:
       - label: Try It
         href: https://streetlore.josephruocco.net
   TradeBlotterApi:
-    thumbnail: /assets/projects/trade-blotter.png 
-    thumbnail_alt: NYC Street History screenshot
   mood-orb-extension:
