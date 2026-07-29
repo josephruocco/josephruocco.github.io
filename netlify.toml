@@ -7,12 +7,12 @@
 # created an infinite /antidoom/ -> /antidoom/ loop. Order: deep paths first.
 [[redirects]]
   from = "/antidoom/*"
-  to = "https://antidoom-demo.josephruocco.net/:splat"
+  to = "https://antidoom.josephruocco.net/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/antidoom"
-  to = "https://antidoom-demo.josephruocco.net/"
+  to = "https://antidoom.josephruocco.net/"
   status = 301
   force = true
