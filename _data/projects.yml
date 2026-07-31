@@ -41,7 +41,7 @@ projects:
     thumbnail_alt: Summa screenshot
     links:
       - label: Try It
-        href: https://summa-demo.josephruocco.net/
+        href: https://summa.josephruocco.net/
       - label: Download
         href: https://github.com/josephruocco/Summa/releases/latest
   citibike-map:

@@ -16,3 +16,16 @@
   to = "https://antidoom.josephruocco.net/"
   status = 301
   force = true
+
+# Send /summa to the Summa site. Same pattern as /antidoom above.
+[[redirects]]
+  from = "/summa/*"
+  to = "https://summa.josephruocco.net/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/summa"
+  to = "https://summa.josephruocco.net/"
+  status = 301
+  force = true
