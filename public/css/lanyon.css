@@ -441,31 +441,30 @@ body.project-lightbox-open {
   text-align: center;
 }
 
-.footer-about {
+.site-bio {
   display: flex;
   align-items: center;
   gap: 20px;
-  max-width: 420px;
-  margin: 24px auto 0;
+  margin: 0 0 2rem;
 }
 
-.footer-about-text {
+.site-bio-text {
   flex: 1;
   min-width: 0;
 }
 
-.footer-about-text p {
-  font-size: 13px;
-  line-height: 1.5;
-  color: #707070;
+.site-bio-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
   margin: 0;
 }
 
-.footer-about-text a {
+.site-bio-text a {
   color: #505050;
 }
 
-.footer-about-avatar {
+.site-bio-avatar {
   flex-shrink: 0;
   width: 72px;
   height: 72px;
