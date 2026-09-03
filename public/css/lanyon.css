@@ -336,6 +336,25 @@ a.pagination-item:hover {
   padding: 0;
 }
 
+.project-item-icon {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.project-icon-wrap {
+  flex: 0 0 auto;
+}
+
+.project-icon {
+  display: block;
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+
 .project-copy {
   flex: 1 1 auto;
   min-width: 0;
