@@ -464,6 +464,10 @@ body.project-lightbox-open {
   color: #505050;
 }
 
+.site-bio-text p.site-bio-elsewhere {
+  margin-top: 0.5rem;
+}
+
 .site-bio-avatar {
   flex-shrink: 0;
   width: 72px;
