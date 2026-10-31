@@ -23,6 +23,8 @@ projects:
     links:
       - label: Try It
         href: https://bookshelf.josephruocco.net/
+      - label: Download for iOS
+        href: https://apps.apple.com/us/app/woodwork-bookshelf/id6807854883
   goal-reader:
     thumbnail: /assets/projects/goal-reader.png
     thumbnail_alt: Goal Reader screenshot
@@ -51,5 +53,7 @@ projects:
     links:
       - label: Try It
         href: https://streetlore.josephruocco.net
+      - label: Download for iOS
+        href: https://apps.apple.com/us/app/street-lore-nyc/id6789656145
   TradeBlotterApi:
   mood-orb-extension:
