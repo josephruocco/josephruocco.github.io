@@ -65,19 +65,24 @@
 
       <li class="answer" id="rate-limits" aria-labelledby="rate-title">
         <h2 id="rate-title">We are working on some integration of PostHog with video player. We are getting this error - [Posthog error]: This capture call is ignored due to client rate limiting. We want to know what's the client-side rate limit and how that can be increased if we can?</h2>
-        <figure class="walkthrough">
-          <div class="image-window local-image playing"><img src="./evidence/video-player-walkthrough.gif" alt="Actual video playback with duplicate progress listeners causing SDK drops, followed by milestone tracking accepting four events without drops." loading="lazy" data-walkthrough-image="rate"></div>
-          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/video-player-walkthrough.gif" data-poster="./evidence/video-player-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/video-player-walkthrough.gif" download>Download GIF ↓</a><span>Real video playback with local mock HTTP. Deliberately duplicated listeners reproduce the bug; milestone tracking fixes it without raising limits.</span></figcaption>
-        </figure>
         <div class="answer-copy">
-          <p>The tested SDK versions use a <strong>100-event token bucket, refilling at 10 events/second</strong>. Excess calls are dropped before the send queue, not retried later.</p>
-          <p>To raise it, add this to your existing <code>posthog.init</code> configuration:</p>
+          <p>The default client-side limit in posthog-js 1.444.3 and 1.444.4 is a <strong>100-event burst, refilling at 10 events/second</strong>. Calls exceeding the available allowance are dropped, not queued for retry.</p>
+          <p><strong>Yes, you can increase it.</strong> Add this to your existing <code>posthog.init</code> configuration for a 200-event burst and a refill rate of 20 events/second:</p>
           <pre><code>rate_limiting: {
   events_per_second: 20,
   events_burst_limit: 200
 }</code></pre>
-          <p>For a video player, first check progress callback frequency and duplicate listeners. Capture milestones or throttle progress events if that gives you the data you need.</p>
           <p>The bucket can survive reloads with persistence enabled. It is not an application-wide quota across all users or tabs. Changing it does not change server quotas or billing limits.</p>
+        </div>
+        <h3>Example: reducing unnecessary video events</h3>
+        <figure class="walkthrough">
+          <div class="image-window local-image playing"><img src="./evidence/video-player-walkthrough.gif" alt="Actual video playback with duplicate progress listeners causing SDK drops, followed by milestone tracking accepting four events without drops." loading="lazy" data-walkthrough-image="rate"></div>
+          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/video-player-walkthrough.gif" data-poster="./evidence/video-player-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/video-player-walkthrough.gif" download>Download GIF ↓</a><span>Real video playback. Local mock HTTP, not Cloud delivery.</span></figcaption>
+        </figure>
+        <div class="answer-copy">
+          <p>The first run deliberately registers <strong>40 duplicate progress listeners</strong>, multiplying capture calls until the SDK drops them. This exaggerates an integration bug; normal video progress callbacks alone do not necessarily exceed the limit. The counters show attempted calls, calls accepted by the SDK, and calls dropped by the client limiter.</p>
+          <p>The second run records <strong>four events: 25%, 50%, 75%, and completion</strong>. All four are accepted with the default limits unchanged. It avoids the limit by sending fewer events, not by increasing the allowance.</p>
+          <p><strong>The trade-off:</strong> milestones show how far someone watched, not every playback position, pause, or seek. If that detail is needed, remove duplicate listeners, throttle progress captures, and track meaningful interactions separately. Use a higher limit when the required event volume justifies it.</p>
         </div>
         <div class="related-docs">
           <h3>Related Documentation</h3>
