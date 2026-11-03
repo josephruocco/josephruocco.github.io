@@ -30,7 +30,7 @@
       </div>
       <ol class="answers">
       <li class="answer" id="weekdays" aria-labelledby="weekday-title">
-        <h2 id="weekday-title">Can I break down an insight by weekday?</h2>
+        <h2 id="weekday-title">Is it possible to breakdown an insight by the weekday? A customer wants to see which day of the week most of the events are being captured at (i.e. Monday, Tuesday, etc).</h2>
         <figure class="walkthrough">
           <div class="image-window playing"><img src="./evidence/weekday-walkthrough.gif" alt="Actual PostHog UI walkthrough: create a Trends insight, add a weekday SQL breakdown, and select total-value bars." data-walkthrough-image="weekday"></div>
           <figcaption><button class="play-button" type="button" data-play="weekday" data-gif="./evidence/weekday-walkthrough.gif" data-poster="./evidence/weekday-trends.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/weekday-walkthrough.gif" download>Download GIF ↓</a><span>Live disposable project · UI checkpoints with pauses trimmed</span></figcaption>
@@ -67,12 +67,11 @@
       </li>
 
       <li class="answer" id="rate-limits" aria-labelledby="rate-title">
-        <h2 id="rate-title">What is the client capture limit? Can I increase it?</h2>
+        <h2 id="rate-title">We are working on some integration of PostHog with video player. We are getting this error - [Posthog error]: This capture call is ignored due to client rate limiting. We want to know what's the client-side rate limit and how that can be increased if we can?</h2>
         <figure class="walkthrough">
           <div class="image-window local-image playing"><img src="./evidence/rate-walkthrough.gif" alt="Actual local SDK walkthrough demonstrating default and custom capture limits and token refill." loading="lazy" data-walkthrough-image="rate"></div>
           <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/rate-walkthrough.gif" data-poster="./evidence/rate-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/rate-walkthrough.gif" download>Download GIF ↓</a><span>Local SDK test · Mocked HTTP and controlled clock, not a cloud load test</span></figcaption>
         </figure>
-        <blockquote>“This capture call is ignored due to client rate limiting.”</blockquote>
         <div class="answer-copy">
           <p>The tested SDK versions use a <strong>100-event token bucket, refilling at 10 events/second</strong>. Excess calls are dropped before the send queue, not retried later.</p>
           <p>To raise it, add this to your existing <code>posthog.init</code> configuration:</p>
@@ -102,7 +101,7 @@
       </li>
 
       <li class="answer" id="property-deletion" aria-labelledby="privacy-title">
-        <h2 id="privacy-title">How do I remove an accidentally captured PII property?</h2>
+        <h2 id="privacy-title">We have accidentally sent in some PII that we need deleting for GDPR reasons. The PII has been sent as a person property. Is there a way to be able to delete this data which has been captured and remove the person property?</h2>
         <figure class="walkthrough">
           <div class="image-window playing"><img src="./evidence/person-walkthrough.gif" alt="Actual PostHog UI walkthrough removing a synthetic person property while retaining the keep field." loading="lazy" data-walkthrough-image="person"></div>
           <figcaption><button class="play-button" type="button" data-play="person" data-gif="./evidence/person-walkthrough.gif" data-poster="./evidence/person-gif-after.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/person-walkthrough.gif" download>Download GIF ↓</a><span>Live synthetic profile · Property removal, not historical-data erasure</span></figcaption>
