@@ -31,18 +31,18 @@
       <ol class="answers">
       <li class="answer" id="weekdays" aria-labelledby="weekday-title">
         <h2 id="weekday-title">Is it possible to breakdown an insight by the weekday? A customer wants to see which day of the week most of the events are being captured at (i.e. Monday, Tuesday, etc).</h2>
-        <figure class="walkthrough">
-          <div class="image-window playing"><img src="./evidence/weekday-walkthrough.gif" alt="Actual PostHog UI walkthrough: create a Trends insight, add a weekday SQL breakdown, and select total-value bars." data-walkthrough-image="weekday"></div>
-          <figcaption><button class="play-button" type="button" data-play="weekday" data-gif="./evidence/weekday-walkthrough.gif" data-poster="./evidence/weekday-trends.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/weekday-walkthrough.gif" download>Download GIF ↓</a></figcaption>
-        </figure>
         <div class="answer-copy">
-          <p><strong>Yes.</strong> In Trends, select the event, choose <strong>Total count</strong>, and add a <strong>SQL expression</strong> breakdown:</p>
+          <p><strong>Yes.</strong> Open <strong>Product analytics → New insight → Trends</strong>. Select the event, choose <strong>Total count</strong>, then open <strong>Breakdown → SQL expression</strong> and enter:</p>
           <pre><code>toDayOfWeek(timestamp)</code></pre>
           <p>Choose <strong>Bar chart under Total value</strong> for one total per weekday across the selected period. The Bar chart under Time series keeps separate time buckets.</p>
           <p>Monday is 1; Sunday is 7. The expression used the project timezone automatically in the tested project. To pin a different timezone:</p>
           <pre><code>toDayOfWeek(toTimeZone(timestamp, 'America/New_York'))</code></pre>
           <p>Use complete local weeks and align the date-range boundaries with the intended timezone. DST still changes a day's elapsed hours if you're comparing hourly rates.</p>
         </div>
+        <figure class="walkthrough">
+          <div class="image-window playing"><img src="./evidence/weekday-walkthrough.gif" alt="Actual PostHog UI walkthrough: create a Trends insight, add a weekday SQL breakdown, and select total-value bars." data-walkthrough-image="weekday"></div>
+          <figcaption><button class="play-button" type="button" data-play="weekday" data-gif="./evidence/weekday-walkthrough.gif" data-poster="./evidence/weekday-trends.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/weekday-walkthrough.gif" download>Download GIF ↓</a></figcaption>
+        </figure>
         <div class="table-scroll">
           <table>
             <caption>Sample table used in this example</caption>
@@ -67,6 +67,7 @@
         <h2 id="rate-title">We are working on some integration of PostHog with video player. We are getting this error - [Posthog error]: This capture call is ignored due to client rate limiting. We want to know what's the client-side rate limit and how that can be increased if we can?</h2>
         <div class="answer-copy">
           <p>The default client-side limit in posthog-js 1.444.3 and 1.444.4 is a <strong>100-event burst, refilling at 10 events/second</strong>. Calls exceeding the available allowance are dropped, not queued for retry.</p>
+          <p>This allows up to 100 events immediately when the allowance is full. The allowance then replenishes at 10 events per second, up to a maximum of 100. For frequent video-progress updates, consider throttling captures or tracking playback milestones before increasing the limit.</p>
           <p><strong>Yes, you can increase it.</strong> Add this to your existing <code>posthog.init</code> configuration for a 200-event burst and a refill rate of 20 events/second:</p>
           <pre><code>rate_limiting: {
   events_per_second: 20,
@@ -99,6 +100,7 @@
           <p>Also remove the property from your capture or identify code so it is not collected again. Verify the unset request was accepted, because SDK calls can be rate-limited.</p>
         </div>
         <h3>Removing the current property in the UI</h3>
+        <p>This walkthrough removes a synthetic property from the current person profile. Historical copies require the separate cleanup described above.</p>
         <figure class="walkthrough">
           <div class="image-window playing"><img src="./evidence/person-walkthrough.gif" alt="Actual PostHog UI walkthrough removing a synthetic person property while retaining the keep field." loading="lazy" data-walkthrough-image="person"></div>
           <figcaption><button class="play-button" type="button" data-play="person" data-gif="./evidence/person-walkthrough.gif" data-poster="./evidence/person-gif-after.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/person-walkthrough.gif" download>Download GIF ↓</a></figcaption>
