@@ -38,6 +38,10 @@ summary { padding: 13px 0; font-size: 13px; }
 .image-window, .image-link { display: block; overflow: hidden; border: 1px solid #e7e7e7; border-radius: 4px; }
 .image-window img, .image-link img { display: block; width: 100%; height: auto; margin-top: -8.7%; }
 .image-window.local-image img { margin-top: 0; }
+.image-window.playing img { margin-top: 0; }
+.related-docs ul { padding-left: 20px; margin: 0; font-size: 13px; }
+.related-docs li { margin-bottom: 9px; }
+figcaption > span { flex-basis: 100%; color: #666; font-size: 12px; }
 .image-link { margin: 20px 0; text-decoration: none; }
 .image-link span { display: block; padding: 9px 12px; }
 figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; align-items: center; margin-top: 10px; font-size: 12px; }

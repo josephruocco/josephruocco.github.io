@@ -32,6 +32,10 @@
       <ol class="answers">
       <li class="answer" id="weekdays" aria-labelledby="weekday-title">
         <h2 id="weekday-title">Can I break down an insight by weekday?</h2>
+        <figure class="walkthrough">
+          <div class="image-window playing"><img src="./evidence/weekday-walkthrough.gif" alt="Actual PostHog UI walkthrough: create a Trends insight, add a weekday SQL breakdown, and select total-value bars." data-walkthrough-image="weekday"></div>
+          <figcaption><button class="play-button" type="button" data-play="weekday" data-gif="./evidence/weekday-walkthrough.gif" data-poster="./evidence/weekday-trends.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/weekday-walkthrough.gif" download>Download GIF ↓</a><span>Live disposable project · UI checkpoints with pauses trimmed</span></figcaption>
+        </figure>
         <div class="answer-copy">
           <p><strong>Yes.</strong> In Trends, select the event, choose <strong>Total count</strong>, and add a <strong>SQL expression</strong> breakdown:</p>
           <pre><code>toDayOfWeek(timestamp)</code></pre>
@@ -40,16 +44,11 @@
           <pre><code>toDayOfWeek(toTimeZone(timestamp, 'America/New_York'))</code></pre>
           <p>Use complete local weeks and align the date-range boundaries with the intended timezone. DST still changes a day's elapsed hours if you're comparing hourly rates.</p>
         </div>
-        <p class="source-links"><a href="https://posthog.com/tutorials/hogql-breakdowns">SQL breakdowns ↗</a><a href="https://posthog.com/docs/sql/clickhouse-functions">Supported functions ↗</a></p>
         <details class="evidence" id="weekday-evidence">
           <summary><span class="evidence-status">Verified live</span><span>Walkthrough, counts, and DST checks</span><span class="expand" aria-hidden="true">+</span></summary>
           <div class="evidence-body">
             <h3>The actual UI steps</h3>
             <p>The walkthrough opens a new Trends insight, adds the SQL breakdown, and selects the period-total bar display. GIFs use real UI checkpoints with pauses trimmed, rather than a continuous screen recording.</p>
-            <figure class="walkthrough">
-              <div class="image-window"><img src="./evidence/weekday-trends.png" alt="Live PostHog horizontal bars: Sunday 8, Saturday 4, Monday 2, Friday 2." loading="lazy" width="2788" height="2144" data-walkthrough-image="weekday"></div>
-              <figcaption><button class="play-button" type="button" data-play="weekday" data-gif="./evidence/weekday-walkthrough.gif" data-poster="./evidence/weekday-trends.png" aria-pressed="false">▶ Play walkthrough</button><a href="./evidence/weekday-walkthrough.gif" download>Download GIF ↓</a></figcaption>
-            </figure>
             <h3>16 known timestamps. Two DST transitions.</h3>
             <p>The dataset covers New York midnights, the March 8 spring-forward gap, and both occurrences of 01:30 on November 1. JavaScript Intl and Python zoneinfo independently checked the expected groups.</p>
             <div class="table-scroll"><table><caption>Expected and observed totals, Monday through Sunday</caption><thead><tr><th>Timezone</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody><tr><th>America/New_York</th><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>8</td></tr><tr><th>UTC</th><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>8</td></tr></tbody></table></div>
@@ -58,10 +57,22 @@
             <aside class="finding"><strong>The AI shortcut failed this test.</strong><p>The requested four-complete-week prompt counted seven events but labeled them Thursday=1, Friday=2, Saturday=4. The correct labels were Friday=1, Saturday=2, Sunday=4.</p><p>Its SQL used <code>toDayOfWeek(..., 1)</code>, which starts Monday at 0, then mapped the numbers as though Monday were 1. I would use the manual setup here.</p><div class="inline-links"><a href="./evidence/ai-weekday-error.png" data-lightbox>See the AI result ↗</a><a href="./evidence/weekday-mode-check.png" data-lightbox>See the direct mode check ↗</a><a href="https://clickhouse.com/docs/reference/functions/regular-functions/date-time-functions#todayofweek">Function modes ↗</a></div></aside>
           </div>
         </details>
+        <div class="related-docs">
+          <h3>Related Documentation</h3>
+          <ul>
+            <li><a href="https://posthog.com/tutorials/hogql-breakdowns">SQL breakdowns</a> — Add a SQL expression as an insight breakdown.</li>
+            <li><a href="https://posthog.com/docs/sql/clickhouse-functions">Supported SQL functions</a> — Check the date and timezone functions available in PostHog SQL.</li>
+            <li><a href="https://clickhouse.com/docs/reference/functions/regular-functions/date-time-functions#todayofweek">toDayOfWeek reference</a> — Explains weekday numbering and how the optional mode changes it.</li>
+          </ul>
+        </div>
       </li>
 
       <li class="answer" id="rate-limits" aria-labelledby="rate-title">
         <h2 id="rate-title">What is the client capture limit? Can I increase it?</h2>
+        <figure class="walkthrough">
+          <div class="image-window local-image playing"><img src="./evidence/rate-walkthrough.gif" alt="Actual local SDK walkthrough demonstrating default and custom capture limits and token refill." loading="lazy" data-walkthrough-image="rate"></div>
+          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/rate-walkthrough.gif" data-poster="./evidence/rate-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/rate-walkthrough.gif" download>Download GIF ↓</a><span>Local SDK test · Mocked HTTP and controlled clock, not a cloud load test</span></figcaption>
+        </figure>
         <blockquote>“This capture call is ignored due to client rate limiting.”</blockquote>
         <div class="answer-copy">
           <p>The tested SDK versions use a <strong>100-event token bucket, refilling at 10 events/second</strong>. Excess calls are dropped before the send queue, not retried later.</p>
@@ -73,7 +84,6 @@
           <p>For a video player, first check progress callback frequency and duplicate listeners. Capture milestones or throttle progress events if that gives you the data you need.</p>
           <p>The bucket can survive reloads with persistence enabled. It is not an application-wide quota across all users or tabs. Changing it does not change server quotas or billing limits.</p>
         </div>
-        <p class="source-links"><a href="https://posthog.com/docs/libraries/js/config">SDK configuration ↗</a></p>
         <details class="evidence" id="rate-evidence">
           <summary><span class="evidence-status local">SDK + local browser</span><span>Default limits, custom limits, persistence</span><span class="expand" aria-hidden="true">+</span></summary>
           <div class="evidence-body">
@@ -81,17 +91,23 @@
             <p>Tests execute both published SDKs in JSDOM with fake HTTP and a controlled clock. These results verify client behavior; they do not establish cloud ingestion throughput.</p>
             <div class="table-scroll"><table><caption>Same results in 1.444.3 and 1.444.4</caption><thead><tr><th>Configuration</th><th>Immediate accepted</th><th>Next 5 calls</th><th>Accepted after 1s</th></tr></thead><tbody><tr><th>Default</th><td>100</td><td>Dropped</td><td>10</td></tr><tr><th>20/s, burst 200</th><td>200</td><td>Dropped</td><td>20</td></tr></tbody></table></div>
             <p>Long refills capped at the configured burst. The warning event bypassed its own client limit. Persisted storage survived a simulated reload; recreating memory persistence reset the bucket. The GIF uses a fresh persistence namespace for each configuration: increasing a limit does not necessarily refill an existing empty bucket immediately.</p>
-            <figure class="walkthrough">
-              <div class="image-window local-image"><img src="./evidence/rate-poster.png" alt="Actual local SDK test controls and capture outcomes." loading="lazy" data-walkthrough-image="rate"></div>
-              <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/rate-walkthrough.gif" data-poster="./evidence/rate-poster.png" aria-pressed="false">▶ Play SDK walkthrough</button><a href="./evidence/rate-walkthrough.gif" download>Download GIF ↓</a></figcaption>
-            </figure>
             <p class="limit-note">Two simulated contexts are not a real concurrent-storage test. No cloud load test was run. The limits above are client checks, not promises about end-to-end delivery.</p>
           </div>
         </details>
+        <div class="related-docs">
+          <h3>Related Documentation</h3>
+          <ul>
+            <li><a href="https://posthog.com/docs/libraries/js/config">JavaScript SDK configuration</a> — Configure client rate limits through the <code>rate_limiting</code> initialization option.</li>
+          </ul>
+        </div>
       </li>
 
       <li class="answer" id="property-deletion" aria-labelledby="privacy-title">
         <h2 id="privacy-title">How do I remove an accidentally captured PII property?</h2>
+        <figure class="walkthrough">
+          <div class="image-window playing"><img src="./evidence/person-walkthrough.gif" alt="Actual PostHog UI walkthrough removing a synthetic person property while retaining the keep field." loading="lazy" data-walkthrough-image="person"></div>
+          <figcaption><button class="play-button" type="button" data-play="person" data-gif="./evidence/person-walkthrough.gif" data-poster="./evidence/person-gif-after.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/person-walkthrough.gif" download>Download GIF ↓</a><span>Live synthetic profile · Property removal, not historical-data erasure</span></figcaption>
+        </figure>
         <div class="answer-copy">
           <p><strong>Stop sending it first.</strong> Remove it from the affected person's profile in the UI, or call this in the correct user's SDK context:</p>
           <pre><code>posthog.unsetPersonProperties('property_name')</code></pre>
@@ -99,16 +115,11 @@
           <p>If deletion must include the person's events, use the person deletion endpoint with <code>delete_events=true</code>. Recordings require the separate <code>delete_recordings=true</code> flag. Confirm which history can be deleted first.</p>
           <p>Event cleanup is asynchronous. Verify the matching deletion-status record and affected queries. For removal of one historical property while preserving other analytics, confirm a supported remediation path with PostHog support. Profile disappearance alone does not establish complete erasure or GDPR compliance.</p>
         </div>
-        <p class="source-links"><a href="https://posthog.com/docs/product-analytics/person-properties">Person properties ↗</a><a href="https://posthog.com/docs/privacy/data-storage">Deletion &amp; status ↗</a></p>
         <details class="evidence" id="privacy-evidence">
           <summary><span class="evidence-status">Unset verified live</span><span>Before, after, history, and deletion status</span><span class="expand" aria-hidden="true">+</span></summary>
           <div class="evidence-body">
             <h3>A synthetic property, a retained field, and an event copy</h3>
             <p>The original live check set <code>synthetic_pii=FAKE_PII_TEST_ONLY</code> and <code>keep=KEEP_TEST_ONLY</code>. A separate event deliberately held <code>FAKE_EVENT_COPY_TEST_ONLY</code>.</p>
-            <figure class="walkthrough">
-              <div class="image-window"><img src="./evidence/person-gif-after.png" alt="Fresh synthetic demo: the UI retains keep=KEEP_GIF_TEST_ONLY after property removal, with null values visible." loading="lazy" width="2788" height="2144" data-walkthrough-image="person"></div>
-              <figcaption><button class="play-button" type="button" data-play="person" data-gif="./evidence/person-walkthrough.gif" data-poster="./evidence/person-gif-after.png" aria-pressed="false">▶ Play profile-removal walkthrough</button><a href="./evidence/person-walkthrough.gif" download>Download GIF ↓</a></figcaption>
-            </figure>
             <p>The GIF repeats profile-property removal through the UI on a separate synthetic person using <code>FAKE_GIF_TEST_ONLY</code>. It then turns off Hide null values and confirms <code>keep=KEEP_GIF_TEST_ONLY</code> remains. No real person data is used.</p>
             <p>In the original SDK unset test, the profile UI retained <code>keep</code> and stopped displaying <code>synthetic_pii</code>. Hide null values was enabled in that original screenshot; raw key absence was not separately asserted before person deletion.</p>
             <a class="image-link" href="./evidence/person-history.png" data-lightbox><img src="./evidence/person-history.png" alt="Historical PostHog query still returns the fake event copy and earlier person values after unsetting." loading="lazy" width="2788" height="2144"><span>Inspect the historical copies ↗</span></a>
@@ -120,6 +131,14 @@
             <a href="https://posthog.com/blog/changing-event-storage">Read the dated storage announcement ↗</a>
           </div>
         </details>
+        <div class="related-docs">
+          <h3>Related Documentation</h3>
+          <ul>
+            <li><a href="https://posthog.com/docs/product-analytics/person-properties">Person properties</a> — Set, update, and unset properties on a person's current profile.</li>
+            <li><a href="https://posthog.com/docs/privacy/data-storage">Data deletion and status</a> — Understand deletion scope, asynchronous cleanup, and how to check deletion status.</li>
+            <li><a href="https://posthog.com/blog/changing-event-storage">Event-storage changes</a> — Describes the dated changes to raw person-property instruction retention.</li>
+          </ul>
+        </div>
       </li>
       </ol>
 
