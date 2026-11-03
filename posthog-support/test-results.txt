@@ -1,0 +1,29 @@
+
+> test
+> node --test test/*.test.mjs
+
+✔ synthetic sanitizer preserves SDK transport requirements and removes automatic person metadata (1.068041ms)
+✔ weekday reference cases cover local midnight, spring gap and repeated fall hour (18.461459ms)
+✔ four complete New York weeks ending November 2 contain Friday 1, Saturday 2, Sunday 4 (0.659625ms)
+✔ 1.444.4 public init/capture: defaults burst 100, refill 10, drop and warning (152.530125ms)
+✔ 1.444.4 public init/capture: custom burst 200, refill 20, drop and warning (122.051666ms)
+✔ 1.444.4 storage survives simulated reload; memory persistence resets (116.747625ms)
+✔ 1.444.4 real RateLimiter module with mocked persistence and fractional refill (42.924292ms)
+✔ 1.444.4 simulated simultaneous tabs do not share an atomic token bucket (72.776833ms)
+✔ 1.444.4 unset string/array, current identity, invalid values, never mode and exhausted bucket (45.287834ms)
+✔ 1.444.4 unset without identify enables processing for the current anonymous ID (13.324542ms)
+✔ 1.444.3 public init/capture: defaults burst 100, refill 10, drop and warning (79.120667ms)
+✔ 1.444.3 public init/capture: custom burst 200, refill 20, drop and warning (99.208292ms)
+✔ 1.444.3 storage survives simulated reload; memory persistence resets (105.880459ms)
+✔ 1.444.3 real RateLimiter module with mocked persistence and fractional refill (2.869416ms)
+✔ 1.444.3 simulated simultaneous tabs do not share an atomic token bucket (69.224583ms)
+✔ 1.444.3 unset string/array, current identity, invalid values, never mode and exhausted bucket (41.97625ms)
+✔ 1.444.3 unset without identify enables processing for the current anonymous ID (8.434833ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1369.358917
