@@ -94,17 +94,19 @@
 
       <li class="answer" id="property-deletion" aria-labelledby="privacy-title">
         <h2 id="privacy-title">We have accidentally sent in some PII that we need deleting for GDPR reasons. The PII has been sent as a person property. Is there a way to be able to delete this data which has been captured and remove the person property?</h2>
+        <div class="answer-copy">
+          <p><strong>Yes, you can remove the person property.</strong> However, removing it from the current profile does not delete PII already stored in historical events. Those copies require separate cleanup.</p>
+          <p>To remove the current property, delete it from the person's profile in PostHog, or call this in the affected user's SDK context:</p>
+          <pre><code>posthog.unsetPersonProperties('property_name')</code></pre>
+          <p>If deleting the entire person and their associated events is acceptable, use the person deletion endpoint with <code>delete_events=true</code>. To include their recordings, also specify <code>delete_recordings=true</code>. This deletes more than the individual property, so confirm the intended scope.</p>
+          <p>Event cleanup is asynchronous; check the deletion-status record and affected queries to confirm completion. If you need to remove only this historical property while keeping the rest of the analytics, contact PostHog support to confirm a supported remediation path. Check exports and downstream destinations separately.</p>
+          <p>Also remove the property from your capture or identify code so it is not collected again. Verify the unset request was accepted, because SDK calls can be rate-limited.</p>
+        </div>
+        <h3>Removing the current property in the UI</h3>
         <figure class="walkthrough">
           <div class="image-window playing"><img src="./evidence/person-walkthrough.gif" alt="Actual PostHog UI walkthrough removing a synthetic person property while retaining the keep field." loading="lazy" data-walkthrough-image="person"></div>
-          <figcaption><button class="play-button" type="button" data-play="person" data-gif="./evidence/person-walkthrough.gif" data-poster="./evidence/person-gif-after.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/person-walkthrough.gif" download>Download GIF ↓</a><span>Live synthetic profile · Property removal, not historical-data erasure</span></figcaption>
+          <figcaption><button class="play-button" type="button" data-play="person" data-gif="./evidence/person-walkthrough.gif" data-poster="./evidence/person-gif-after.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/person-walkthrough.gif" download>Download GIF ↓</a></figcaption>
         </figure>
-        <div class="answer-copy">
-          <p><strong>Stop sending it first.</strong> Remove it from the affected person's profile in the UI, or call this in the correct user's SDK context:</p>
-          <pre><code>posthog.unsetPersonProperties('property_name')</code></pre>
-          <p>This removes the current profile property. The SDK helper can itself be rate-limited; verify ingestion. <strong>It does not erase historical copies.</strong> Check event properties, event-time person properties, recordings, exports, and downstream destinations.</p>
-          <p>If deletion must include the person's events, use the person deletion endpoint with <code>delete_events=true</code>. Recordings require the separate <code>delete_recordings=true</code> flag. Confirm which history can be deleted first.</p>
-          <p>Event cleanup is asynchronous. Verify the matching deletion-status record and affected queries. For removal of one historical property while preserving other analytics, confirm a supported remediation path with PostHog support. Profile disappearance alone does not establish complete erasure or GDPR compliance.</p>
-        </div>
         <div class="related-docs">
           <h3>Related Documentation</h3>
           <ul>
