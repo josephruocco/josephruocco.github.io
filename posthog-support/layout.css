@@ -13,7 +13,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .site-nav { display: flex; flex-wrap: wrap; gap: 25px; margin-top: 10px; }
 .site-nav a { color: #505050; text-decoration: none; font-size: 18px; }
 .site-nav a:hover { text-decoration: underline; }
-main { max-width: 640px; padding: 0 24px; margin: 46px auto 0; }
+main { max-width: 1008px; padding: 0 24px; margin: 46px auto 0; }
 h1 { font-size: 32px; line-height: 1.22; letter-spacing: -.02em; margin: 0 0 9px; }
 .metadata { color: #666; font-size: 14px; margin: 0; }
 .intro { margin-bottom: 42px; }
