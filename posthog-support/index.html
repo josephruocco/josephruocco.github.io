@@ -74,15 +74,14 @@
 }</code></pre>
           <p>The bucket can survive reloads with persistence enabled. It is not an application-wide quota across all users or tabs. Changing it does not change server quotas or billing limits.</p>
         </div>
-        <h3>Example: reducing unnecessary video events</h3>
+        <h3>Example: increasing the limit for the same workload</h3>
         <figure class="walkthrough">
-          <div class="image-window local-image playing"><img src="./evidence/video-player-walkthrough.gif" alt="Actual video playback with duplicate progress listeners causing SDK drops, followed by milestone tracking accepting four events without drops." loading="lazy" data-walkthrough-image="rate"></div>
-          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/video-player-walkthrough.gif" data-poster="./evidence/video-player-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/video-player-walkthrough.gif" download>Download GIF ↓</a></figcaption>
+          <div class="image-window local-image playing"><img src="./evidence/video-limit-walkthrough.gif" alt="Replay 240 video progress captures, change events_per_second from 10 to 20 and events_burst_limit from 100 to 200, then replay the same captures with zero client drops." loading="lazy" data-walkthrough-image="rate"></div>
+          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/video-limit-walkthrough.gif" data-poster="./evidence/video-limit-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/video-limit-walkthrough.gif" download>Download GIF ↓</a></figcaption>
         </figure>
         <div class="answer-copy">
-          <p>The first run deliberately registers <strong>40 duplicate progress listeners</strong>, multiplying capture calls until the SDK drops them. This exaggerates an integration bug; normal video progress callbacks alone do not necessarily exceed the limit. The counters show attempted calls, calls accepted by the SDK, and calls dropped by the client limiter.</p>
-          <p>The second run records <strong>four events: 25%, 50%, 75%, and completion</strong>. All four are accepted with the default limits unchanged. It avoids the limit by sending fewer events, not by increasing the allowance.</p>
-          <p><strong>The trade-off:</strong> milestones show how far someone watched, not every playback position, pause, or seek. If that detail is needed, remove duplicate listeners, throttle progress captures, and track meaningful interactions separately. Use a higher limit when the required event volume justifies it.</p>
+          <p>Both runs attempt the same <strong>240 video progress captures over eight seconds</strong>. With the default settings, 179 are accepted and 61 are dropped. After changing <code>events_per_second</code> to <code>20</code> and <code>events_burst_limit</code> to <code>200</code>, all 240 are accepted with zero client rate-limit drops. No events are filtered out.</p>
+          <p>Each run applies the configuration to a fresh SDK instance, as on a new page load. The demo checks the real SDK with local mock HTTP; accepted captures are not a confirmation of Cloud ingestion. The larger burst accommodates this short workload, but sustained input above 20 events/second can still exhaust the bucket.</p>
         </div>
         <div class="related-docs">
           <h3>Related Documentation</h3>
