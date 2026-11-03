@@ -43,6 +43,16 @@
           <pre><code>toDayOfWeek(toTimeZone(timestamp, 'America/New_York'))</code></pre>
           <p>Use complete local weeks and align the date-range boundaries with the intended timezone. DST still changes a day's elapsed hours if you're comparing hourly rates.</p>
         </div>
+        <div class="table-scroll">
+          <table>
+            <caption>Sample table used in this example</caption>
+            <thead><tr><th scope="col">Timezone</th><th scope="col">Mon</th><th scope="col">Tue</th><th scope="col">Wed</th><th scope="col">Thu</th><th scope="col">Fri</th><th scope="col">Sat</th><th scope="col">Sun</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">America/New_York</th><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>8</td></tr>
+              <tr><th scope="row">UTC</th><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>8</td></tr>
+            </tbody>
+          </table>
+        </div>
         <div class="related-docs">
           <h3>Related Documentation</h3>
           <ul>
