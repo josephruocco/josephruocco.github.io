@@ -41,6 +41,7 @@ summary { padding: 13px 0; font-size: 13px; }
 .image-window.playing img { margin-top: 0; }
 .related-docs ul { padding-left: 20px; margin: 0; font-size: 13px; }
 .related-docs li { margin-bottom: 9px; }
+.doc-description { display: block; }
 figcaption > span { flex-basis: 100%; color: #666; font-size: 12px; }
 .image-link { margin: 20px 0; text-decoration: none; }
 .image-link span { display: block; padding: 9px 12px; }
