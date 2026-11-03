@@ -27,7 +27,6 @@
     <main id="main">
       <div class="intro">
         <h1>PostHog Technical Support Engineer Supplement</h1>
-        <p class="metadata">Joseph Ruocco · November 2, 2026 · Synthetic data only</p>
       </div>
       <ol class="answers">
       <li class="answer" id="weekdays" aria-labelledby="weekday-title">
@@ -142,23 +141,6 @@
       </li>
       </ol>
 
-      <details class="verification" id="verification">
-        <summary>Tests, versions, and limitations</summary>
-        <div class="evidence-body">
-        <div class="verification-grid">
-          <div><h3>Source</h3><p>Published posthog-js <strong>1.444.3</strong> and <strong>1.444.4</strong>. Backend snapshot <a href="https://github.com/PostHog/posthog/tree/4ca76d40c07071c4b11f6729c2092e0c9ead4a17"><code>4ca76d4</code></a>. The deployed Cloud commit was not verified.</p></div>
-          <div><h3>Local</h3><p><strong>17 passing tests.</strong> Real SDK code, mocked transport, controlled clocks. Node 26.7.0, npm 11.19.0, Python 3.9.6. SDK artifact hashes and the lockfile are included.</p></div>
-          <div><h3>Live</h3><p>Synthetic events in a disposable US Cloud project. Weekday totals, timezone behavior, profile unset, historical copies, and queued deletion were inspected through the browser.</p></div>
-          <div><h3>Not established</h3><p>Completed event erasure, recording deletion, external-copy removal, real concurrent-tab coordination, or broad older-SDK compatibility.</p></div>
-        </div>
-        <pre><code>npm ci --no-audit --no-fund
-npm test
-node evidence.mjs
-python3 verify-reference.py</code></pre>
-        <div class="inline-links"><a class="button-link" href="./posthog-support-tests.zip" download>Download reproducible tests ↓</a><a href="./test-results.txt">Read the actual test output ↗</a></div>
-        <p class="limit-note">Prepared with AI assistance. Source findings, mock-based tests, and live observations are identified separately so the evidence can be checked independently.</p>
-        </div>
-      </details>
       <footer class="page-footer"><span>Joseph Ruocco · November 2026</span><a href="#main">Back to top ↑</a></footer>
     </main>
   <dialog id="image-dialog" aria-label="Evidence screenshot"><button type="button" class="close-dialog" autofocus>Close ×</button><img alt=""></dialog>
