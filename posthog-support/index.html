@@ -77,7 +77,7 @@
         <h3>Example: reducing unnecessary video events</h3>
         <figure class="walkthrough">
           <div class="image-window local-image playing"><img src="./evidence/video-player-walkthrough.gif" alt="Actual video playback with duplicate progress listeners causing SDK drops, followed by milestone tracking accepting four events without drops." loading="lazy" data-walkthrough-image="rate"></div>
-          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/video-player-walkthrough.gif" data-poster="./evidence/video-player-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/video-player-walkthrough.gif" download>Download GIF ↓</a><span>Real video playback. Local mock HTTP, not Cloud delivery.</span></figcaption>
+          <figcaption><button class="play-button" type="button" data-play="rate" data-gif="./evidence/video-player-walkthrough.gif" data-poster="./evidence/video-player-poster.png" aria-pressed="true">■ Stop walkthrough</button><a href="./evidence/video-player-walkthrough.gif" download>Download GIF ↓</a></figcaption>
         </figure>
         <div class="answer-copy">
           <p>The first run deliberately registers <strong>40 duplicate progress listeners</strong>, multiplying capture calls until the SDK drops them. This exaggerates an integration bug; normal video progress callbacks alone do not necessarily exceed the limit. The counters show attempted calls, calls accepted by the SDK, and calls dropped by the client limiter.</p>
