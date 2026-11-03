@@ -34,7 +34,7 @@ summary { padding: 13px 0; font-size: 13px; }
 .evidence-status { color: #666; margin-right: 12px; }
 .expand { display: none; }
 .evidence-body { font-size: 13px; padding: 0 0 18px; }
-.walkthrough { margin: 20px 0; }
+.walkthrough { max-width: 760px; margin: 20px 0; }
 .image-window, .image-link { display: block; overflow: hidden; border: 1px solid #e7e7e7; border-radius: 4px; }
 .image-window img, .image-link img { display: block; width: 100%; height: auto; margin-top: -8.7%; }
 .image-window.local-image img { margin-top: 0; }
