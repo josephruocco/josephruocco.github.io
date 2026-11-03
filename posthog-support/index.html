@@ -43,19 +43,6 @@
           <pre><code>toDayOfWeek(toTimeZone(timestamp, 'America/New_York'))</code></pre>
           <p>Use complete local weeks and align the date-range boundaries with the intended timezone. DST still changes a day's elapsed hours if you're comparing hourly rates.</p>
         </div>
-        <details class="evidence" id="weekday-evidence">
-          <summary><span class="evidence-status">Verified live</span><span>Walkthrough, counts, and DST checks</span><span class="expand" aria-hidden="true">+</span></summary>
-          <div class="evidence-body">
-            <h3>The actual UI steps</h3>
-            <p>The walkthrough opens a new Trends insight, adds the SQL breakdown, and selects the period-total bar display. GIFs use real UI checkpoints with pauses trimmed, rather than a continuous screen recording.</p>
-            <h3>16 known timestamps. Two DST transitions.</h3>
-            <p>The dataset covers New York midnights, the March 8 spring-forward gap, and both occurrences of 01:30 on November 1. JavaScript Intl and Python zoneinfo independently checked the expected groups.</p>
-            <div class="table-scroll"><table><caption>Expected and observed totals, Monday through Sunday</caption><thead><tr><th>Timezone</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody><tr><th>America/New_York</th><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>8</td></tr><tr><th>UTC</th><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>8</td></tr></tbody></table></div>
-            <p>The plain expression matched explicit New York conversion. Explicit UTC conversion changed the near-midnight groups. The live aggregate groups matched all 16 inputs; each live <code>case_id</code> was not separately asserted.</p>
-            <a class="image-link" href="./evidence/weekday-timezone.png" data-lightbox><img src="./evidence/weekday-timezone.png" alt="PostHog SQL results comparing project, New York, and UTC weekday numbers." loading="lazy" width="2788" height="2144"><span>Inspect the timezone query ↗</span></a>
-            <aside class="finding"><strong>The AI shortcut failed this test.</strong><p>The requested four-complete-week prompt counted seven events but labeled them Thursday=1, Friday=2, Saturday=4. The correct labels were Friday=1, Saturday=2, Sunday=4.</p><p>Its SQL used <code>toDayOfWeek(..., 1)</code>, which starts Monday at 0, then mapped the numbers as though Monday were 1. I would use the manual setup here.</p><div class="inline-links"><a href="./evidence/ai-weekday-error.png" data-lightbox>See the AI result ↗</a><a href="./evidence/weekday-mode-check.png" data-lightbox>See the direct mode check ↗</a><a href="https://clickhouse.com/docs/reference/functions/regular-functions/date-time-functions#todayofweek">Function modes ↗</a></div></aside>
-          </div>
-        </details>
         <div class="related-docs">
           <h3>Related Documentation</h3>
           <ul>
@@ -82,16 +69,6 @@
           <p>For a video player, first check progress callback frequency and duplicate listeners. Capture milestones or throttle progress events if that gives you the data you need.</p>
           <p>The bucket can survive reloads with persistence enabled. It is not an application-wide quota across all users or tabs. Changing it does not change server quotas or billing limits.</p>
         </div>
-        <details class="evidence" id="rate-evidence">
-          <summary><span class="evidence-status local">SDK + local browser</span><span>Default limits, custom limits, persistence</span><span class="expand" aria-hidden="true">+</span></summary>
-          <div class="evidence-body">
-            <h3>Public initialization and capture APIs</h3>
-            <p>Tests execute both published SDKs in JSDOM with fake HTTP and a controlled clock. These results verify client behavior; they do not establish cloud ingestion throughput.</p>
-            <div class="table-scroll"><table><caption>Same results in 1.444.3 and 1.444.4</caption><thead><tr><th>Configuration</th><th>Immediate accepted</th><th>Next 5 calls</th><th>Accepted after 1s</th></tr></thead><tbody><tr><th>Default</th><td>100</td><td>Dropped</td><td>10</td></tr><tr><th>20/s, burst 200</th><td>200</td><td>Dropped</td><td>20</td></tr></tbody></table></div>
-            <p>Long refills capped at the configured burst. The warning event bypassed its own client limit. Persisted storage survived a simulated reload; recreating memory persistence reset the bucket. The GIF uses a fresh persistence namespace for each configuration: increasing a limit does not necessarily refill an existing empty bucket immediately.</p>
-            <p class="limit-note">Two simulated contexts are not a real concurrent-storage test. No cloud load test was run. The limits above are client checks, not promises about end-to-end delivery.</p>
-          </div>
-        </details>
         <div class="related-docs">
           <h3>Related Documentation</h3>
           <ul>
@@ -113,22 +90,6 @@
           <p>If deletion must include the person's events, use the person deletion endpoint with <code>delete_events=true</code>. Recordings require the separate <code>delete_recordings=true</code> flag. Confirm which history can be deleted first.</p>
           <p>Event cleanup is asynchronous. Verify the matching deletion-status record and affected queries. For removal of one historical property while preserving other analytics, confirm a supported remediation path with PostHog support. Profile disappearance alone does not establish complete erasure or GDPR compliance.</p>
         </div>
-        <details class="evidence" id="privacy-evidence">
-          <summary><span class="evidence-status">Unset verified live</span><span>Before, after, history, and deletion status</span><span class="expand" aria-hidden="true">+</span></summary>
-          <div class="evidence-body">
-            <h3>A synthetic property, a retained field, and an event copy</h3>
-            <p>The original live check set <code>synthetic_pii=FAKE_PII_TEST_ONLY</code> and <code>keep=KEEP_TEST_ONLY</code>. A separate event deliberately held <code>FAKE_EVENT_COPY_TEST_ONLY</code>.</p>
-            <p>The GIF repeats profile-property removal through the UI on a separate synthetic person using <code>FAKE_GIF_TEST_ONLY</code>. It then turns off Hide null values and confirms <code>keep=KEEP_GIF_TEST_ONLY</code> remains. No real person data is used.</p>
-            <p>In the original SDK unset test, the profile UI retained <code>keep</code> and stopped displaying <code>synthetic_pii</code>. Hide null values was enabled in that original screenshot; raw key absence was not separately asserted before person deletion.</p>
-            <a class="image-link" href="./evidence/person-history.png" data-lightbox><img src="./evidence/person-history.png" alt="Historical PostHog query still returns the fake event copy and earlier person values after unsetting." loading="lazy" width="2788" height="2144"><span>Inspect the historical copies ↗</span></a>
-            <aside class="finding"><strong>Deletion accepted; completion unverified.</strong><p>After explicit approval, the original synthetic person was deleted and its event cleanup was queued. Person detail returned <code>not_found</code>; the matching deletion job returned <code>pending</code> with <code>delete_verified_at=null</code>. No recordings were generated or deleted.</p><p>This is a dated observation from November 2, not a live status indicator.</p><a href="./evidence/deletion-pending.png" data-lightbox>Inspect the deletion-status record ↗</a></aside>
-            <pre><code>DELETE /api/projects/{project_id}/persons/{person_uuid}/?delete_events=true</code></pre>
-            <p>For recordings, also include <code>delete_recordings=true</code>. Omit flags you do not want: the inspected single-person deletion source checks query-parameter presence, so <code>delete_events=false</code> is not a safe way to disable it. <code>unsetPersonProperties</code> is ignored when <code>person_profiles</code> is <code>never</code>.</p>
-            <h3>A documentation conflict worth checking</h3>
-            <p>The person-properties docs say raw <code>$set</code> and <code>$set_once</code> instructions are not stored on events. The October 27 storage announcement describes 60-day retention starting November 30, 2026. The live history check exposed a raw <code>$set</code> object. Do not assume those copies are absent.</p>
-            <a href="https://posthog.com/blog/changing-event-storage">Read the dated storage announcement ↗</a>
-          </div>
-        </details>
         <div class="related-docs">
           <h3>Related Documentation</h3>
           <ul>
